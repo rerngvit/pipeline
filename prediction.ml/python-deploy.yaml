@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: prediction-python
-        image: docker.io/fluxcapacitor/prediction-python:master
+        image: docker.io/fluxcapacitor/prediction-python:v1.1.0
         resources:
           limits:
             cpu: 8000m
@@ -42,7 +42,7 @@ spec:
         - name: git-volume
           gitRepo:
             repository: "https://github.com/fluxcapacitor/source.ml.git"
-            revision: "master"
+            revision: "v1.1.0"
       tolerations: 
       - key: "node.alpha.kubernetes.io/notReady"
         operator: "Exists"

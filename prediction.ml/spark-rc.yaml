@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: prediction-spark
-        image: docker.io/fluxcapacitor/prediction-spark:master
+        image: docker.io/fluxcapacitor/prediction-spark:v1.1.0
         imagePullPolicy: "Always"
         env:
         ports:
@@ -38,4 +38,4 @@ spec:
         - name: git-volume
           gitRepo:
             repository: "https://github.com/fluxcapacitor/source.ml.git"
-            revision: "master"
+            revision: "v1.1.0"

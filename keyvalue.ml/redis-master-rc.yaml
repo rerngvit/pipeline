@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: keyvalue-redis-master
-        image: docker.io/fluxcapacitor/keyvalue-redis-master:master
+        image: docker.io/fluxcapacitor/keyvalue-redis-master:v1.1.0
         imagePullPolicy: "Always"
         env:
         - name: GET_HOSTS_FROM
@@ -30,4 +30,4 @@ spec:
         - name: git-volume
           gitRepo:
             repository: "https://github.com/fluxcapacitor/source.ml.git"
-            revision: "master"
+            revision: "v1.1.0"

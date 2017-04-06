@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: prediction-spark
-        image: docker.io/fluxcapacitor/prediction-spark:master
+        image: docker.io/fluxcapacitor/prediction-spark:v1.1.0
         resources:
           limits:
             cpu: 8000m
@@ -41,5 +41,5 @@ spec:
         - name: git-volume
           gitRepo:
             repository: "https://github.com/fluxcapacitor/source.ml.git"
-            revision: "master"
+            revision: "v1.1.0"
 

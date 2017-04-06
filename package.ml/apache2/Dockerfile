@@ -1,4 +1,4 @@
-FROM fluxcapacitor/package-ubuntu-16.04:master
+FROM fluxcapacitor/package-ubuntu-16.04:v1.1.0
 
 RUN \
   apt-get install -y apache2 
