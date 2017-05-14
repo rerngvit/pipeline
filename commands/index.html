@@ -19,7 +19,7 @@
     
     
       
-        <title>pio - PipelineIO</title>
+        <title>All Commands - PipelineIO</title>
       
     
     
@@ -89,7 +89,7 @@
                 </span>
               
             
-            pio
+            All Commands
           
         </span>
       </div>
@@ -202,11 +202,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
     <label class="md-nav__link" for="nav-2">
-      Get Started
+      Getting Started
     </label>
     <nav class="md-nav" data-md-component="collapsible">
       <label class="md-nav__title" for="nav-2">
-        Get Started
+        Getting Started
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -248,8 +248,8 @@
           
   <li class="md-nav__item">
     
-      <a href="../home/pio_ignore/" title="PipelineIO Ignore" class="md-nav__link">
-        PipelineIO Ignore
+      <a href="../home/pio_ignore/" title=".pioignore" class="md-nav__link">
+        .pioignore
       </a>
     
   </li>
@@ -262,33 +262,12 @@
     
       
       
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
-    
-    <label class="md-nav__link" for="nav-3">
-      Guides
-    </label>
-    <nav class="md-nav" data-md-component="collapsible">
-      <label class="md-nav__title" for="nav-3">
-        Guides
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
   <li class="md-nav__item">
     
       <a href="../guides/contributing/" title="Contributing" class="md-nav__link">
         Contributing
       </a>
     
-  </li>
-
-        
-      </ul>
-    </nav>
   </li>
 
     
@@ -317,8 +296,12 @@
       
     
     
-    <a href="./" title="pio" class="md-nav__link md-nav__link--active">
-      pio
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        All Commands
+      </label>
+    
+    <a href="./" title="All Commands" class="md-nav__link md-nav__link--active">
+      All Commands
     </a>
     
       
@@ -328,7 +311,98 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pipelineio-cli-configuration" title="PipelineIO CLI Configuration" class="md-nav__link">
+    PipelineIO CLI Configuration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aiml-model-management" title="AI/ML Model Management" class="md-nav__link">
+    AI/ML Model Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#new-cluster-creation" title="New Cluster Creation" class="md-nav__link">
+    New Cluster Creation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#existing-cluster-management" title="Existing Cluster Management" class="md-nav__link">
+    Existing Cluster Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#application-management" title="Application Management" class="md-nav__link">
+    Application Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#job-and-workflow-management" title="Job and Workflow Management" class="md-nav__link">
+    Job and Workflow Management
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="init-pio/" title="pio init-pio" class="md-nav__link">
+        pio init-pio
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="config/" title="pio config" class="md-nav__link">
+        pio config
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="get-config-value/" title="pio get-config-value" class="md-nav__link">
+        pio get-config-value
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="set-config-value/" title="pio set-config-value" class="md-nav__link">
+        pio set-config-value
+      </a>
     
   </li>
 
@@ -359,8 +433,327 @@
           
   <li class="md-nav__item">
     
+      <a href="deploy-from-git/" title="pio deploy-from-git" class="md-nav__link">
+        pio deploy-from-git
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
       <a href="predict/" title="pio predict" class="md-nav__link">
         pio predict
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="predict-many/" title="pio predict-many" class="md-nav__link">
+        pio predict-many
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="init-kops/" title="pio init-kops" class="md-nav__link">
+        pio init-kops
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="up/" title="pio up" class="md-nav__link">
+        pio up
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="init-cluster/" title="pio init-cluster" class="md-nav__link">
+        pio init-cluster
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="cluster/" title="pio cluster" class="md-nav__link">
+        pio cluster
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="clusters/" title="pio clusters" class="md-nav__link">
+        pio clusters
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="join/" title="pio join" class="md-nav__link">
+        pio join
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="nodes/" title="pio nodes" class="md-nav__link">
+        pio nodes
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="instancegroups/" title="pio instancegroups" class="md-nav__link">
+        pio instancegroups
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="volumes/" title="pio volumes" class="md-nav__link">
+        pio volumes
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="secrets/" title="pio secrets" class="md-nav__link">
+        pio secrets
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="maps/" title="pio maps" class="md-nav__link">
+        pio maps
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="system/" title="pio system" class="md-nav__link">
+        pio system
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="top/" title="pio top" class="md-nav__link">
+        pio top
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="apps/" title="pio apps" class="md-nav__link">
+        pio apps
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="start/" title="pio start" class="md-nav__link">
+        pio start
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="stop/" title="pio stop" class="md-nav__link">
+        pio stop
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="scale/" title="pio scale" class="md-nav__link">
+        pio scale
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="upgrade/" title="pio upgrade" class="md-nav__link">
+        pio upgrade
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="rollback/" title="pio rollback" class="md-nav__link">
+        pio rollback
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="canary/" title="pio canary" class="md-nav__link">
+        pio canary
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="logs/" title="pio logs" class="md-nav__link">
+        pio logs
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="connect/" title="pio connect" class="md-nav__link">
+        pio connect
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="shell/" title="pio shell" class="md-nav__link">
+        pio shell
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="proxy/" title="pio proxy" class="md-nav__link">
+        pio proxy
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="tunnel/" title="pio tunnel" class="md-nav__link">
+        pio tunnel
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="flow/" title="pio flow" class="md-nav__link">
+        pio flow
+      </a>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="submit/" title="pio submit" class="md-nav__link">
+        pio submit
       </a>
     
   </li>
@@ -431,6 +824,53 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pipelineio-cli-configuration" title="PipelineIO CLI Configuration" class="md-nav__link">
+    PipelineIO CLI Configuration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aiml-model-management" title="AI/ML Model Management" class="md-nav__link">
+    AI/ML Model Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#new-cluster-creation" title="New Cluster Creation" class="md-nav__link">
+    New Cluster Creation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#existing-cluster-management" title="Existing Cluster Management" class="md-nav__link">
+    Existing Cluster Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#application-management" title="Application Management" class="md-nav__link">
+    Application Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#job-and-workflow-management" title="Job and Workflow Management" class="md-nav__link">
+    Job and Workflow Management
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -444,9 +884,209 @@
                
               
                 
-                <h1 id="install-pio-cli">Install <code>pio-cli</code></h1>
-<pre><code>pip install -U pio-cli
-</code></pre>
+                <h1 id="pipelineio-commands">PipelineIO Commands</h1>
+<h2 id="pipelineio-cli-configuration">PipelineIO CLI Configuration</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pio init-pio</td>
+<td>Initialize PIO CLI</td>
+</tr>
+<tr>
+<td>pio config</td>
+<td>View current configuration</td>
+</tr>
+<tr>
+<td>pio get-config-value</td>
+<td>Get value for config key</td>
+</tr>
+<tr>
+<td>pio set-config-value</td>
+<td>Set value for config key</td>
+</tr>
+</tbody>
+</table>
+<h2 id="aiml-model-management">AI/ML Model Management</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pio init-model</td>
+<td>Initialize model for deployment and prediction</td>
+</tr>
+<tr>
+<td>pio deploy</td>
+<td>Deploy model to model server</td>
+</tr>
+<tr>
+<td>pio deploy-from-git</td>
+<td>Deploy a model from git</td>
+</tr>
+<tr>
+<td>pio predict</td>
+<td>Predict with model</td>
+</tr>
+<tr>
+<td>pio predict-many</td>
+<td>Predict many times (mini load-test)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="new-cluster-creation">New Cluster Creation</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pio init-kops</td>
+<td>Initialize cluster (new)</td>
+</tr>
+<tr>
+<td>pio up</td>
+<td>Start the cluster</td>
+</tr>
+</tbody>
+</table>
+<h2 id="existing-cluster-management">Existing Cluster Management</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pio init-cluster</td>
+<td>Initialize cluster (existing)</td>
+</tr>
+<tr>
+<td>pio cluster</td>
+<td>View the current cluster</td>
+</tr>
+<tr>
+<td>pio clusters</td>
+<td>View all federated, hybrid, cross-cloud, on-premise cluster</td>
+</tr>
+<tr>
+<td>pio join</td>
+<td>Join a federeated, hybrid, cross-cloud, on-premise cluster</td>
+</tr>
+<tr>
+<td>pio nodes</td>
+<td>View cluster nodes</td>
+</tr>
+<tr>
+<td>pio instancegroups</td>
+<td>View instance groups</td>
+</tr>
+<tr>
+<td>pio volumes</td>
+<td>View volumes and volume claims</td>
+</tr>
+<tr>
+<td>pio secrets</td>
+<td>View secrets</td>
+</tr>
+<tr>
+<td>pio maps</td>
+<td>View config maps</td>
+</tr>
+<tr>
+<td>pio system/top</td>
+<td>View system resource utilization (RAM, CPU) for an app</td>
+</tr>
+</tbody>
+</table>
+<h2 id="application-management">Application Management</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pio apps</td>
+<td>Retrieve available and running apps</td>
+</tr>
+<tr>
+<td>pio start</td>
+<td>Start an app</td>
+</tr>
+<tr>
+<td>pio stop</td>
+<td>Stop/kill an app</td>
+</tr>
+<tr>
+<td>pio scale</td>
+<td>Scale an app (ie. Spark Worker or TensorFlow Model Server)</td>
+</tr>
+<tr>
+<td>pio upgrade</td>
+<td>Upgrade an app</td>
+</tr>
+<tr>
+<td>pio rollback</td>
+<td>Rollback an app</td>
+</tr>
+<tr>
+<td>pio canary</td>
+<td>Canary a new version of an app</td>
+</tr>
+<tr>
+<td>pio logs</td>
+<td>View app logs</td>
+</tr>
+<tr>
+<td>pio connect/shell</td>
+<td>Connect to an app to run commands at the terminal</td>
+</tr>
+<tr>
+<td>pio proxy/tunnel</td>
+<td>Create a proxy/tunnel to a private app in your cluster</td>
+</tr>
+<tr>
+<td>pio system/top</td>
+<td>Get system resource utilization (RAM, CPU) for an app</td>
+</tr>
+</tbody>
+</table>
+<h2 id="job-and-workflow-management">Job and Workflow Management</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pio flow</td>
+<td>Start an Airflow job</td>
+</tr>
+<tr>
+<td>pio submit</td>
+<td>Submit a Spark job</td>
+</tr>
+</tbody>
+</table>
               
             </article>
           </div>
@@ -474,13 +1114,13 @@
           </a>
         
         
-          <a href="init-model/" title="pio init-model" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="init-pio/" title="pio init-pio" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                pio init-model
+                pio init-pio
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -513,15 +1153,15 @@
     
       <a href="https://github.com/fluxcapacitor/pipeline" class="md-footer-social__link fa fa-github"></a>
     
-      <a href="https://twitter.com/pipelineio" class="md-footer-social__link fa fa-twitter"></a>
-    
-      <a href="https://www.linkedin.com/company/6609122/" class="md-footer-social__link fa fa-linkedin"></a>
-    
       <a href="https://www.meetup.com/Advanced-Spark-and-TensorFlow-Meetup/" class="md-footer-social__link fa fa-meetup"></a>
     
       <a href="https://youtube.com/channel/UCvlZKtekcKkBUuz8f9dhobw" class="md-footer-social__link fa fa-youtube"></a>
     
       <a href="https://www.slideshare.net/cfregly" class="md-footer-social__link fa fa-slideshare"></a>
+    
+      <a href="https://www.linkedin.com/company/6609122/" class="md-footer-social__link fa fa-linkedin"></a>
+    
+      <a href="https://twitter.com/pipelineio" class="md-footer-social__link fa fa-twitter"></a>
     
   </div>
 

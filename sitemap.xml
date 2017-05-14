@@ -38,19 +38,41 @@
     
 
     
-        
     <url>
      <loc>http://www.pipeline.io/guides/contributing/</loc>
      <lastmod>2017-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     
 
     
         
     <url>
      <loc>http://www.pipeline.io/commands/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/init-pio/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/config/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/get-config-value/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/set-config-value/</loc>
      <lastmod>2017-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -68,7 +90,181 @@
     </url>
         
     <url>
+     <loc>http://www.pipeline.io/commands/deploy-from-git/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>http://www.pipeline.io/commands/predict/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/predict-many/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/init-kops/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/up/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/init-cluster/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/cluster/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/clusters/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/join/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/nodes/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/instancegroups/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/volumes/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/secrets/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/maps/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/system/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/top/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/apps/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/start/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/stop/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/scale/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/upgrade/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/rollback/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/canary/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/logs/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/connect/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/shell/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/proxy/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/tunnel/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/flow/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/submit/</loc>
      <lastmod>2017-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>

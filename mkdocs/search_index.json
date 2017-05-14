@@ -12,18 +12,8 @@
         },
         {
             "location": "/home/install/",
-            "text": "PipelineIO CLI is a python based command line tool to interact with PipelineIO.\n\n\npio-cli\n is available on \npypi\n and\nruns on both Python 2.7 and Python 3.\n\n\nUse pip to install the cli.\n\n\npip install -U pio-cli\n\n\n\n\nIf successfully installed you can view the commands supported by the CLI using just \npio\n. \n\n\npio\n\n...\n\n\n\n\nDetailed documentation for the PipelineIO CLI commands are available in the \ndocumentation\n.\n\n\nVirtualenv\n\n\nWe highly recommend using \nvirtualenv\n to install \npio-cli\n. This will isolate your PipelineIO environment and avoid any existing library conflicts.  This will ensure a smooth installation process.\n\n\nsudo pip install virtualenv\n\n\n\n\nTo create a virtualenv environment, you need pass a directory for your environment.\n\n\nvirtualenv ~/.pio\n\n\n\n\nYou can activate the virtualenv by running:\n\n\nsource ~/.pio/bin/activate\n\n\n\n\nNote:  Everytime you need to use \npio\n in a terminal, activate the virtualenv using this command.\n\n\nTo install \npio-cli\n in this virtualenv:\n\n\npip install -U pio-cli\n\n\n\n\nUsing \nsudo\n\n\nIf you are not using virtualenv and you are installing \npio\n globally you may need to use \nsudo\n:\n\n\nsudo pip install -U pio-cli\n\n\n\n\nMissing dependencies\n\n\nNot all python environments are installed the same way. So sometimes you may run \ninto install issues. If \npip\n cannot install dependencies itself, you may see errors like:\n\n\n...\nFailed building wheel for scandir\n...\n\n\n\n\nor\n\n\n...\nNo distributions matching the version for backports.tempfile (from pio-cli)\n...\n\n\n\n\nIn such cases, you can install the dependencies directly:\n\n\npip install -U scandir\npip install -U backports.tempfile\n\n\n\n\nand then try re-installing \npio-cli\n\n\nPython.h: No such file or directory\n\n\nIf you get this error in a linux environment:\n\n\n...\nPython.h: No such file or directory\n\n\n\n\nyou need to install \npython-dev\n package\n\n\nsudo apt-get install python-dev\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "text": "PipelineIO CLI is a python based command line tool to interact with PipelineIO.\n\n\npio-cli\n is available on \npypi\n and\nruns on both Python 2.7 and Python 3.\n\n\nUse \npip\n to install the cli.\n\n\npip install -U pio-cli\n\n\n\n\nYou can view the commands supported by the CLI using just \npio\n. \n\n\npio\n\n...\n\n\n\n\nDetailed documentation for the PipelineIO CLI commands are available in the \ndocumentation\n.\n\n\nMissing dependencies\n\n\nNot all python environments are installed the same way. So sometimes you may run \ninto install issues. If \npip\n cannot install dependencies itself, you may see errors like:\n\n\n...\nFailed building wheel for scandir\n...\n\n\n\n\nor\n\n\n...\nNo distributions matching the version for backports.tempfile (from pio-cli)\n...\n\n\n\n\nIn such cases, you can install the dependencies directly:\n\n\npip install -U scandir\npip install -U backports.tempfile\n\n\n\n\nand then try re-installing \npio-cli\n\n\nPython.h: No such file or directory\n\n\nIf you get this error in a linux environment:\n\n\n...\nPython.h: No such file or directory\n\n\n\n\nyou need to install \npython-dev\n package\n\n\nsudo apt-get install python-dev\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Installation"
-        },
-        {
-            "location": "/home/install/#virtualenv",
-            "text": "We highly recommend using  virtualenv  to install  pio-cli . This will isolate your PipelineIO environment and avoid any existing library conflicts.  This will ensure a smooth installation process.  sudo pip install virtualenv  To create a virtualenv environment, you need pass a directory for your environment.  virtualenv ~/.pio  You can activate the virtualenv by running:  source ~/.pio/bin/activate  Note:  Everytime you need to use  pio  in a terminal, activate the virtualenv using this command.  To install  pio-cli  in this virtualenv:  pip install -U pio-cli",
-            "title": "Virtualenv"
-        },
-        {
-            "location": "/home/install/#using-sudo",
-            "text": "If you are not using virtualenv and you are installing  pio  globally you may need to use  sudo :  sudo pip install -U pio-cli",
-            "title": "Using sudo"
         },
         {
             "location": "/home/install/#missing-dependencies",
@@ -73,7 +63,7 @@
         {
             "location": "/home/pio_ignore/",
             "text": "Similar to \n.gitignore\n, \n.pioignore\n is a file that lists which files should not be \nuploaded to the PipelineIO servers.\n\n\nInitialization\n\n\nCreate the \n.pioignore\n file with a list of files and directories to ignore when uploading code and models to PipelineIO. \n\n\n.git\n.DS_Store\n.gitignore\n*.tar.gz\n\n\n\n\nNote:  You do not need to add a trailing slash for directories.\n\n\nOptions\n\n\nThere are different ways to specify files or directories that you want to be ignored. Below is \na list with examples:\n\n\n# Ignore all .dat files in the whole project:\n*.dat\n\n# Ignore all .dat files in some_folder:\n/some_folder/*.dat\n\n# Ignore all .dat files in some_folder and its subfolders:\n/some_folder/**/*.dat\n\n# Ignore all files (and folders) named .DS_Store\n.DS_Store\n\n# Ignore a specific file named .DS_Store located in some_folder\n/some_folder/.DS_Store\n\n# Ignore all files named .DS_Store in some_folder and its subfolders\n/some_folder/**/.DS_Store\n\n# Ignore all files in some_folder\n/some_folder\n\n# Ignore all files in some_folder (works the same as the rule above)\n/some_folder/\n\n\n\n\nMinimizing the number of files to upload saves upload time and disk space used \nby your experiments.\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
-            "title": "PipelineIO Ignore"
+            "title": ".pioignore"
         },
         {
             "location": "/home/pio_ignore/#initialization",
@@ -112,13 +102,183 @@
         },
         {
             "location": "/commands/",
-            "text": "Install \npio-cli\n\n\npip install -U pio-cli",
-            "title": "pio"
+            "text": "PipelineIO Commands\n\n\nPipelineIO CLI Configuration\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-pio\n\n\nInitialize PIO CLI\n\n\n\n\n\n\npio config\n\n\nView current configuration\n\n\n\n\n\n\npio get-config-value\n\n\nGet value for config key\n\n\n\n\n\n\npio set-config-value\n\n\nSet value for config key\n\n\n\n\n\n\n\n\nAI/ML Model Management\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-model\n\n\nInitialize model for deployment and prediction\n\n\n\n\n\n\npio deploy\n\n\nDeploy model to model server\n\n\n\n\n\n\npio deploy-from-git\n\n\nDeploy a model from git\n\n\n\n\n\n\npio predict\n\n\nPredict with model\n\n\n\n\n\n\npio predict-many\n\n\nPredict many times (mini load-test)\n\n\n\n\n\n\n\n\nNew Cluster Creation\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-kops\n\n\nInitialize cluster (new)\n\n\n\n\n\n\npio up\n\n\nStart the cluster\n\n\n\n\n\n\n\n\nExisting Cluster Management\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-cluster\n\n\nInitialize cluster (existing)\n\n\n\n\n\n\npio cluster\n\n\nView the current cluster\n\n\n\n\n\n\npio clusters\n\n\nView all federated, hybrid, cross-cloud, on-premise cluster\n\n\n\n\n\n\npio join\n\n\nJoin a federeated, hybrid, cross-cloud, on-premise cluster\n\n\n\n\n\n\npio nodes\n\n\nView cluster nodes\n\n\n\n\n\n\npio instancegroups\n\n\nView instance groups\n\n\n\n\n\n\npio volumes\n\n\nView volumes and volume claims\n\n\n\n\n\n\npio secrets\n\n\nView secrets\n\n\n\n\n\n\npio maps\n\n\nView config maps\n\n\n\n\n\n\npio system/top\n\n\nView system resource utilization (RAM, CPU) for an app\n\n\n\n\n\n\n\n\nApplication Management\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio apps\n\n\nRetrieve available and running apps\n\n\n\n\n\n\npio start\n\n\nStart an app\n\n\n\n\n\n\npio stop\n\n\nStop/kill an app\n\n\n\n\n\n\npio scale\n\n\nScale an app (ie. Spark Worker or TensorFlow Model Server)\n\n\n\n\n\n\npio upgrade\n\n\nUpgrade an app\n\n\n\n\n\n\npio rollback\n\n\nRollback an app\n\n\n\n\n\n\npio canary\n\n\nCanary a new version of an app\n\n\n\n\n\n\npio logs\n\n\nView app logs\n\n\n\n\n\n\npio connect/shell\n\n\nConnect to an app to run commands at the terminal\n\n\n\n\n\n\npio proxy/tunnel\n\n\nCreate a proxy/tunnel to a private app in your cluster\n\n\n\n\n\n\npio system/top\n\n\nGet system resource utilization (RAM, CPU) for an app\n\n\n\n\n\n\n\n\nJob and Workflow Management\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio flow\n\n\nStart an Airflow job\n\n\n\n\n\n\npio submit\n\n\nSubmit a Spark job",
+            "title": "All Commands"
         },
         {
-            "location": "/commands/#install-pio-cli",
-            "text": "pip install -U pio-cli",
-            "title": "Install pio-cli"
+            "location": "/commands/#pipelineio-commands",
+            "text": "",
+            "title": "PipelineIO Commands"
+        },
+        {
+            "location": "/commands/#pipelineio-cli-configuration",
+            "text": "Command  Description      pio init-pio  Initialize PIO CLI    pio config  View current configuration    pio get-config-value  Get value for config key    pio set-config-value  Set value for config key",
+            "title": "PipelineIO CLI Configuration"
+        },
+        {
+            "location": "/commands/#aiml-model-management",
+            "text": "Command  Description      pio init-model  Initialize model for deployment and prediction    pio deploy  Deploy model to model server    pio deploy-from-git  Deploy a model from git    pio predict  Predict with model    pio predict-many  Predict many times (mini load-test)",
+            "title": "AI/ML Model Management"
+        },
+        {
+            "location": "/commands/#new-cluster-creation",
+            "text": "Command  Description      pio init-kops  Initialize cluster (new)    pio up  Start the cluster",
+            "title": "New Cluster Creation"
+        },
+        {
+            "location": "/commands/#existing-cluster-management",
+            "text": "Command  Description      pio init-cluster  Initialize cluster (existing)    pio cluster  View the current cluster    pio clusters  View all federated, hybrid, cross-cloud, on-premise cluster    pio join  Join a federeated, hybrid, cross-cloud, on-premise cluster    pio nodes  View cluster nodes    pio instancegroups  View instance groups    pio volumes  View volumes and volume claims    pio secrets  View secrets    pio maps  View config maps    pio system/top  View system resource utilization (RAM, CPU) for an app",
+            "title": "Existing Cluster Management"
+        },
+        {
+            "location": "/commands/#application-management",
+            "text": "Command  Description      pio apps  Retrieve available and running apps    pio start  Start an app    pio stop  Stop/kill an app    pio scale  Scale an app (ie. Spark Worker or TensorFlow Model Server)    pio upgrade  Upgrade an app    pio rollback  Rollback an app    pio canary  Canary a new version of an app    pio logs  View app logs    pio connect/shell  Connect to an app to run commands at the terminal    pio proxy/tunnel  Create a proxy/tunnel to a private app in your cluster    pio system/top  Get system resource utilization (RAM, CPU) for an app",
+            "title": "Application Management"
+        },
+        {
+            "location": "/commands/#job-and-workflow-management",
+            "text": "Command  Description      pio flow  Start an Airflow job    pio submit  Submit a Spark job",
+            "title": "Job and Workflow Management"
+        },
+        {
+            "location": "/commands/init-pio/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio init-pio"
+        },
+        {
+            "location": "/commands/init-pio/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/init-pio/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/init-pio/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/init-pio/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/init-pio/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/init-pio/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/config/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio config"
+        },
+        {
+            "location": "/commands/config/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/config/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/config/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/config/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/config/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/config/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/get-config-value/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio get-config-value"
+        },
+        {
+            "location": "/commands/get-config-value/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/get-config-value/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/get-config-value/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/get-config-value/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/get-config-value/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/get-config-value/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/set-config-value/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio set-config-value"
+        },
+        {
+            "location": "/commands/set-config-value/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/set-config-value/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/set-config-value/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/set-config-value/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/set-config-value/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/set-config-value/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
         },
         {
             "location": "/commands/init-model/",
@@ -216,6 +376,41 @@
             "title": "Help make this document better"
         },
         {
+            "location": "/commands/deploy-from-git/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio deploy-from-git"
+        },
+        {
+            "location": "/commands/deploy-from-git/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/deploy-from-git/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/deploy-from-git/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/deploy-from-git/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/deploy-from-git/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/deploy-from-git/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
             "location": "/commands/predict/",
             "text": "Predict with a PipelineIO model.\n\n\nUsage\n\n\npio predict \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nInitialize Model\n\n\nYou must use 'pio init-model\nand\npio deploy` before predicting with a model.  See the PipelineIO CLI commands \ninit-model\n and \ndeploy\n for more details.\n\n\nExamples\n\n\nPredict a PipelineIO Model\n\n\n$ pio init-model\n$ pio deploy\n$ pio predict\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "pio predict"
@@ -247,6 +442,1036 @@
         },
         {
             "location": "/commands/predict/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/predict-many/",
+            "text": "Predict with a PipelineIO model.\n\n\nUsage\n\n\npio predict \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nInitialize Model\n\n\nYou must use 'pio init-model\nand\npio deploy` before predicting with a model.  See the PipelineIO CLI commands \ninit-model\n and \ndeploy\n for more details.\n\n\nExamples\n\n\nPredict a PipelineIO Model\n\n\n$ pio init-model\n$ pio deploy\n$ pio predict\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio predict-many"
+        },
+        {
+            "location": "/commands/predict-many/#usage",
+            "text": "pio predict",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/predict-many/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/predict-many/#description",
+            "text": "",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/predict-many/#initialize-model",
+            "text": "You must use 'pio init-model and pio deploy` before predicting with a model.  See the PipelineIO CLI commands  init-model  and  deploy  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/predict-many/#examples",
+            "text": "Predict a PipelineIO Model  $ pio init-model\n$ pio deploy\n$ pio predict",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/predict-many/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/init-kops/",
+            "text": "Initialize a PipelineIO model.\n\n\nUsage\n\n\n\npio init-model --model-server-url <model_server_url> \\\n               --model-type <model_type> \\\n               --model-namespace <model_namespace> \\\n               --model_name <model_name> \\\n               --model-version <model_version> \\\n               --model-path /path/to/model \\\n               --model-test-input-path /path/to/test/inputs\n\n\n\n\n\nParameters\n\n\n\n\n\n\n\n\nName\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nmodel-server-url\n\n\nModel Server URL hosting your models\n\n\n\n\n\n\nmodel-type\n\n\nSee Model Types section.\n\n\n\n\n\n\nmodel-namespace\n\n\nUnique namespace for your models\n\n\n\n\n\n\nmodel-name\n\n\nUnique name for your model within your model namespace\n\n\n\n\n\n\nmodel-version\n\n\nUnique version with model name and namespace (ie. 1, v0, git hash)\n\n\n\n\n\n\nmodel-path\n\n\n/path/to/model/  Contents will be tar.gz'd and uploaded.\n\n\n\n\n\n\nmodel-test-input-path\n\n\n/path/to/test/inputs.txt  File used for testing the model locally.\n\n\n\n\n\n\n\n\nDescription\n\n\nThis command will create or update the \n~/.pio/config\n file and prepare you for model deploying and predicting.\n\n\nModel Types\n\n\n\n\nscikit\n\n\nR\n\n\nspark\n\n\ntensorflow\n\n\nxgboost\n\n\npython3\n\n\njava\n\n\npmml\n\n\nensemble\n\n\n\n\nExamples\n\n\nClone the Example \nsource.ml\n Model Store Repo\n\n\ngit clone https://github.com/fluxcapacitor/source.ml\n\n\n\n\nTensorFlow\n\n\nInitialize\n Model\n\n\npio init-model http://prediction-tensorflow.demo.pipeline.io \\\n               tensorflow \\\n               default \\\n               tensorflow_linear \\\n               0 \\\n               ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \\\n               ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt\n\n\n\n\nDeploy\n the Model\n\n\npio deploy\n\n\n\n\nPredict\n with Model\n\n\npio predict\n\n\n\n\nScikit-Learn\n\n\nInitialize\n Model\n\n\npio init-model http://prediction-tensorflow.demo.pipeline.io \\\n               python3 \\\n               default \\\n               scikit_linear \\\n               v0 \\\n               ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \\\n               ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt\n\n\n\n\nDeploy\n the Model\n\n\npio deploy\n\n\n\n\nPredict\n with Model\n\n\npio predict\n\n\n\n\nSpark ML\n\n\nInitialize\n Model\n\n\npio init-model http://prediction-tensorflow.demo.pipeline.io \\\n               spark \\\n               default \\\n               spark_airbnb \n               v0 \\\n               ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \\\n               ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt\n\n\n\n\nDeploy\n the Model\n\n\npio deploy\n\n\n\n\nPredict\n with Model\n\n\npio predict\n\n\n\n\nPython3\n\n\nInitialize\n Model\n\n\npio init-model http://prediction-tensorflow.demo.pipeline.io \\\n               python3 \\\n               default \\\n               python3_zscore \\\n               v0 \\\n               ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \\\n               ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt\n\n\n\n\nDeploy\n the Model\n\n\npio deploy\n\n\n\n\nPredict\n with Model\n\n\npio predict\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio init-kops"
+        },
+        {
+            "location": "/commands/init-kops/#initialize-a-pipelineio-model",
+            "text": "",
+            "title": "Initialize a PipelineIO model."
+        },
+        {
+            "location": "/commands/init-kops/#usage",
+            "text": "pio init-model --model-server-url <model_server_url> \\\n               --model-type <model_type> \\\n               --model-namespace <model_namespace> \\\n               --model_name <model_name> \\\n               --model-version <model_version> \\\n               --model-path /path/to/model \\\n               --model-test-input-path /path/to/test/inputs",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/init-kops/#parameters",
+            "text": "Name  Description      model-server-url  Model Server URL hosting your models    model-type  See Model Types section.    model-namespace  Unique namespace for your models    model-name  Unique name for your model within your model namespace    model-version  Unique version with model name and namespace (ie. 1, v0, git hash)    model-path  /path/to/model/  Contents will be tar.gz'd and uploaded.    model-test-input-path  /path/to/test/inputs.txt  File used for testing the model locally.",
+            "title": "Parameters"
+        },
+        {
+            "location": "/commands/init-kops/#description",
+            "text": "This command will create or update the  ~/.pio/config  file and prepare you for model deploying and predicting.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/init-kops/#model-types",
+            "text": "scikit  R  spark  tensorflow  xgboost  python3  java  pmml  ensemble",
+            "title": "Model Types"
+        },
+        {
+            "location": "/commands/init-kops/#examples",
+            "text": "Clone the Example  source.ml  Model Store Repo  git clone https://github.com/fluxcapacitor/source.ml",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/init-kops/#tensorflow",
+            "text": "Initialize  Model  pio init-model http://prediction-tensorflow.demo.pipeline.io \\\n               tensorflow \\\n               default \\\n               tensorflow_linear \\\n               0 \\\n               ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \\\n               ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt  Deploy  the Model  pio deploy  Predict  with Model  pio predict",
+            "title": "TensorFlow"
+        },
+        {
+            "location": "/commands/init-kops/#scikit-learn",
+            "text": "Initialize  Model  pio init-model http://prediction-tensorflow.demo.pipeline.io \\\n               python3 \\\n               default \\\n               scikit_linear \\\n               v0 \\\n               ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \\\n               ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt  Deploy  the Model  pio deploy  Predict  with Model  pio predict",
+            "title": "Scikit-Learn"
+        },
+        {
+            "location": "/commands/init-kops/#spark-ml",
+            "text": "Initialize  Model  pio init-model http://prediction-tensorflow.demo.pipeline.io \\\n               spark \\\n               default \\\n               spark_airbnb \n               v0 \\\n               ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \\\n               ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt  Deploy  the Model  pio deploy  Predict  with Model  pio predict",
+            "title": "Spark ML"
+        },
+        {
+            "location": "/commands/init-kops/#python3",
+            "text": "Initialize  Model  pio init-model http://prediction-tensorflow.demo.pipeline.io \\\n               python3 \\\n               default \\\n               python3_zscore \\\n               v0 \\\n               ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \\\n               ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt  Deploy  the Model  pio deploy  Predict  with Model  pio predict",
+            "title": "Python3"
+        },
+        {
+            "location": "/commands/init-kops/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/up/",
+            "text": "Predict with a PipelineIO model.\n\n\nUsage\n\n\npio predict \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nInitialize Model\n\n\nYou must use 'pio init-model\nand\npio deploy` before predicting with a model.  See the PipelineIO CLI commands \ninit-model\n and \ndeploy\n for more details.\n\n\nExamples\n\n\nPredict a PipelineIO Model\n\n\n$ pio init-model\n$ pio deploy\n$ pio predict\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio up"
+        },
+        {
+            "location": "/commands/up/#usage",
+            "text": "pio predict",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/up/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/up/#description",
+            "text": "",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/up/#initialize-model",
+            "text": "You must use 'pio init-model and pio deploy` before predicting with a model.  See the PipelineIO CLI commands  init-model  and  deploy  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/up/#examples",
+            "text": "Predict a PipelineIO Model  $ pio init-model\n$ pio deploy\n$ pio predict",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/up/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/init-cluster/",
+            "text": "Initialize a PipelineIO model.\n\n\nUsage\n\n\n\npio init-model --model-server-url <model_server_url> \\\n               --model-type <model_type> \\\n               --model-namespace <model_namespace> \\\n               --model_name <model_name> \\\n               --model-version <model_version> \\\n               --model-path /path/to/model \\\n               --model-test-input-path /path/to/test/inputs\n\n\n\n\n\nParameters\n\n\n\n\n\n\n\n\nName\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nmodel-server-url\n\n\nModel Server URL hosting your models\n\n\n\n\n\n\nmodel-type\n\n\nSee Model Types section.\n\n\n\n\n\n\nmodel-namespace\n\n\nUnique namespace for your models\n\n\n\n\n\n\nmodel-name\n\n\nUnique name for your model within your model namespace\n\n\n\n\n\n\nmodel-version\n\n\nUnique version with model name and namespace (ie. 1, v0, git hash)\n\n\n\n\n\n\nmodel-path\n\n\n/path/to/model/  Contents will be tar.gz'd and uploaded.\n\n\n\n\n\n\nmodel-test-input-path\n\n\n/path/to/test/inputs.txt  File used for testing the model locally.\n\n\n\n\n\n\n\n\nDescription\n\n\nThis command will create or update the \n~/.pio/config\n file and prepare you for model deploying and predicting.\n\n\nModel Types\n\n\n\n\nscikit\n\n\nR\n\n\nspark\n\n\ntensorflow\n\n\nxgboost\n\n\npython3\n\n\njava\n\n\npmml\n\n\nensemble\n\n\n\n\nExamples\n\n\nClone the Example \nsource.ml\n Model Store Repo\n\n\ngit clone https://github.com/fluxcapacitor/source.ml\n\n\n\n\nTensorFlow\n\n\nInitialize\n Model\n\n\npio init-model http://prediction-tensorflow.demo.pipeline.io \\\n               tensorflow \\\n               default \\\n               tensorflow_linear \\\n               0 \\\n               ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \\\n               ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt\n\n\n\n\nDeploy\n the Model\n\n\npio deploy\n\n\n\n\nPredict\n with Model\n\n\npio predict\n\n\n\n\nScikit-Learn\n\n\nInitialize\n Model\n\n\npio init-model http://prediction-tensorflow.demo.pipeline.io \\\n               python3 \\\n               default \\\n               scikit_linear \\\n               v0 \\\n               ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \\\n               ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt\n\n\n\n\nDeploy\n the Model\n\n\npio deploy\n\n\n\n\nPredict\n with Model\n\n\npio predict\n\n\n\n\nSpark ML\n\n\nInitialize\n Model\n\n\npio init-model http://prediction-tensorflow.demo.pipeline.io \\\n               spark \\\n               default \\\n               spark_airbnb \n               v0 \\\n               ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \\\n               ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt\n\n\n\n\nDeploy\n the Model\n\n\npio deploy\n\n\n\n\nPredict\n with Model\n\n\npio predict\n\n\n\n\nPython3\n\n\nInitialize\n Model\n\n\npio init-model http://prediction-tensorflow.demo.pipeline.io \\\n               python3 \\\n               default \\\n               python3_zscore \\\n               v0 \\\n               ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \\\n               ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt\n\n\n\n\nDeploy\n the Model\n\n\npio deploy\n\n\n\n\nPredict\n with Model\n\n\npio predict\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio init-cluster"
+        },
+        {
+            "location": "/commands/init-cluster/#initialize-a-pipelineio-model",
+            "text": "",
+            "title": "Initialize a PipelineIO model."
+        },
+        {
+            "location": "/commands/init-cluster/#usage",
+            "text": "pio init-model --model-server-url <model_server_url> \\\n               --model-type <model_type> \\\n               --model-namespace <model_namespace> \\\n               --model_name <model_name> \\\n               --model-version <model_version> \\\n               --model-path /path/to/model \\\n               --model-test-input-path /path/to/test/inputs",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/init-cluster/#parameters",
+            "text": "Name  Description      model-server-url  Model Server URL hosting your models    model-type  See Model Types section.    model-namespace  Unique namespace for your models    model-name  Unique name for your model within your model namespace    model-version  Unique version with model name and namespace (ie. 1, v0, git hash)    model-path  /path/to/model/  Contents will be tar.gz'd and uploaded.    model-test-input-path  /path/to/test/inputs.txt  File used for testing the model locally.",
+            "title": "Parameters"
+        },
+        {
+            "location": "/commands/init-cluster/#description",
+            "text": "This command will create or update the  ~/.pio/config  file and prepare you for model deploying and predicting.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/init-cluster/#model-types",
+            "text": "scikit  R  spark  tensorflow  xgboost  python3  java  pmml  ensemble",
+            "title": "Model Types"
+        },
+        {
+            "location": "/commands/init-cluster/#examples",
+            "text": "Clone the Example  source.ml  Model Store Repo  git clone https://github.com/fluxcapacitor/source.ml",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/init-cluster/#tensorflow",
+            "text": "Initialize  Model  pio init-model http://prediction-tensorflow.demo.pipeline.io \\\n               tensorflow \\\n               default \\\n               tensorflow_linear \\\n               0 \\\n               ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \\\n               ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt  Deploy  the Model  pio deploy  Predict  with Model  pio predict",
+            "title": "TensorFlow"
+        },
+        {
+            "location": "/commands/init-cluster/#scikit-learn",
+            "text": "Initialize  Model  pio init-model http://prediction-tensorflow.demo.pipeline.io \\\n               python3 \\\n               default \\\n               scikit_linear \\\n               v0 \\\n               ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \\\n               ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt  Deploy  the Model  pio deploy  Predict  with Model  pio predict",
+            "title": "Scikit-Learn"
+        },
+        {
+            "location": "/commands/init-cluster/#spark-ml",
+            "text": "Initialize  Model  pio init-model http://prediction-tensorflow.demo.pipeline.io \\\n               spark \\\n               default \\\n               spark_airbnb \n               v0 \\\n               ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \\\n               ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt  Deploy  the Model  pio deploy  Predict  with Model  pio predict",
+            "title": "Spark ML"
+        },
+        {
+            "location": "/commands/init-cluster/#python3",
+            "text": "Initialize  Model  pio init-model http://prediction-tensorflow.demo.pipeline.io \\\n               python3 \\\n               default \\\n               python3_zscore \\\n               v0 \\\n               ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \\\n               ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt  Deploy  the Model  pio deploy  Predict  with Model  pio predict",
+            "title": "Python3"
+        },
+        {
+            "location": "/commands/init-cluster/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/cluster/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio cluster"
+        },
+        {
+            "location": "/commands/cluster/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/cluster/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/cluster/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/cluster/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/cluster/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/cluster/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/clusters/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio clusters"
+        },
+        {
+            "location": "/commands/clusters/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/clusters/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/clusters/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/clusters/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/clusters/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/clusters/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/join/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio join"
+        },
+        {
+            "location": "/commands/join/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/join/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/join/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/join/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/join/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/join/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/nodes/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio nodes"
+        },
+        {
+            "location": "/commands/nodes/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/nodes/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/nodes/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/nodes/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/nodes/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/nodes/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/instancegroups/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio instancegroups"
+        },
+        {
+            "location": "/commands/instancegroups/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/instancegroups/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/instancegroups/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/instancegroups/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/instancegroups/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/instancegroups/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/volumes/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio volumes"
+        },
+        {
+            "location": "/commands/volumes/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/volumes/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/volumes/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/volumes/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/volumes/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/volumes/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/secrets/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio secrets"
+        },
+        {
+            "location": "/commands/secrets/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/secrets/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/secrets/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/secrets/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/secrets/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/secrets/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/maps/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio maps"
+        },
+        {
+            "location": "/commands/maps/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/maps/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/maps/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/maps/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/maps/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/maps/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/system/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio system"
+        },
+        {
+            "location": "/commands/system/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/system/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/system/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/system/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/system/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/system/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/top/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio top"
+        },
+        {
+            "location": "/commands/top/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/top/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/top/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/top/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/top/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/top/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/apps/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio apps"
+        },
+        {
+            "location": "/commands/apps/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/apps/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/apps/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/apps/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/apps/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/apps/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/start/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio start"
+        },
+        {
+            "location": "/commands/start/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/start/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/start/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/start/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/start/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/start/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/stop/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio stop"
+        },
+        {
+            "location": "/commands/stop/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/stop/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/stop/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/stop/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/stop/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/stop/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/scale/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio scale"
+        },
+        {
+            "location": "/commands/scale/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/scale/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/scale/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/scale/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/scale/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/scale/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/upgrade/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio upgrade"
+        },
+        {
+            "location": "/commands/upgrade/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/upgrade/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/upgrade/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/upgrade/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/upgrade/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/upgrade/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/rollback/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio rollback"
+        },
+        {
+            "location": "/commands/rollback/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/rollback/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/rollback/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/rollback/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/rollback/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/rollback/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/canary/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio canary"
+        },
+        {
+            "location": "/commands/canary/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/canary/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/canary/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/canary/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/canary/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/canary/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/logs/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio logs"
+        },
+        {
+            "location": "/commands/logs/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/logs/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/logs/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/logs/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/logs/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/logs/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/connect/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio connect"
+        },
+        {
+            "location": "/commands/connect/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/connect/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/connect/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/connect/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/connect/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/connect/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/shell/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio shell"
+        },
+        {
+            "location": "/commands/shell/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/shell/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/shell/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/shell/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/shell/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/shell/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/proxy/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio proxy"
+        },
+        {
+            "location": "/commands/proxy/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/proxy/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/proxy/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/proxy/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/proxy/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/proxy/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/tunnel/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio tunnel"
+        },
+        {
+            "location": "/commands/tunnel/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/tunnel/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/tunnel/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/tunnel/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/tunnel/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/tunnel/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/flow/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio flow"
+        },
+        {
+            "location": "/commands/flow/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/flow/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/flow/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/flow/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/flow/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/flow/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/commands/submit/",
+            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio submit"
+        },
+        {
+            "location": "/commands/submit/#usage",
+            "text": "pio deploy",
+            "title": "Usage"
+        },
+        {
+            "location": "/commands/submit/#optional-parameters",
+            "text": "Name, shorthand  Default  Description",
+            "title": "(Optional) Parameters"
+        },
+        {
+            "location": "/commands/submit/#description",
+            "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
+            "title": "Description"
+        },
+        {
+            "location": "/commands/submit/#initialize-model",
+            "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
+            "title": "Initialize Model"
+        },
+        {
+            "location": "/commands/submit/#examples",
+            "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
+            "title": "Examples"
+        },
+        {
+            "location": "/commands/submit/#help-make-this-document-better",
             "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
             "title": "Help make this document better"
         },
