@@ -52,7 +52,7 @@
   
   
   
-    <body data-md-color-primary="orange" data-md-color-accent="orange">
+    <body data-md-color-primary="orange" data-md-color-accent="black">
   
     <svg class="md-svg">
       <defs>
@@ -122,7 +122,7 @@
   
 
 
-  <a href="https://github.com/fluxcapacitor/pipeline/docs" title="Go to repository" class="md-source" data-md-source="github">
+  <a href="https://github.com/fluxcapacitor/pipeline/" title="Go to repository" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -167,7 +167,7 @@
   
 
 
-  <a href="https://github.com/fluxcapacitor/pipeline/docs" title="Go to repository" class="md-source" data-md-source="github">
+  <a href="https://github.com/fluxcapacitor/pipeline/" title="Go to repository" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -325,6 +325,8 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
+      
+    
     
       <label class="md-nav__link md-nav__link--active" for="toc">
         pio init-model
@@ -337,6 +339,8 @@
       
 <nav class="md-nav md-nav--secondary">
   
+  
+    
   
   
     <label class="md-nav__title" for="toc">Table of contents</label>
@@ -374,6 +378,40 @@
   <a href="#examples" title="Examples" class="md-nav__link">
     Examples
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tensorflow" title="TensorFlow" class="md-nav__link">
+    TensorFlow
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scikit-learn" title="Scikit-Learn" class="md-nav__link">
+    Scikit-Learn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spark-ml" title="Spark ML" class="md-nav__link">
+    Spark ML
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python3" title="Python3" class="md-nav__link">
+    Python3
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -475,6 +513,8 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
@@ -512,6 +552,40 @@
     Examples
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tensorflow" title="TensorFlow" class="md-nav__link">
+    TensorFlow
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scikit-learn" title="Scikit-Learn" class="md-nav__link">
+    Scikit-Learn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spark-ml" title="Spark ML" class="md-nav__link">
+    Spark ML
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python3" title="Python3" class="md-nav__link">
+    Python3
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -532,14 +606,12 @@
           <div class="md-content">
             <article class="md-content__inner md-typeset">
                
-                 <a href="https://github.com/fluxcapacitor/pipeline/docs/edit/master/docs/commands/init-model.md" title="Edit this page" class="md-icon md-content__edit">edit</a>
+                 <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/commands/init-model.md" title="Edit this page" class="md-icon md-content__edit">edit</a>
                
               
                 
-                  <h1>pio init-model</h1>
-                
-                <p>Initialize a PipelineIO model.</p>
-<h3 id="usage">Usage</h3>
+                <h1 id="initialize-a-pipelineio-model">Initialize a PipelineIO model.</h1>
+<h2 id="usage">Usage</h2>
 <pre><code class="bash">
 pio init-model --model-server-url &lt;model_server_url&gt; \
                --model-type &lt;model_type&gt; \
@@ -551,50 +623,48 @@ pio init-model --model-server-url &lt;model_server_url&gt; \
 
 </code></pre>
 
-<h3 id="parameters">Parameters</h3>
+<h2 id="parameters">Parameters</h2>
 <table>
 <thead>
 <tr>
 <th>Name</th>
-<th>Default</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>model-server-url</td>
-<td></td>
-<td>Http endpoint URL hosting your model</td>
+<td>Model Server URL hosting your models</td>
 </tr>
 <tr>
 <td>model-type</td>
-<td></td>
-<td>See Model Types section</td>
+<td>See Model Types section.</td>
 </tr>
 <tr>
 <td>model-namespace</td>
-<td></td>
 <td>Unique namespace for your models</td>
 </tr>
 <tr>
 <td>model-name</td>
-<td></td>
 <td>Unique name for your model within your model namespace</td>
 </tr>
 <tr>
 <td>model-version</td>
-<td></td>
 <td>Unique version with model name and namespace (ie. 1, v0, git hash)</td>
+</tr>
+<tr>
+<td>model-path</td>
+<td>/path/to/model/  Contents will be tar.gz'd and uploaded.</td>
+</tr>
+<tr>
+<td>model-test-input-path</td>
+<td>/path/to/test/inputs.txt  File used for testing the model locally.</td>
 </tr>
 </tbody>
 </table>
-<h3 id="description">Description</h3>
-<p>Creates or updates the <code>~/.pio/config</code> with the given parameters.</p>
-<p>This command also creates a <code>.pioignore</code> file in the <code>model-path</code> directory. 
-Any files and directories you do not want PipelineIO to track can be added to this file. 
-When you deploy your model on PipelineIO, these files will not be uploaded. 
-More details on how the <code>.pioignore</code> file works is available <a href="../../home/pio_ignore">here</a>.</p>
-<h3 id="model-types">Model Types</h3>
+<h2 id="description">Description</h2>
+<p>This command will create or update the <code>~/.pio/config</code> file and prepare you for model deploying and predicting.</p>
+<h2 id="model-types">Model Types</h2>
 <ul>
 <li>scikit</li>
 <li>R</li>
@@ -606,65 +676,85 @@ More details on how the <code>.pioignore</code> file works is available <a href=
 <li>pmml</li>
 <li>ensemble</li>
 </ul>
-<h3 id="examples">Examples</h3>
-<p>Clone the source repo</p>
+<h2 id="examples">Examples</h2>
+<p>Clone the Example <a href="https://github.com/fluxcapacitor/source.ml/prediction.ml">source.ml</a> Model Store Repo</p>
 <pre><code>git clone https://github.com/fluxcapacitor/source.ml
 </code></pre>
 
-<p>TensorFlow</p>
-<pre><code>pio init-model http://your.model.server.com \
+<h3 id="tensorflow">TensorFlow</h3>
+<p><a href="./">Initialize</a> Model</p>
+<pre><code>pio init-model http://prediction-tensorflow.demo.pipeline.io \
                tensorflow \
                default \
                tensorflow_linear \
                0 \
                ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \
                ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt
-
-pio deploy
-
-pio predict
 </code></pre>
 
-<p>Scikit-Learn</p>
-<pre><code>pio init-model http://your.model.server.com \
+<p><a href="../deploy/">Deploy</a> the Model</p>
+<pre><code>pio deploy
+</code></pre>
+
+<p><a href="../predict/">Predict</a> with Model</p>
+<pre><code>pio predict
+</code></pre>
+
+<h3 id="scikit-learn">Scikit-Learn</h3>
+<p><a href="./">Initialize</a> Model</p>
+<pre><code>pio init-model http://prediction-tensorflow.demo.pipeline.io \
                python3 \
                default \
                scikit_linear \
                v0 \
                ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \
                ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt
-
-pio deploy
-
-pio predict
 </code></pre>
 
-<p>Spark ML</p>
-<pre><code>pio init-model http://your.model.server.com \
+<p><a href="../deploy/">Deploy</a> the Model</p>
+<pre><code>pio deploy
+</code></pre>
+
+<p><a href="../predict/">Predict</a> with Model</p>
+<pre><code>pio predict
+</code></pre>
+
+<h3 id="spark-ml">Spark ML</h3>
+<p><a href="./">Initialize</a> Model</p>
+<pre><code>pio init-model http://prediction-tensorflow.demo.pipeline.io \
                spark \
                default \
                spark_airbnb 
                v0 \
                ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \
                ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt
-
-pio deploy
-
-pio predict
 </code></pre>
 
-<p>Python3</p>
-<pre><code>pio init-model http://your.model.server.com \
+<p><a href="../deploy/">Deploy</a> the Model</p>
+<pre><code>pio deploy
+</code></pre>
+
+<p><a href="../predict/">Predict</a> with Model</p>
+<pre><code>pio predict
+</code></pre>
+
+<h3 id="python3">Python3</h3>
+<p><a href="./">Initialize</a> Model</p>
+<pre><code>pio init-model http://prediction-tensorflow.demo.pipeline.io \
                python3 \
                default \
                python3_zscore \
                v0 \
                ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \
                ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt
+</code></pre>
 
-pio deploy
+<p><a href="../deploy/">Deploy</a> the Model</p>
+<pre><code>pio deploy
+</code></pre>
 
-pio predict
+<p><a href="../predict/">Predict</a> with Model</p>
+<pre><code>pio predict
 </code></pre>
 
 <hr />
@@ -742,6 +832,14 @@ pio predict
       <a href="https://github.com/fluxcapacitor/pipeline" class="md-footer-social__link fa fa-github"></a>
     
       <a href="https://twitter.com/pipelineio" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://www.linkedin.com/company/6609122/" class="md-footer-social__link fa fa-linkedin"></a>
+    
+      <a href="https://www.meetup.com/Advanced-Spark-and-TensorFlow-Meetup/" class="md-footer-social__link fa fa-meetup"></a>
+    
+      <a href="https://youtube.com/channel/UCvlZKtekcKkBUuz8f9dhobw" class="md-footer-social__link fa fa-youtube"></a>
+    
+      <a href="https://www.slideshare.net/cfregly" class="md-footer-social__link fa fa-slideshare"></a>
     
   </div>
 
