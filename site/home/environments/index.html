@@ -7,7 +7,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
-        <link rel="canonical" href="http://www.pipeline.io/home/pio_ignore/">
+        <link rel="canonical" href="http://www.pipeline.io/home/environments/">
       
       
         <meta name="author" content="PipelineIO">
@@ -19,7 +19,7 @@
     
     
       
-        <title>PipelineIO Ignore - PipelineIO</title>
+        <title>Environments - PipelineIO</title>
       
     
     
@@ -89,7 +89,7 @@
                 </span>
               
             
-            PipelineIO Ignore
+            Environments
           
         </span>
       </div>
@@ -237,49 +237,28 @@
           
   <li class="md-nav__item">
     
-      <a href="../environments/" title="Environments" class="md-nav__link">
-        Environments
-      </a>
-    
-  </li>
-
-        
-          
-          
-  <li class="md-nav__item">
-    
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
     
     
       <label class="md-nav__link md-nav__link--active" for="toc">
-        PipelineIO Ignore
+        Environments
       </label>
     
-    <a href="./" title="PipelineIO Ignore" class="md-nav__link md-nav__link--active">
-      PipelineIO Ignore
+    <a href="./" title="Environments" class="md-nav__link md-nav__link--active">
+      Environments
     </a>
     
       
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#initialization" title="Initialization" class="md-nav__link">
-    Initialization
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#options" title="Options" class="md-nav__link">
-    Options
-  </a>
-  
-</li>
       
         <li class="md-nav__item">
   <a href="#help-make-this-document-better" title="Help make this document better" class="md-nav__link">
@@ -291,6 +270,17 @@
     </ul>
   
 </nav>
+    
+  </li>
+
+        
+          
+          
+  <li class="md-nav__item">
+    
+      <a href="../pio_ignore/" title="PipelineIO Ignore" class="md-nav__link">
+        PipelineIO Ignore
+      </a>
     
   </li>
 
@@ -454,23 +444,11 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#initialization" title="Initialization" class="md-nav__link">
-    Initialization
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#options" title="Options" class="md-nav__link">
-    Options
-  </a>
-  
-</li>
       
         <li class="md-nav__item">
   <a href="#help-make-this-document-better" title="Help make this document better" class="md-nav__link">
@@ -490,53 +468,112 @@
           <div class="md-content">
             <article class="md-content__inner md-typeset">
                
-                 <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/home/pio_ignore.md" title="Edit this page" class="md-icon md-content__edit">edit</a>
+                 <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/home/environments.md" title="Edit this page" class="md-icon md-content__edit">edit</a>
                
               
                 
-                  <h1>PipelineIO Ignore</h1>
-                
-                <p>Similar to <code>.gitignore</code>, <code>.pioignore</code> is a file that lists which files should not be 
-uploaded to the PipelineIO servers.</p>
-<h2 id="initialization">Initialization</h2>
-<p>Create the <code>.pioignore</code> file with a list of files and directories to ignore when uploading code and models to PipelineIO. </p>
-<pre><code>.git
-.DS_Store
-.gitignore
-*.tar.gz
+                <h1 id="environments">Environments</h1>
+<p>Below is the list of environments supported by PipelineIO. </p>
+<table>
+<thead>
+<tr>
+<th>Framework</th>
+<th>Environment / Model Type</th>
+<th>Description</th>
+<th>GPU</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TensorFlow</td>
+<td>tensorflow</td>
+<td>Tensorflow 1.1, Python3</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>Scikit-Learn</td>
+<td>scikit</td>
+<td>Scikit-Learn 0.18, Python3, Numba</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>Spark</td>
+<td>spark</td>
+<td>Spark 2.0.1, Scala 2.11, Java 1.8, Python3</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>XGBoost</td>
+<td>xgboost</td>
+<td>XGBoost, Python3</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>Deep Learning 4J</td>
+<td>dl4j</td>
+<td>Deep Learning 4J, Java 1.8</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>R</td>
+<td>R</td>
+<td>R</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>Cassandra Key-Value</td>
+<td>cassandra-kv</td>
+<td>Cassandra 3.1, Java 1.8</td>
+<td>N</td>
+</tr>
+<tr>
+<td>Redis Key-Value</td>
+<td>redis-kv</td>
+<td>Redis Key-Value, C++</td>
+<td>N</td>
+</tr>
+<tr>
+<td>TensorFlow Key-Value</td>
+<td>tensorflow-kv</td>
+<td>TensorFlow Serving Key-Value, C++</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>Native Java</td>
+<td>java</td>
+<td>Java 1.8</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>Native Python3</td>
+<td>python3</td>
+<td>Python3, Numba</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>Native C++</td>
+<td>cpp</td>
+<td>C++ 11</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>PMML</td>
+<td>pmml</td>
+<td>PMML 4.3, Java 1.8</td>
+<td>N</td>
+</tr>
+<tr>
+<td>Ensembles</td>
+<td>ensemble</td>
+<td>All of the Above!</td>
+<td>Y</td>
+</tr>
+</tbody>
+</table>
+<p>The following software packages (in addition to many other common libraries) are available in all the environments:</p>
+<pre><code>conda, h5py, iPython, Jupyter, matplotlib, numpy, OpenCV, Pandas, Pillow, scikit-learn, scipy, sklearn
 </code></pre>
 
-<p><strong>Note:  You do not need to add a trailing slash for directories.</strong></p>
-<h2 id="options">Options</h2>
-<p>There are different ways to specify files or directories that you want to be ignored. Below is 
-a list with examples:</p>
-<pre><code># Ignore all .dat files in the whole project:
-*.dat
-
-# Ignore all .dat files in some_folder:
-/some_folder/*.dat
-
-# Ignore all .dat files in some_folder and its subfolders:
-/some_folder/**/*.dat
-
-# Ignore all files (and folders) named .DS_Store
-.DS_Store
-
-# Ignore a specific file named .DS_Store located in some_folder
-/some_folder/.DS_Store
-
-# Ignore all files named .DS_Store in some_folder and its subfolders
-/some_folder/**/.DS_Store
-
-# Ignore all files in some_folder
-/some_folder
-
-# Ignore all files in some_folder (works the same as the rule above)
-/some_folder/
-</code></pre>
-
-<p>Minimizing the number of files to upload saves upload time and disk space used 
-by your experiments.</p>
 <hr />
 <h2 id="help-make-this-document-better">Help make this document better</h2>
 <p>This guide, as well as the rest of our docs, are open-source and available on 
@@ -557,7 +594,7 @@ by your experiments.</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../environments/" title="Environments" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../getting_started/" title="Getting Started" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -566,19 +603,19 @@ by your experiments.</p>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Environments
+                Getting Started
               </span>
             </div>
           </a>
         
         
-          <a href="../../guides/contributing/" title="Contributing" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../pio_ignore/" title="PipelineIO Ignore" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Contributing
+                PipelineIO Ignore
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -632,20 +669,6 @@ by your experiments.</p>
     
       <script src="../../assets/javascripts/application-2afe21e0b2.js"></script>
       <script>var config={url:{base:"../.."}},app=new Application(config);app.initialize()</script>
-      
-        <script src="../../site/assets/javascripts/application-2afe21e0b2.js"></script>
-      
-        <script src="../../site/assets/javascripts/modernizr-facb31f4a3.js"></script>
-      
-        <script src="../../site/mkdocs/js/lunr.min.js"></script>
-      
-        <script src="../../site/mkdocs/js/mustache.min.js"></script>
-      
-        <script src="../../site/mkdocs/js/require.js"></script>
-      
-        <script src="../../site/mkdocs/js/search.js"></script>
-      
-        <script src="../../site/mkdocs/js/text.js"></script>
       
     
     

@@ -7,7 +7,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
-        <link rel="canonical" href="http://www.pipeline.io/home/pio_ignore/">
+        <link rel="canonical" href="http://www.pipeline.io/home/install/">
       
       
         <meta name="author" content="PipelineIO">
@@ -19,7 +19,7 @@
     
     
       
-        <title>PipelineIO Ignore - PipelineIO</title>
+        <title>Installation - PipelineIO</title>
       
     
     
@@ -89,7 +89,7 @@
                 </span>
               
             
-            PipelineIO Ignore
+            Installation
           
         </span>
       </div>
@@ -215,9 +215,63 @@
           
   <li class="md-nav__item">
     
-      <a href="../install/" title="Installation" class="md-nav__link">
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
         Installation
-      </a>
+      </label>
+    
+    <a href="./" title="Installation" class="md-nav__link md-nav__link--active">
+      Installation
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#virtualenv" title="Virtualenv" class="md-nav__link">
+    Virtualenv
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-sudo" title="Using sudo" class="md-nav__link">
+    Using sudo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#missing-dependencies" title="Missing dependencies" class="md-nav__link">
+    Missing dependencies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pythonh-no-such-file-or-directory" title="Python.h: No such file or directory" class="md-nav__link">
+    Python.h: No such file or directory
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#help-make-this-document-better" title="Help make this document better" class="md-nav__link">
+    Help make this document better
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -248,49 +302,9 @@
           
   <li class="md-nav__item">
     
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="toc">
+      <a href="../pio_ignore/" title="PipelineIO Ignore" class="md-nav__link">
         PipelineIO Ignore
-      </label>
-    
-    <a href="./" title="PipelineIO Ignore" class="md-nav__link md-nav__link--active">
-      PipelineIO Ignore
-    </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-  
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#initialization" title="Initialization" class="md-nav__link">
-    Initialization
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#options" title="Options" class="md-nav__link">
-    Options
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#help-make-this-document-better" title="Help make this document better" class="md-nav__link">
-    Help make this document better
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
+      </a>
     
   </li>
 
@@ -459,15 +473,29 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#initialization" title="Initialization" class="md-nav__link">
-    Initialization
+  <a href="#virtualenv" title="Virtualenv" class="md-nav__link">
+    Virtualenv
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#options" title="Options" class="md-nav__link">
-    Options
+  <a href="#using-sudo" title="Using sudo" class="md-nav__link">
+    Using sudo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#missing-dependencies" title="Missing dependencies" class="md-nav__link">
+    Missing dependencies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pythonh-no-such-file-or-directory" title="Python.h: No such file or directory" class="md-nav__link">
+    Python.h: No such file or directory
   </a>
   
 </li>
@@ -490,53 +518,79 @@
           <div class="md-content">
             <article class="md-content__inner md-typeset">
                
-                 <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/home/pio_ignore.md" title="Edit this page" class="md-icon md-content__edit">edit</a>
+                 <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/home/install.md" title="Edit this page" class="md-icon md-content__edit">edit</a>
                
               
                 
-                  <h1>PipelineIO Ignore</h1>
+                  <h1>Installation</h1>
                 
-                <p>Similar to <code>.gitignore</code>, <code>.pioignore</code> is a file that lists which files should not be 
-uploaded to the PipelineIO servers.</p>
-<h2 id="initialization">Initialization</h2>
-<p>Create the <code>.pioignore</code> file with a list of files and directories to ignore when uploading code and models to PipelineIO. </p>
-<pre><code>.git
-.DS_Store
-.gitignore
-*.tar.gz
+                <p>PipelineIO CLI is a python based command line tool to interact with PipelineIO.</p>
+<p><code>pio-cli</code> is available on <a href="https://pypi.python.org/pypi/pio-cli">pypi</a> and
+runs on both Python 2.7 and Python 3.</p>
+<p>Use pip to install the cli.</p>
+<pre><code class="bash">pip install -U pio-cli
 </code></pre>
 
-<p><strong>Note:  You do not need to add a trailing slash for directories.</strong></p>
-<h2 id="options">Options</h2>
-<p>There are different ways to specify files or directories that you want to be ignored. Below is 
-a list with examples:</p>
-<pre><code># Ignore all .dat files in the whole project:
-*.dat
+<p>If successfully installed you can view the commands supported by the CLI using just <code>pio</code>. </p>
+<pre><code>pio
 
-# Ignore all .dat files in some_folder:
-/some_folder/*.dat
-
-# Ignore all .dat files in some_folder and its subfolders:
-/some_folder/**/*.dat
-
-# Ignore all files (and folders) named .DS_Store
-.DS_Store
-
-# Ignore a specific file named .DS_Store located in some_folder
-/some_folder/.DS_Store
-
-# Ignore all files named .DS_Store in some_folder and its subfolders
-/some_folder/**/.DS_Store
-
-# Ignore all files in some_folder
-/some_folder
-
-# Ignore all files in some_folder (works the same as the rule above)
-/some_folder/
+...
 </code></pre>
 
-<p>Minimizing the number of files to upload saves upload time and disk space used 
-by your experiments.</p>
+<p>Detailed documentation for the PipelineIO CLI commands are available in the <a href="../../commands/">documentation</a>.</p>
+<h2 id="virtualenv">Virtualenv</h2>
+<p>We highly recommend using <a href="https://virtualenv.pypa.io/en/stable/userguide/">virtualenv</a> to install <code>pio-cli</code>. This will isolate your PipelineIO environment and avoid any existing library conflicts.  This will ensure a smooth installation process.</p>
+<pre><code class="bash">sudo pip install virtualenv
+</code></pre>
+
+<p>To create a virtualenv environment, you need pass a directory for your environment.</p>
+<pre><code class="bash">virtualenv ~/.pio
+</code></pre>
+
+<p>You can activate the virtualenv by running:</p>
+<pre><code class="bash">source ~/.pio/bin/activate
+</code></pre>
+
+<p><strong>Note:  Everytime you need to use <code>pio</code> in a terminal, activate the virtualenv using this command.</strong></p>
+<p>To install <code>pio-cli</code> in this virtualenv:</p>
+<pre><code class="bash">pip install -U pio-cli
+</code></pre>
+
+<h2 id="using-sudo">Using <code>sudo</code></h2>
+<p>If you are not using virtualenv and you are installing <code>pio</code> globally you may need to use <code>sudo</code>:</p>
+<pre><code class="bash">sudo pip install -U pio-cli
+</code></pre>
+
+<h2 id="missing-dependencies">Missing dependencies</h2>
+<p>Not all python environments are installed the same way. So sometimes you may run 
+into install issues. If <code>pip</code> cannot install dependencies itself, you may see errors like:</p>
+<pre><code class="bash">...
+Failed building wheel for scandir
+...
+</code></pre>
+
+<p>or</p>
+<pre><code class="bash">...
+No distributions matching the version for backports.tempfile (from pio-cli)
+...
+</code></pre>
+
+<p>In such cases, you can install the dependencies directly:</p>
+<pre><code class="bash">pip install -U scandir
+pip install -U backports.tempfile
+</code></pre>
+
+<p>and then try re-installing <code>pio-cli</code></p>
+<h2 id="pythonh-no-such-file-or-directory">Python.h: No such file or directory</h2>
+<p>If you get this error in a linux environment:</p>
+<pre><code class="bash">...
+Python.h: No such file or directory
+</code></pre>
+
+<p>you need to install <code>python-dev</code> package</p>
+<pre><code class="bash">sudo apt-get install python-dev
+</code></pre>
+
 <hr />
 <h2 id="help-make-this-document-better">Help make this document better</h2>
 <p>This guide, as well as the rest of our docs, are open-source and available on 
@@ -557,7 +611,7 @@ by your experiments.</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../environments/" title="Environments" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../.." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -566,19 +620,19 @@ by your experiments.</p>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Environments
+                Home
               </span>
             </div>
           </a>
         
         
-          <a href="../../guides/contributing/" title="Contributing" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../getting_started/" title="Getting Started" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Contributing
+                Getting Started
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -632,20 +686,6 @@ by your experiments.</p>
     
       <script src="../../assets/javascripts/application-2afe21e0b2.js"></script>
       <script>var config={url:{base:"../.."}},app=new Application(config);app.initialize()</script>
-      
-        <script src="../../site/assets/javascripts/application-2afe21e0b2.js"></script>
-      
-        <script src="../../site/assets/javascripts/modernizr-facb31f4a3.js"></script>
-      
-        <script src="../../site/mkdocs/js/lunr.min.js"></script>
-      
-        <script src="../../site/mkdocs/js/mustache.min.js"></script>
-      
-        <script src="../../site/mkdocs/js/require.js"></script>
-      
-        <script src="../../site/mkdocs/js/search.js"></script>
-      
-        <script src="../../site/mkdocs/js/text.js"></script>
       
     
     

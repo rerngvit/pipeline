@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>http://www.pipeline.io/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>http://www.pipeline.io/home/install/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/home/getting_started/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/home/environments/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/home/pio_ignore/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://www.pipeline.io/guides/contributing/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/init-model/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/deploy/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/commands/predict/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://www.pipeline.io/legal/privacy/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.pipeline.io/legal/terms/</loc>
+     <lastmod>2017-05-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+</urlset>

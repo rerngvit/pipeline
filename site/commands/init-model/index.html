@@ -7,7 +7,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
-        <link rel="canonical" href="http://www.pipeline.io/home/pio_ignore/">
+        <link rel="canonical" href="http://www.pipeline.io/commands/init-model/">
       
       
         <meta name="author" content="PipelineIO">
@@ -19,7 +19,7 @@
     
     
       
-        <title>PipelineIO Ignore - PipelineIO</title>
+        <title>pio init-model - PipelineIO</title>
       
     
     
@@ -85,11 +85,11 @@
             
               
                 <span class="md-header-nav__parent">
-                  Get Started
+                  CLI Commands
                 </span>
               
             
-            PipelineIO Ignore
+            pio init-model
           
         </span>
       </div>
@@ -199,7 +199,7 @@
       
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
     <label class="md-nav__link" for="nav-2">
       Get Started
@@ -215,7 +215,7 @@
           
   <li class="md-nav__item">
     
-      <a href="../install/" title="Installation" class="md-nav__link">
+      <a href="../../home/install/" title="Installation" class="md-nav__link">
         Installation
       </a>
     
@@ -226,7 +226,7 @@
           
   <li class="md-nav__item">
     
-      <a href="../getting_started/" title="Getting Started" class="md-nav__link">
+      <a href="../../home/getting_started/" title="Getting Started" class="md-nav__link">
         Getting Started
       </a>
     
@@ -237,7 +237,7 @@
           
   <li class="md-nav__item">
     
-      <a href="../environments/" title="Environments" class="md-nav__link">
+      <a href="../../home/environments/" title="Environments" class="md-nav__link">
         Environments
       </a>
     
@@ -248,49 +248,9 @@
           
   <li class="md-nav__item">
     
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="toc">
+      <a href="../../home/pio_ignore/" title="PipelineIO Ignore" class="md-nav__link">
         PipelineIO Ignore
-      </label>
-    
-    <a href="./" title="PipelineIO Ignore" class="md-nav__link md-nav__link--active">
-      PipelineIO Ignore
-    </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-  
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#initialization" title="Initialization" class="md-nav__link">
-    Initialization
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#options" title="Options" class="md-nav__link">
-    Options
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#help-make-this-document-better" title="Help make this document better" class="md-nav__link">
-    Help make this document better
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
+      </a>
     
   </li>
 
@@ -336,7 +296,7 @@
       
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
     
     <label class="md-nav__link" for="nav-4">
       CLI Commands
@@ -352,7 +312,7 @@
           
   <li class="md-nav__item">
     
-      <a href="../../commands/" title="pio" class="md-nav__link">
+      <a href="../" title="pio" class="md-nav__link">
         pio
       </a>
     
@@ -363,9 +323,108 @@
           
   <li class="md-nav__item">
     
-      <a href="../../commands/init-model/" title="pio init-model" class="md-nav__link">
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
         pio init-model
-      </a>
+      </label>
+    
+    <a href="./" title="pio init-model" class="md-nav__link md-nav__link--active">
+      pio init-model
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#usage" title="Usage" class="md-nav__link">
+    Usage
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parameters" title="Parameters" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#description" title="Description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-types" title="Model Types" class="md-nav__link">
+    Model Types
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#examples" title="Examples" class="md-nav__link">
+    Examples
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tensorflow" title="TensorFlow" class="md-nav__link">
+    TensorFlow
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scikit-learn" title="Scikit-Learn" class="md-nav__link">
+    Scikit-Learn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spark-ml" title="Spark ML" class="md-nav__link">
+    Spark ML
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python3" title="Python3" class="md-nav__link">
+    Python3
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#help-make-this-document-better" title="Help make this document better" class="md-nav__link">
+    Help make this document better
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -374,7 +433,7 @@
           
   <li class="md-nav__item">
     
-      <a href="../../commands/deploy/" title="pio deploy" class="md-nav__link">
+      <a href="../deploy/" title="pio deploy" class="md-nav__link">
         pio deploy
       </a>
     
@@ -385,7 +444,7 @@
           
   <li class="md-nav__item">
     
-      <a href="../../commands/predict/" title="pio predict" class="md-nav__link">
+      <a href="../predict/" title="pio predict" class="md-nav__link">
         pio predict
       </a>
     
@@ -454,21 +513,78 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#initialization" title="Initialization" class="md-nav__link">
-    Initialization
+  <a href="#usage" title="Usage" class="md-nav__link">
+    Usage
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#options" title="Options" class="md-nav__link">
-    Options
+  <a href="#parameters" title="Parameters" class="md-nav__link">
+    Parameters
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#description" title="Description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-types" title="Model Types" class="md-nav__link">
+    Model Types
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#examples" title="Examples" class="md-nav__link">
+    Examples
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tensorflow" title="TensorFlow" class="md-nav__link">
+    TensorFlow
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scikit-learn" title="Scikit-Learn" class="md-nav__link">
+    Scikit-Learn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spark-ml" title="Spark ML" class="md-nav__link">
+    Spark ML
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python3" title="Python3" class="md-nav__link">
+    Python3
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -490,53 +606,157 @@
           <div class="md-content">
             <article class="md-content__inner md-typeset">
                
-                 <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/home/pio_ignore.md" title="Edit this page" class="md-icon md-content__edit">edit</a>
+                 <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/commands/init-model.md" title="Edit this page" class="md-icon md-content__edit">edit</a>
                
               
                 
-                  <h1>PipelineIO Ignore</h1>
-                
-                <p>Similar to <code>.gitignore</code>, <code>.pioignore</code> is a file that lists which files should not be 
-uploaded to the PipelineIO servers.</p>
-<h2 id="initialization">Initialization</h2>
-<p>Create the <code>.pioignore</code> file with a list of files and directories to ignore when uploading code and models to PipelineIO. </p>
-<pre><code>.git
-.DS_Store
-.gitignore
-*.tar.gz
+                <h1 id="initialize-a-pipelineio-model">Initialize a PipelineIO model.</h1>
+<h2 id="usage">Usage</h2>
+<pre><code class="bash">
+pio init-model --model-server-url &lt;model_server_url&gt; \
+               --model-type &lt;model_type&gt; \
+               --model-namespace &lt;model_namespace&gt; \
+               --model_name &lt;model_name&gt; \
+               --model-version &lt;model_version&gt; \
+               --model-path /path/to/model \
+               --model-test-input-path /path/to/test/inputs
+
 </code></pre>
 
-<p><strong>Note:  You do not need to add a trailing slash for directories.</strong></p>
-<h2 id="options">Options</h2>
-<p>There are different ways to specify files or directories that you want to be ignored. Below is 
-a list with examples:</p>
-<pre><code># Ignore all .dat files in the whole project:
-*.dat
-
-# Ignore all .dat files in some_folder:
-/some_folder/*.dat
-
-# Ignore all .dat files in some_folder and its subfolders:
-/some_folder/**/*.dat
-
-# Ignore all files (and folders) named .DS_Store
-.DS_Store
-
-# Ignore a specific file named .DS_Store located in some_folder
-/some_folder/.DS_Store
-
-# Ignore all files named .DS_Store in some_folder and its subfolders
-/some_folder/**/.DS_Store
-
-# Ignore all files in some_folder
-/some_folder
-
-# Ignore all files in some_folder (works the same as the rule above)
-/some_folder/
+<h2 id="parameters">Parameters</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>model-server-url</td>
+<td>Model Server URL hosting your models</td>
+</tr>
+<tr>
+<td>model-type</td>
+<td>See Model Types section.</td>
+</tr>
+<tr>
+<td>model-namespace</td>
+<td>Unique namespace for your models</td>
+</tr>
+<tr>
+<td>model-name</td>
+<td>Unique name for your model within your model namespace</td>
+</tr>
+<tr>
+<td>model-version</td>
+<td>Unique version with model name and namespace (ie. 1, v0, git hash)</td>
+</tr>
+<tr>
+<td>model-path</td>
+<td>/path/to/model/  Contents will be tar.gz'd and uploaded.</td>
+</tr>
+<tr>
+<td>model-test-input-path</td>
+<td>/path/to/test/inputs.txt  File used for testing the model locally.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="description">Description</h2>
+<p>This command will create or update the <code>~/.pio/config</code> file and prepare you for model deploying and predicting.</p>
+<h2 id="model-types">Model Types</h2>
+<ul>
+<li>scikit</li>
+<li>R</li>
+<li>spark</li>
+<li>tensorflow</li>
+<li>xgboost</li>
+<li>python3</li>
+<li>java</li>
+<li>pmml</li>
+<li>ensemble</li>
+</ul>
+<h2 id="examples">Examples</h2>
+<p>Clone the Example <a href="https://github.com/fluxcapacitor/source.ml/prediction.ml">source.ml</a> Model Store Repo</p>
+<pre><code>git clone https://github.com/fluxcapacitor/source.ml
 </code></pre>
 
-<p>Minimizing the number of files to upload saves upload time and disk space used 
-by your experiments.</p>
+<h3 id="tensorflow">TensorFlow</h3>
+<p><a href="./">Initialize</a> Model</p>
+<pre><code>pio init-model http://prediction-tensorflow.demo.pipeline.io \
+               tensorflow \
+               default \
+               tensorflow_linear \
+               0 \
+               ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \
+               ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt
+</code></pre>
+
+<p><a href="../deploy/">Deploy</a> the Model</p>
+<pre><code>pio deploy
+</code></pre>
+
+<p><a href="../predict/">Predict</a> with Model</p>
+<pre><code>pio predict
+</code></pre>
+
+<h3 id="scikit-learn">Scikit-Learn</h3>
+<p><a href="./">Initialize</a> Model</p>
+<pre><code>pio init-model http://prediction-tensorflow.demo.pipeline.io \
+               python3 \
+               default \
+               scikit_linear \
+               v0 \
+               ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \
+               ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt
+</code></pre>
+
+<p><a href="../deploy/">Deploy</a> the Model</p>
+<pre><code>pio deploy
+</code></pre>
+
+<p><a href="../predict/">Predict</a> with Model</p>
+<pre><code>pio predict
+</code></pre>
+
+<h3 id="spark-ml">Spark ML</h3>
+<p><a href="./">Initialize</a> Model</p>
+<pre><code>pio init-model http://prediction-tensorflow.demo.pipeline.io \
+               spark \
+               default \
+               spark_airbnb 
+               v0 \
+               ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \
+               ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt
+</code></pre>
+
+<p><a href="../deploy/">Deploy</a> the Model</p>
+<pre><code>pio deploy
+</code></pre>
+
+<p><a href="../predict/">Predict</a> with Model</p>
+<pre><code>pio predict
+</code></pre>
+
+<h3 id="python3">Python3</h3>
+<p><a href="./">Initialize</a> Model</p>
+<pre><code>pio init-model http://prediction-tensorflow.demo.pipeline.io \
+               python3 \
+               default \
+               python3_zscore \
+               v0 \
+               ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \
+               ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt
+</code></pre>
+
+<p><a href="../deploy/">Deploy</a> the Model</p>
+<pre><code>pio deploy
+</code></pre>
+
+<p><a href="../predict/">Predict</a> with Model</p>
+<pre><code>pio predict
+</code></pre>
+
 <hr />
 <h2 id="help-make-this-document-better">Help make this document better</h2>
 <p>This guide, as well as the rest of our docs, are open-source and available on 
@@ -557,7 +777,7 @@ by your experiments.</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../environments/" title="Environments" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../" title="pio" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -566,19 +786,19 @@ by your experiments.</p>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Environments
+                pio
               </span>
             </div>
           </a>
         
         
-          <a href="../../guides/contributing/" title="Contributing" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../deploy/" title="pio deploy" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Contributing
+                pio deploy
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -632,20 +852,6 @@ by your experiments.</p>
     
       <script src="../../assets/javascripts/application-2afe21e0b2.js"></script>
       <script>var config={url:{base:"../.."}},app=new Application(config);app.initialize()</script>
-      
-        <script src="../../site/assets/javascripts/application-2afe21e0b2.js"></script>
-      
-        <script src="../../site/assets/javascripts/modernizr-facb31f4a3.js"></script>
-      
-        <script src="../../site/mkdocs/js/lunr.min.js"></script>
-      
-        <script src="../../site/mkdocs/js/mustache.min.js"></script>
-      
-        <script src="../../site/mkdocs/js/require.js"></script>
-      
-        <script src="../../site/mkdocs/js/search.js"></script>
-      
-        <script src="../../site/mkdocs/js/text.js"></script>
       
     
     
