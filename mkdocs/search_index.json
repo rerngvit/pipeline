@@ -132,18 +132,13 @@
         },
         {
             "location": "/guides/contributing/",
-            "text": "Interested in helping us out? We are looking for help to port popular and useful machine learning and artificial intelligence models and runtimes into PipelineIO.\n\n\nWhat you need to do\n\n\n\n\nCreate a GitHub issue.\n\n\nRun the project on PipelineIO (Training and Evaluation). Make sure the README has instructions on how to replicate what you've built.\n\n\nEmail us links to the GitHub issue and your code.\n\n\n\n\nWhat you get in return\n\n\nWe will offer 50 hours of free GPU credits for each complete project ported.\n\n\nMiscellaneous\n\n\n\n\nThe project should be open source under a liberal license (ie. Apache2, MIT)\n\n\nThe project should use publicly-available training and validation data.",
+            "text": "Interested in helping us out?  We are looking for help to port popular and useful machine learning and artificial intelligence models and runtimes into PipelineIO.\n\n\nThe active list of outstanding PipelineIO issues and features are \nhere\n.\n\n\nWhat you need to do\n\n\n\n\nCreate a GitHub issue.\n\n\nRun the project on PipelineIO (Training and/or Evaluation). \n\n\nMake sure the GitHub issue has instructions on how to replicate your work.\n\n\nEmail us links to the GitHub issue and your code.\n\n\n\n\nMiscellaneous\n\n\n\n\nThe project should be open source under a liberal license (ie. Apache2, MIT)\n\n\nThe project should use publicly-available training and validation data.",
             "title": "Contributing"
         },
         {
             "location": "/guides/contributing/#what-you-need-to-do",
-            "text": "Create a GitHub issue.  Run the project on PipelineIO (Training and Evaluation). Make sure the README has instructions on how to replicate what you've built.  Email us links to the GitHub issue and your code.",
+            "text": "Create a GitHub issue.  Run the project on PipelineIO (Training and/or Evaluation).   Make sure the GitHub issue has instructions on how to replicate your work.  Email us links to the GitHub issue and your code.",
             "title": "What you need to do"
-        },
-        {
-            "location": "/guides/contributing/#what-you-get-in-return",
-            "text": "We will offer 50 hours of free GPU credits for each complete project ported.",
-            "title": "What you get in return"
         },
         {
             "location": "/guides/contributing/#miscellaneous",
