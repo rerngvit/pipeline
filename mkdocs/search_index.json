@@ -12,12 +12,12 @@
         },
         {
             "location": "/home/getting_started/",
-            "text": "Login to PipelineIO\n\n\nhttp://jupyter.demo.pipeline.io\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "text": "Login to PipelineIO\n\n\nhttp://www.community.pipeline.io\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Getting Started"
         },
         {
             "location": "/home/getting_started/#login-to-pipelineio",
-            "text": "http://jupyter.demo.pipeline.io",
+            "text": "http://www.community.pipeline.io",
             "title": "Login to PipelineIO"
         },
         {
