@@ -26,32 +26,62 @@
             "title": "Help make this document better"
         },
         {
-            "location": "/home/environments/",
-            "text": "Environments\n\n\nBelow is the list of environments supported by PipelineIO. \n\n\n\n\n\n\n\n\nFramework\n\n\nEnvironment / Model Type\n\n\nDescription\n\n\nGPU\n\n\n\n\n\n\n\n\n\n\nTensorFlow\n\n\ntensorflow\n\n\nTensorflow 1.1, Python3\n\n\nY\n\n\n\n\n\n\nScikit-Learn\n\n\nscikit\n\n\nScikit-Learn 0.18, Python3, Numba\n\n\nY\n\n\n\n\n\n\nSpark\n\n\nspark\n\n\nSpark 2.0.1, Scala 2.11, Java 1.8, Python3\n\n\nY\n\n\n\n\n\n\nXGBoost\n\n\nxgboost\n\n\nXGBoost, Python3\n\n\nY\n\n\n\n\n\n\nDeep Learning 4J\n\n\ndl4j\n\n\nDeep Learning 4J, Java 1.8\n\n\nY\n\n\n\n\n\n\nR\n\n\nR\n\n\nR\n\n\nY\n\n\n\n\n\n\nCassandra Key-Value\n\n\ncassandra-kv\n\n\nCassandra 3.1, Java 1.8\n\n\nN\n\n\n\n\n\n\nRedis Key-Value\n\n\nredis-kv\n\n\nRedis Key-Value, C++\n\n\nN\n\n\n\n\n\n\nTensorFlow Key-Value\n\n\ntensorflow-kv\n\n\nTensorFlow Serving Key-Value, C++\n\n\nY\n\n\n\n\n\n\nNative Java\n\n\njava\n\n\nJava 1.8\n\n\nY\n\n\n\n\n\n\nNative Python3\n\n\npython3\n\n\nPython3, Numba\n\n\nY\n\n\n\n\n\n\nNative C++\n\n\ncpp\n\n\nC++ 11\n\n\nY\n\n\n\n\n\n\nPMML\n\n\npmml\n\n\nPMML 4.3, Java 1.8\n\n\nN\n\n\n\n\n\n\nEnsembles\n\n\nensemble\n\n\nAll of the Above!\n\n\nY\n\n\n\n\n\n\n\n\nThe following software packages (in addition to many other common libraries) are available in all the environments:\n\n\nconda, h5py, iPython, Jupyter, matplotlib, numpy, OpenCV, Pandas, Pillow, scikit-learn, scipy, sklearn\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
-            "title": "Supported Models"
+            "location": "/home/gpus/",
+            "text": "GPUs\n\n\nPipelineIO supports GPUs natively throughout the entire platform.\n\n\nHere are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate our support for GPUs.\n\n\nDocker Images\n\n\nAWS GPU + Tensorflow + Spark + HDFS + Docker\n\n\nGoogle Cloud GPU + Tensorflow + Spark + HDFS + Docker\n\n\nConference and Meetup Talks\n\n\nGPU Tech Conference - San Jose - May 2017 (Slides)\n\n\nPyData London - May 2017 (Video)\n\n\nEverything GPU-related in our GitHub Repo!\n\n\ngpu.ml\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "GPUs"
         },
         {
-            "location": "/home/environments/#environments",
-            "text": "Below is the list of environments supported by PipelineIO.      Framework  Environment / Model Type  Description  GPU      TensorFlow  tensorflow  Tensorflow 1.1, Python3  Y    Scikit-Learn  scikit  Scikit-Learn 0.18, Python3, Numba  Y    Spark  spark  Spark 2.0.1, Scala 2.11, Java 1.8, Python3  Y    XGBoost  xgboost  XGBoost, Python3  Y    Deep Learning 4J  dl4j  Deep Learning 4J, Java 1.8  Y    R  R  R  Y    Cassandra Key-Value  cassandra-kv  Cassandra 3.1, Java 1.8  N    Redis Key-Value  redis-kv  Redis Key-Value, C++  N    TensorFlow Key-Value  tensorflow-kv  TensorFlow Serving Key-Value, C++  Y    Native Java  java  Java 1.8  Y    Native Python3  python3  Python3, Numba  Y    Native C++  cpp  C++ 11  Y    PMML  pmml  PMML 4.3, Java 1.8  N    Ensembles  ensemble  All of the Above!  Y     The following software packages (in addition to many other common libraries) are available in all the environments:  conda, h5py, iPython, Jupyter, matplotlib, numpy, OpenCV, Pandas, Pillow, scikit-learn, scipy, sklearn",
-            "title": "Environments"
+            "location": "/home/gpus/#gpus",
+            "text": "PipelineIO supports GPUs natively throughout the entire platform.  Here are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate our support for GPUs.",
+            "title": "GPUs"
         },
         {
-            "location": "/home/environments/#help-make-this-document-better",
+            "location": "/home/gpus/#docker-images",
+            "text": "AWS GPU + Tensorflow + Spark + HDFS + Docker  Google Cloud GPU + Tensorflow + Spark + HDFS + Docker",
+            "title": "Docker Images"
+        },
+        {
+            "location": "/home/gpus/#conference-and-meetup-talks",
+            "text": "GPU Tech Conference - San Jose - May 2017 (Slides)  PyData London - May 2017 (Video)",
+            "title": "Conference and Meetup Talks"
+        },
+        {
+            "location": "/home/gpus/#everything-gpu-related-in-our-github-repo",
+            "text": "gpu.ml",
+            "title": "Everything GPU-related in our GitHub Repo!"
+        },
+        {
+            "location": "/home/gpus/#help-make-this-document-better",
             "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
             "title": "Help make this document better"
         },
         {
-            "location": "/home/apps-and-tools/",
+            "location": "/home/model_environments/",
+            "text": "Environments\n\n\nBelow is the list of environments supported by PipelineIO. \n\n\n\n\n\n\n\n\nFramework\n\n\nEnvironment / Model Type\n\n\nDescription\n\n\nGPU\n\n\n\n\n\n\n\n\n\n\nTensorFlow\n\n\ntensorflow\n\n\nTensorflow 1.1, Python3\n\n\nY\n\n\n\n\n\n\nScikit-Learn\n\n\nscikit\n\n\nScikit-Learn 0.18, Python3, Numba\n\n\nY\n\n\n\n\n\n\nSpark\n\n\nspark\n\n\nSpark 2.0.1, Scala 2.11, Java 1.8, Python3\n\n\nY\n\n\n\n\n\n\nXGBoost\n\n\nxgboost\n\n\nXGBoost, Python3\n\n\nY\n\n\n\n\n\n\nDeep Learning 4J\n\n\ndl4j\n\n\nDeep Learning 4J, Java 1.8\n\n\nY\n\n\n\n\n\n\nR\n\n\nR\n\n\nR\n\n\nY\n\n\n\n\n\n\nCassandra Key-Value\n\n\ncassandra-kv\n\n\nCassandra 3.1, Java 1.8\n\n\nN\n\n\n\n\n\n\nRedis Key-Value\n\n\nredis-kv\n\n\nRedis Key-Value, C++\n\n\nN\n\n\n\n\n\n\nTensorFlow Key-Value\n\n\ntensorflow-kv\n\n\nTensorFlow Serving Key-Value, C++\n\n\nY\n\n\n\n\n\n\nNative Java\n\n\njava\n\n\nJava 1.8\n\n\nY\n\n\n\n\n\n\nNative Python3\n\n\npython3\n\n\nPython3, Numba\n\n\nY\n\n\n\n\n\n\nNative C++\n\n\ncpp\n\n\nC++ 11\n\n\nY\n\n\n\n\n\n\nPMML\n\n\npmml\n\n\nPMML 4.3, Java 1.8\n\n\nN\n\n\n\n\n\n\nEnsembles\n\n\nensemble\n\n\nAll of the Above!\n\n\nY\n\n\n\n\n\n\n\n\nThe following software packages (in addition to many other common libraries) are available in all the environments:\n\n\nconda, h5py, iPython, Jupyter, matplotlib, numpy, OpenCV, Pandas, Pillow, scikit-learn, scipy, sklearn\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "Supported Models"
+        },
+        {
+            "location": "/home/model_environments/#environments",
+            "text": "Below is the list of environments supported by PipelineIO.      Framework  Environment / Model Type  Description  GPU      TensorFlow  tensorflow  Tensorflow 1.1, Python3  Y    Scikit-Learn  scikit  Scikit-Learn 0.18, Python3, Numba  Y    Spark  spark  Spark 2.0.1, Scala 2.11, Java 1.8, Python3  Y    XGBoost  xgboost  XGBoost, Python3  Y    Deep Learning 4J  dl4j  Deep Learning 4J, Java 1.8  Y    R  R  R  Y    Cassandra Key-Value  cassandra-kv  Cassandra 3.1, Java 1.8  N    Redis Key-Value  redis-kv  Redis Key-Value, C++  N    TensorFlow Key-Value  tensorflow-kv  TensorFlow Serving Key-Value, C++  Y    Native Java  java  Java 1.8  Y    Native Python3  python3  Python3, Numba  Y    Native C++  cpp  C++ 11  Y    PMML  pmml  PMML 4.3, Java 1.8  N    Ensembles  ensemble  All of the Above!  Y     The following software packages (in addition to many other common libraries) are available in all the environments:  conda, h5py, iPython, Jupyter, matplotlib, numpy, OpenCV, Pandas, Pillow, scikit-learn, scipy, sklearn",
+            "title": "Environments"
+        },
+        {
+            "location": "/home/model_environments/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/home/apps_and_tools/",
             "text": "Applications and Tools\n\n\nBelow is the list of applications and tools supported by PipelineIO.\n\n\nAll applications and tools can be scaled across unlimited number of nodes across all cloud providers - and even on-premise.\n\n\nGPUs are 100% supported for applications and tools that take advantage of GPU hardware.\n\n\n\n\n\n\n\n\nTool\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nairflow\n\n\n\n\n\n\n\n\ncassandra\n\n\n\n\n\n\n\n\nelasticsearch\n\n\n\n\n\n\n\n\nhdfs\n\n\n\n\n\n\n\n\nheapster\n\n\n\n\n\n\n\n\nhystrix\n\n\n\n\n\n\n\n\njupyter\n\n\n\n\n\n\n\n\nkafka\n\n\n\n\n\n\n\n\nkibana\n\n\n\n\n\n\n\n\nkubernetes-dashboard\n\n\n\n\n\n\n\n\nkubernetes-logging\n\n\n\n\n\n\n\n\nmetastore\n\n\n\n\n\n\n\n\nmysql\n\n\n\n\n\n\n\n\nprediction-java\n\n\n\n\n\n\n\n\nprediction-pmml\n\n\n\n\n\n\n\n\nprediction-python3\n\n\n\n\n\n\n\n\nprediction-scikit\n\n\n\n\n\n\n\n\nprediction-spark\n\n\n\n\n\n\n\n\nprediction-tensorflow\n\n\n\n\n\n\n\n\nprediction-tensorflow-gpu\n\n\n\n\n\n\n\n\npresto\n\n\n\n\n\n\n\n\npresto-ui\n\n\n\n\n\n\n\n\nredis\n\n\n\n\n\n\n\n\nroute53-mapper\n\n\n\n\n\n\n\n\nspark\n\n\n\n\n\n\n\n\nspark-worker\n\n\n\n\n\n\n\n\nturbine\n\n\n\n\n\n\n\n\nweave-scope-app\n\n\n\n\n\n\n\n\nweb-home\n\n\n\n\n\n\n\n\nzeppelin\n\n\n\n\n\n\n\n\nzookeeper\n\n\n\n\n\n\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Supported Apps and Tools"
         },
         {
-            "location": "/home/apps-and-tools/#applications-and-tools",
+            "location": "/home/apps_and_tools/#applications-and-tools",
             "text": "Below is the list of applications and tools supported by PipelineIO.  All applications and tools can be scaled across unlimited number of nodes across all cloud providers - and even on-premise.  GPUs are 100% supported for applications and tools that take advantage of GPU hardware.     Tool  Description      airflow     cassandra     elasticsearch     hdfs     heapster     hystrix     jupyter     kafka     kibana     kubernetes-dashboard     kubernetes-logging     metastore     mysql     prediction-java     prediction-pmml     prediction-python3     prediction-scikit     prediction-spark     prediction-tensorflow     prediction-tensorflow-gpu     presto     presto-ui     redis     route53-mapper     spark     spark-worker     turbine     weave-scope-app     web-home     zeppelin     zookeeper",
             "title": "Applications and Tools"
         },
         {
-            "location": "/home/apps-and-tools/#help-make-this-document-better",
+            "location": "/home/apps_and_tools/#help-make-this-document-better",
             "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
             "title": "Help make this document better"
         },
@@ -99,36 +129,6 @@
             "location": "/commands/#job-and-workflow-management",
             "text": "Command  Description      pio flow  Start an Airflow job    pio submit  Submit a Spark job",
             "title": "Job and Workflow Management"
-        },
-        {
-            "location": "/home/gpus/",
-            "text": "GPUs\n\n\nPipelineIO supports GPUs natively throughout the entire platform.\n\n\nHere are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate our support for GPUs.\n\n\nDocker Images\n\n\nAWS GPU + Tensorflow + Spark + HDFS + Docker\n\n\nGoogle Cloud GPU + Tensorflow + Spark + HDFS + Docker\n\n\nConference and Meetup Talks\n\n\nGPU Tech Conference - San Jose - May 2017 (Slides)\n\n\nPyData London - May 2017 (Video)\n\n\nEverything GPU-related in our GitHub Repo!\n\n\ngpu.ml\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
-            "title": "GPUs"
-        },
-        {
-            "location": "/home/gpus/#gpus",
-            "text": "PipelineIO supports GPUs natively throughout the entire platform.  Here are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate our support for GPUs.",
-            "title": "GPUs"
-        },
-        {
-            "location": "/home/gpus/#docker-images",
-            "text": "AWS GPU + Tensorflow + Spark + HDFS + Docker  Google Cloud GPU + Tensorflow + Spark + HDFS + Docker",
-            "title": "Docker Images"
-        },
-        {
-            "location": "/home/gpus/#conference-and-meetup-talks",
-            "text": "GPU Tech Conference - San Jose - May 2017 (Slides)  PyData London - May 2017 (Video)",
-            "title": "Conference and Meetup Talks"
-        },
-        {
-            "location": "/home/gpus/#everything-gpu-related-in-our-github-repo",
-            "text": "gpu.ml",
-            "title": "Everything GPU-related in our GitHub Repo!"
-        },
-        {
-            "location": "/home/gpus/#help-make-this-document-better",
-            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
-            "title": "Help make this document better"
         },
         {
             "location": "/guides/contributing/",

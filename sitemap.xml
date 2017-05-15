@@ -19,7 +19,7 @@
 
     
     <url>
-     <loc>http://pipeline.io/home/environments/</loc>
+     <loc>http://pipeline.io/home/gpus/</loc>
      <lastmod>2017-05-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -27,7 +27,15 @@
 
     
     <url>
-     <loc>http://pipeline.io/home/apps-and-tools/</loc>
+     <loc>http://pipeline.io/home/model_environments/</loc>
+     <lastmod>2017-05-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://pipeline.io/home/apps_and_tools/</loc>
      <lastmod>2017-05-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -36,14 +44,6 @@
     
     <url>
      <loc>http://pipeline.io/commands/</loc>
-     <lastmod>2017-05-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>http://pipeline.io/home/gpus/</loc>
      <lastmod>2017-05-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
