@@ -102,7 +102,7 @@
         },
         {
             "location": "/commands/",
-            "text": "PipelineIO Commands\n\n\nPipelineIO CLI Configuration\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-pio\n\n\nInitialize PIO CLI\n\n\n\n\n\n\npio config\n\n\nView current configuration\n\n\n\n\n\n\npio get-config-value\n\n\nGet value for config key\n\n\n\n\n\n\npio set-config-value\n\n\nSet value for config key\n\n\n\n\n\n\n\n\nAI/ML Model Management\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-model\n\n\nInitialize model for deployment and prediction\n\n\n\n\n\n\npio deploy\n\n\nDeploy model to model server\n\n\n\n\n\n\npio deploy-from-git\n\n\nDeploy a model from git\n\n\n\n\n\n\npio predict\n\n\nPredict with model\n\n\n\n\n\n\npio predict-many\n\n\nPredict many times (mini load-test)\n\n\n\n\n\n\n\n\nNew Cluster Creation\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-kops\n\n\nInitialize cluster (new)\n\n\n\n\n\n\npio up\n\n\nStart the cluster\n\n\n\n\n\n\n\n\nExisting Cluster Management\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-cluster\n\n\nInitialize cluster (existing)\n\n\n\n\n\n\npio cluster\n\n\nView the current cluster\n\n\n\n\n\n\npio clusters\n\n\nView all federated, hybrid, cross-cloud, on-premise cluster\n\n\n\n\n\n\npio join\n\n\nJoin a federeated, hybrid, cross-cloud, on-premise cluster\n\n\n\n\n\n\npio nodes\n\n\nView cluster nodes\n\n\n\n\n\n\npio instancegroups\n\n\nView instance groups\n\n\n\n\n\n\npio volumes\n\n\nView volumes and volume claims\n\n\n\n\n\n\npio secrets\n\n\nView secrets\n\n\n\n\n\n\npio maps\n\n\nView config maps\n\n\n\n\n\n\npio system/top\n\n\nView system resource utilization (RAM, CPU) for an app\n\n\n\n\n\n\n\n\nApplication Management\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio apps\n\n\nRetrieve available and running apps\n\n\n\n\n\n\npio start\n\n\nStart an app\n\n\n\n\n\n\npio stop\n\n\nStop/kill an app\n\n\n\n\n\n\npio scale\n\n\nScale an app (ie. Spark Worker or TensorFlow Model Server)\n\n\n\n\n\n\npio upgrade\n\n\nUpgrade an app\n\n\n\n\n\n\npio rollback\n\n\nRollback an app\n\n\n\n\n\n\npio canary\n\n\nCanary a new version of an app\n\n\n\n\n\n\npio logs\n\n\nView app logs\n\n\n\n\n\n\npio connect/shell\n\n\nConnect to an app to run commands at the terminal\n\n\n\n\n\n\npio proxy/tunnel\n\n\nCreate a proxy/tunnel to a private app in your cluster\n\n\n\n\n\n\npio system/top\n\n\nGet system resource utilization (RAM, CPU) for an app\n\n\n\n\n\n\n\n\nJob and Workflow Management\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio flow\n\n\nStart an Airflow job\n\n\n\n\n\n\npio submit\n\n\nSubmit a Spark job",
+            "text": "PipelineIO Commands\n\n\nPipelineIO CLI Configuration\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-pio\n\n\nInitialize PIO CLI\n\n\n\n\n\n\npio config\n\n\nView current configuration\n\n\n\n\n\n\npio config-get-value\n\n\nGet value for config key\n\n\n\n\n\n\npio config-set-value\n\n\nSet value for config key\n\n\n\n\n\n\n\n\nAI/ML Model Management\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-model\n\n\nInitialize model for deployment and prediction\n\n\n\n\n\n\npio deploy\n\n\nDeploy model to model server\n\n\n\n\n\n\npio deploy-from-git\n\n\nDeploy a model from git\n\n\n\n\n\n\npio predict\n\n\nPredict with model\n\n\n\n\n\n\npio predict-many\n\n\nPredict many times (mini load-test)\n\n\n\n\n\n\n\n\nNew Cluster Creation\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-kops\n\n\nInitialize cluster (new)\n\n\n\n\n\n\npio up\n\n\nStart the cluster\n\n\n\n\n\n\n\n\nExisting Cluster Management\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-cluster\n\n\nInitialize cluster (existing)\n\n\n\n\n\n\npio cluster\n\n\nView the current cluster\n\n\n\n\n\n\npio clusters\n\n\nView all federated, hybrid, cross-cloud, on-premise cluster\n\n\n\n\n\n\npio join\n\n\nJoin a federeated, hybrid, cross-cloud, on-premise cluster\n\n\n\n\n\n\npio nodes\n\n\nView cluster nodes\n\n\n\n\n\n\npio instancegroups\n\n\nView instance groups\n\n\n\n\n\n\npio volumes\n\n\nView volumes and volume claims\n\n\n\n\n\n\npio secrets\n\n\nView secrets\n\n\n\n\n\n\npio maps\n\n\nView config maps\n\n\n\n\n\n\npio system/top\n\n\nView system resource utilization (RAM, CPU) for an app\n\n\n\n\n\n\n\n\nApplication Management\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio apps\n\n\nRetrieve available and running apps\n\n\n\n\n\n\npio start\n\n\nStart an app\n\n\n\n\n\n\npio stop\n\n\nStop/kill an app\n\n\n\n\n\n\npio scale\n\n\nScale an app (ie. Spark Worker or TensorFlow Model Server)\n\n\n\n\n\n\npio upgrade\n\n\nUpgrade an app\n\n\n\n\n\n\npio rollback\n\n\nRollback an app\n\n\n\n\n\n\npio canary\n\n\nCanary a new version of an app\n\n\n\n\n\n\npio logs\n\n\nView app logs\n\n\n\n\n\n\npio connect/shell\n\n\nConnect to an app to run commands at the terminal\n\n\n\n\n\n\npio proxy/tunnel\n\n\nCreate a proxy/tunnel to a private app in your cluster\n\n\n\n\n\n\npio system/top\n\n\nGet system resource utilization (RAM, CPU) for an app\n\n\n\n\n\n\n\n\nJob and Workflow Management\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio flow\n\n\nStart an Airflow job\n\n\n\n\n\n\npio submit\n\n\nSubmit a Spark job",
             "title": "All Commands"
         },
         {
@@ -112,7 +112,7 @@
         },
         {
             "location": "/commands/#pipelineio-cli-configuration",
-            "text": "Command  Description      pio init-pio  Initialize PIO CLI    pio config  View current configuration    pio get-config-value  Get value for config key    pio set-config-value  Set value for config key",
+            "text": "Command  Description      pio init-pio  Initialize PIO CLI    pio config  View current configuration    pio config-get-value  Get value for config key    pio config-set-value  Set value for config key",
             "title": "PipelineIO CLI Configuration"
         },
         {
@@ -211,72 +211,72 @@
             "title": "Help make this document better"
         },
         {
-            "location": "/commands/get-config-value/",
+            "location": "/commands/config-get-value/",
             "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
-            "title": "pio get-config-value"
+            "title": "pio config-get-value"
         },
         {
-            "location": "/commands/get-config-value/#usage",
+            "location": "/commands/config-get-value/#usage",
             "text": "pio deploy",
             "title": "Usage"
         },
         {
-            "location": "/commands/get-config-value/#optional-parameters",
+            "location": "/commands/config-get-value/#optional-parameters",
             "text": "Name, shorthand  Default  Description",
             "title": "(Optional) Parameters"
         },
         {
-            "location": "/commands/get-config-value/#description",
+            "location": "/commands/config-get-value/#description",
             "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
             "title": "Description"
         },
         {
-            "location": "/commands/get-config-value/#initialize-model",
+            "location": "/commands/config-get-value/#initialize-model",
             "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
             "title": "Initialize Model"
         },
         {
-            "location": "/commands/get-config-value/#examples",
+            "location": "/commands/config-get-value/#examples",
             "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
             "title": "Examples"
         },
         {
-            "location": "/commands/get-config-value/#help-make-this-document-better",
+            "location": "/commands/config-get-value/#help-make-this-document-better",
             "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
             "title": "Help make this document better"
         },
         {
-            "location": "/commands/set-config-value/",
-            "text": "Deploy a PipelineIO model.\n\n\nUsage\n\n\npio deploy \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
-            "title": "pio set-config-value"
+            "location": "/commands/config-set-value/",
+            "text": "Set a config value by key.\n\n\nUsage\n\n\npio config-set-value \n\n\n\n\n(Optional) Parameters\n\n\n\n\n\n\n\n\nName, shorthand\n\n\nDefault\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDescription\n\n\nPipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers. \n\n\nInitialize Model\n\n\nYou must use \npio init-model\n before deploying the model.  See the PipelineIO CLI command \ninit-model\n for more details.\n\n\nExamples\n\n\nDeploy a PipelineIO Model\n\n\n$ pio init-model ... \n$ pio deploy\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "pio config-set-value"
         },
         {
-            "location": "/commands/set-config-value/#usage",
-            "text": "pio deploy",
+            "location": "/commands/config-set-value/#usage",
+            "text": "pio config-set-value",
             "title": "Usage"
         },
         {
-            "location": "/commands/set-config-value/#optional-parameters",
+            "location": "/commands/config-set-value/#optional-parameters",
             "text": "Name, shorthand  Default  Description",
             "title": "(Optional) Parameters"
         },
         {
-            "location": "/commands/set-config-value/#description",
+            "location": "/commands/config-set-value/#description",
             "text": "PipelineIO tracks models based on the location of your code. \nThis command initializes a new project at the current directory and tracks all files and subdirectories. \nThese files will be uploaded when you deploy your model to the PipelineIO Servers.",
             "title": "Description"
         },
         {
-            "location": "/commands/set-config-value/#initialize-model",
+            "location": "/commands/config-set-value/#initialize-model",
             "text": "You must use  pio init-model  before deploying the model.  See the PipelineIO CLI command  init-model  for more details.",
             "title": "Initialize Model"
         },
         {
-            "location": "/commands/set-config-value/#examples",
+            "location": "/commands/config-set-value/#examples",
             "text": "Deploy a PipelineIO Model  $ pio init-model ... \n$ pio deploy",
             "title": "Examples"
         },
         {
-            "location": "/commands/set-config-value/#help-make-this-document-better",
+            "location": "/commands/config-set-value/#help-make-this-document-better",
             "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
             "title": "Help make this document better"
         },

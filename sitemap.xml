@@ -66,13 +66,13 @@
     </url>
         
     <url>
-     <loc>http://www.pipeline.io/commands/get-config-value/</loc>
+     <loc>http://www.pipeline.io/commands/config-get-value/</loc>
      <lastmod>2017-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.pipeline.io/commands/set-config-value/</loc>
+     <loc>http://www.pipeline.io/commands/config-set-value/</loc>
      <lastmod>2017-05-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
