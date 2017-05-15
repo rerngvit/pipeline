@@ -43,6 +43,14 @@
 
     
     <url>
+     <loc>http://pipeline.io/home/gpus/</loc>
+     <lastmod>2017-05-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>http://pipeline.io/guides/contributing/</loc>
      <lastmod>2017-05-15</lastmod>
      <changefreq>daily</changefreq>

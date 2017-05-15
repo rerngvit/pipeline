@@ -7,7 +7,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
-        <link rel="canonical" href="http://pipeline.io/home/getting_started/">
+        <link rel="canonical" href="http://pipeline.io/home/gpus/">
       
       
         <meta name="author" content="PipelineIO">
@@ -19,7 +19,7 @@
     
     
       
-        <title>Getting Started - PipelineIO</title>
+        <title>GPUs - PipelineIO</title>
       
     
     
@@ -85,7 +85,7 @@
             
               
             
-            Getting Started
+            GPUs
           
         </span>
       </div>
@@ -195,42 +195,9 @@
       
   <li class="md-nav__item">
     
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="toc">
+      <a href="../getting_started/" title="Getting Started" class="md-nav__link">
         Getting Started
-      </label>
-    
-    <a href="./" title="Getting Started" class="md-nav__link md-nav__link--active">
-      Getting Started
-    </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-  
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#login-to-pipelineio" title="Login to PipelineIO" class="md-nav__link">
-    Login to PipelineIO
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#help-make-this-document-better" title="Help make this document better" class="md-nav__link">
-    Help make this document better
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
+      </a>
     
   </li>
 
@@ -272,9 +239,60 @@
       
   <li class="md-nav__item">
     
-      <a href="../gpus/" title="GPUs" class="md-nav__link">
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
         GPUs
-      </a>
+      </label>
+    
+    <a href="./" title="GPUs" class="md-nav__link md-nav__link--active">
+      GPUs
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#docker-images" title="Docker Images" class="md-nav__link">
+    Docker Images
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conference-and-meetup-talks" title="Conference and Meetup Talks" class="md-nav__link">
+    Conference and Meetup Talks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#everything-gpu-related-in-our-github-repo" title="Everything GPU-related in our GitHub Repo!" class="md-nav__link">
+    Everything GPU-related in our GitHub Repo!
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#help-make-this-document-better" title="Help make this document better" class="md-nav__link">
+    Help make this document better
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -347,13 +365,29 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#login-to-pipelineio" title="Login to PipelineIO" class="md-nav__link">
-    Login to PipelineIO
+  <a href="#docker-images" title="Docker Images" class="md-nav__link">
+    Docker Images
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conference-and-meetup-talks" title="Conference and Meetup Talks" class="md-nav__link">
+    Conference and Meetup Talks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#everything-gpu-related-in-our-github-repo" title="Everything GPU-related in our GitHub Repo!" class="md-nav__link">
+    Everything GPU-related in our GitHub Repo!
   </a>
   
 </li>
@@ -376,16 +410,21 @@
           <div class="md-content">
             <article class="md-content__inner md-typeset">
                
-                 <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/home/getting_started.md" title="Edit this page" class="md-icon md-content__edit">edit</a>
+                 <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/home/gpus.md" title="Edit this page" class="md-icon md-content__edit">edit</a>
                
               
                 
-                  <h1>Getting Started</h1>
-                
-                <h2 id="login-to-pipelineio">Login to PipelineIO</h2>
-<pre><code>http://jupyter.demo.pipeline.io
-</code></pre>
-
+                <h1 id="gpus">GPUs</h1>
+<p>PipelineIO supports GPUs natively throughout the entire platform.</p>
+<p>Here are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate our support for GPUs.</p>
+<h2 id="docker-images">Docker Images</h2>
+<p><a href="https://github.com/fluxcapacitor/pipeline/wiki/AWS-GPU-Tensorflow-Docker">AWS GPU + Tensorflow + Spark + HDFS + Docker</a></p>
+<p><a href="https://github.com/fluxcapacitor/pipeline/wiki/GCP-GPU-Tensorflow-Docker">Google Cloud GPU + Tensorflow + Spark + HDFS + Docker</a></p>
+<h2 id="conference-and-meetup-talks">Conference and Meetup Talks</h2>
+<p><a href="https://www.slideshare.net/cfregly/high-performance-distributed-tensorflow-with-gpus-nvidia-gpu-tech-conference-may-08-2017">GPU Tech Conference - San Jose - May 2017 (Slides)</a></p>
+<p><a href="https://www.youtube.com/watch?v=TuGszWtR0ss">PyData London - May 2017 (Video)</a></p>
+<h2 id="everything-gpu-related-in-our-github-repo">Everything GPU-related in our GitHub Repo!</h2>
+<p><a href="https://github.com/fluxcapacitor/pipeline/tree/master/gpu.ml">gpu.ml</a></p>
 <hr />
 <h2 id="help-make-this-document-better">Help make this document better</h2>
 <p>This guide, as well as the rest of our docs, are open-source and available on 
@@ -406,7 +445,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../.." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../commands/" title="CLI Commands" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -415,19 +454,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Home
+                CLI Commands
               </span>
             </div>
           </a>
         
         
-          <a href="../environments/" title="Supported Models" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../guides/contributing/" title="Contributing" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Supported Models
+                Contributing
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
