@@ -135,7 +135,7 @@
       </div>
     
     <div class="md-source__repository">
-      GitHub
+      fluxcapacitor/pipeline
     </div>
   </a>
 
@@ -182,7 +182,7 @@
       </div>
     
     <div class="md-source__repository">
-      GitHub
+      fluxcapacitor/pipeline
     </div>
   </a>
 
@@ -566,8 +566,8 @@
                   <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/model_deploy/index.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
                 
                 
-                <h1 id="deploy-and-test-mlai-models">Deploy and Test ML/AI Models</h1>
-<h2 id="supported-model-types">Supported Model Types</h2>
+                <h1 id="deploy-and-test-mlai-models">Deploy and Test ML/AI Models<a class="headerlink" href="#deploy-and-test-mlai-models" title="Permanent link">&para;</a></h1>
+<h2 id="supported-model-types">Supported Model Types<a class="headerlink" href="#supported-model-types" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Scikit-Learn</li>
 <li>R</li>
@@ -579,130 +579,115 @@
 <li>PMML</li>
 <li>Ensembles</li>
 </ul>
-<h3 id="initialize-model">Initialize Model</h3>
-<pre><code>pio init-model --model-server-url &lt;model_server_url&gt; \
+<h3 id="initialize-model">Initialize Model<a class="headerlink" href="#initialize-model" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span>pio init-model --model-server-url &lt;model_server_url&gt; \
                --model-type &lt;model_type&gt; \
                --model-namespace &lt;model_namespace&gt; \
                --model_name &lt;model_name&gt; \
                --model-version &lt;model_version&gt; \
                --model-path /path/to/model \
                --model-test-input-path /path/to/test/inputs
-</code></pre>
+</pre></div>
 
-<h3 id="deploy-model">Deploy Model</h3>
-<pre><code>pio deploy
-</code></pre>
+<h3 id="deploy-model">Deploy Model<a class="headerlink" href="#deploy-model" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span>pio deploy
+</pre></div>
 
-<h3 id="predict-model">Predict Model</h3>
-<pre><code>pio predict
-</code></pre>
+<h3 id="predict-model">Predict Model<a class="headerlink" href="#predict-model" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span>pio predict
+</pre></div>
 
-<h2 id="examples">Examples</h2>
-<pre><code>git clone https://github.com/fluxcapacitor/source.ml
-</code></pre>
+<h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span>git clone https://github.com/fluxcapacitor/source.ml
+</pre></div>
 
-<h3 id="tensorflow">TensorFlow</h3>
+<h3 id="tensorflow">TensorFlow<a class="headerlink" href="#tensorflow" title="Permanent link">&para;</a></h3>
 <p>model_type: <code>tensorflow</code></p>
-<p>Initialize Model</p>
-<pre><code>pio init-model --model-server-url http://your.model.server.com \
+<p>Initialize Model
+<div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type tensorflow \
                --model-namespace default \
                --model-name tensorflow_linear \
                --model-version 0 \
                --model-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \
                --model-test-input-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt
-</code></pre>
-
-<p>Deploy Model</p>
-<pre><code>pio deploy
-</code></pre>
-
-<p>Predict Model</p>
-<pre><code>pio predict
-</code></pre>
-
-<h3 id="scikit-learn">Scikit-Learn</h3>
+</pre></div></p>
+<p>Deploy Model
+<div class="codehilite"><pre><span></span>pio deploy
+</pre></div></p>
+<p>Predict Model
+<div class="codehilite"><pre><span></span>pio predict
+</pre></div></p>
+<h3 id="scikit-learn">Scikit-Learn<a class="headerlink" href="#scikit-learn" title="Permanent link">&para;</a></h3>
 <p>model_type: <code>scikit</code></p>
-<p>Initialize Model</p>
-<pre><code>pio init-model --model-server-url http://your.model.server.com \
+<p>Initialize Model
+<div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type scikit \
                --model-namespace default \
                --model-name scikit_linear \
                --model-version v0 \
                --model-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \
                --model-test-input-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt
-</code></pre>
-
-<p>Deploy Model</p>
-<pre><code>pio deploy
-</code></pre>
-
-<p>Predict Model</p>
-<pre><code>pio predict
-</code></pre>
-
-<h2 id="spark-ml">Spark ML</h2>
+</pre></div></p>
+<p>Deploy Model
+<div class="codehilite"><pre><span></span>pio deploy
+</pre></div></p>
+<p>Predict Model
+<div class="codehilite"><pre><span></span>pio predict
+</pre></div></p>
+<h2 id="spark-ml">Spark ML<a class="headerlink" href="#spark-ml" title="Permanent link">&para;</a></h2>
 <p>model_type: <code>spark</code></p>
-<p>Initialize Model</p>
-<pre><code>pio init-model --model-server-url http://your.model.server.com \
+<p>Initialize Model
+<div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type spark \
                --model-namespace default \
                --model-name spark_airbnb 
                --model-version v0 \
                --model-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \
                --model-test-input-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt
-</code></pre>
-
-<p>Deploy Model</p>
-<pre><code>pio deploy
-</code></pre>
-
-<p>Predict Model</p>
-<pre><code>pio predict
-</code></pre>
-
-<h3 id="python3">Python3</h3>
+</pre></div></p>
+<p>Deploy Model
+<div class="codehilite"><pre><span></span>pio deploy
+</pre></div></p>
+<p>Predict Model
+<div class="codehilite"><pre><span></span>pio predict
+</pre></div></p>
+<h3 id="python3">Python3<a class="headerlink" href="#python3" title="Permanent link">&para;</a></h3>
 <p>model_type: <code>python3</code></p>
-<p>Initialize Model</p>
-<pre><code>pio init-model --model-server-url http://your.model.server.com \
+<p>Initialize Model
+<div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type python3 \
                --model-namespace default \
                --model-name python3_zscore \
                --model-version v0 \
                --model-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \
                --model-test-input-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt
-</code></pre>
-
-<p>Deploy Model</p>
-<pre><code>pio deploy
-</code></pre>
-
-<p>Predict Model</p>
-<pre><code>pio predict
-</code></pre>
-
-<h3 id="pmml">PMML</h3>
+</pre></div></p>
+<p>Deploy Model
+<div class="codehilite"><pre><span></span>pio deploy
+</pre></div></p>
+<p>Predict Model
+<div class="codehilite"><pre><span></span>pio predict
+</pre></div></p>
+<h3 id="pmml">PMML<a class="headerlink" href="#pmml" title="Permanent link">&para;</a></h3>
 <p>model_type: <code>pmml</code></p>
-<p>Initialize Model</p>
-<pre><code>pio init-model --model-server-url http://your.model.server.com \
+<p>Initialize Model
+<div class="codehilite"><pre><span></span>pio init-model --model-server-url http://your.model.server.com \
                --model-type pmml \
                --model-namespace default \
                --model-name pmml_airbnb \
                --model-version v0 \
                --model-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0 \
                --model-test-input-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0/test_inputs.txt
-</code></pre>
-
-<p>Deploy Model</p>
-<pre><code>pio deploy
-</code></pre>
-
-<p>Predict Model</p>
-<pre><code>pio predict
-</code></pre>
-
+</pre></div></p>
+<p>Deploy Model
+<div class="codehilite"><pre><span></span>pio deploy
+</pre></div></p>
+<p>Predict Model
+<div class="codehilite"><pre><span></span>pio predict
+</pre></div></p>
 <hr />
-<h2 id="help-make-this-document-better">Help make this document better</h2>
+<h2 id="help-make-this-document-better">Help make this document better<a class="headerlink" href="#help-make-this-document-better" title="Permanent link">&para;</a></h2>
 <p>This guide, as well as the rest of our docs, are open-source and available on 
 <a href="https://github.com/fluxcapacitor/pipeline/docs">GitHub</a>. We welcome your contributions.</p>
 <ul>
