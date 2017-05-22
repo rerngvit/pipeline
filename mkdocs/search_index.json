@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to PipelineIO!\n\n\nWhat is PipelineIO?\n\n\nPipelineIO\n is an end-to-end, highly-scalable, highly-available, GPU-based machine learning and artificial intelligence model training and deployment platform.\n\n\nPipelineIO, our employees, our advisors, our investors, and our media activity are listed on \nCrunchbase\n along with 1000's of our \nglobal enterprise users and customers\n.\n\n\nClick \nhere\n to get started with either our free \nCommunity Edition\n, our upgraded \nProfessional Edition\n, or the complete \nEnterprise Edition\n.\n\n\n24x7 Global Support\n\n\nCheck out the \nPipelineIO Support Forum\n for discussions, feature requests, and 24x7 support from San Francisco-based PipelineIO and 1000's of global PipelineIO users and customers.\n\n\nWhile we absolutely treat all support requests as high priority, dedicated enterprise-level support is available.\n\n\nMore Info?\n\n\nEmail us at \nhelp@pipeline.io\n and we'll get right back to you!\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "text": "Welcome to PipelineIO!\n\n\nWhat is PipelineIO?\n\n\nPipelineIO\n is an end-to-end, highly-scalable, highly-available, GPU-based machine learning and artificial intelligence model training and deployment platform.\n\n\nPipelineIO, our employees, our advisors, our investors, and our media activity are listed on \nCrunchbase\n along with 1000's of our \nglobal enterprise users and customers\n.\n\n\nClick \nhere\n to get started with either our free \nCommunity Edition\n, our upgraded \nProfessional Edition\n, or our complete \nEnterprise Edition\n.\n\n\n24x7 Global Support\n\n\nCheck out the \nPipelineIO Support Forum\n for discussions, feature requests, and 24x7 support from San Francisco-based PipelineIO and 1000's of global PipelineIO users and customers.\n\n\nWhile all support requests are high priority, we offer dedicated \nenterprise-level support\n, as well.\n\n\nMore Info?\n\n\nEmail us at \nhelp@pipeline.io\n and we'll get right back to you!\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Home"
         },
         {
@@ -12,12 +12,12 @@
         },
         {
             "location": "/#what-is-pipelineio",
-            "text": "PipelineIO  is an end-to-end, highly-scalable, highly-available, GPU-based machine learning and artificial intelligence model training and deployment platform.  PipelineIO, our employees, our advisors, our investors, and our media activity are listed on  Crunchbase  along with 1000's of our  global enterprise users and customers .  Click  here  to get started with either our free  Community Edition , our upgraded  Professional Edition , or the complete  Enterprise Edition .",
+            "text": "PipelineIO  is an end-to-end, highly-scalable, highly-available, GPU-based machine learning and artificial intelligence model training and deployment platform.  PipelineIO, our employees, our advisors, our investors, and our media activity are listed on  Crunchbase  along with 1000's of our  global enterprise users and customers .  Click  here  to get started with either our free  Community Edition , our upgraded  Professional Edition , or our complete  Enterprise Edition .",
             "title": "What is PipelineIO?"
         },
         {
             "location": "/#24x7-global-support",
-            "text": "Check out the  PipelineIO Support Forum  for discussions, feature requests, and 24x7 support from San Francisco-based PipelineIO and 1000's of global PipelineIO users and customers.  While we absolutely treat all support requests as high priority, dedicated enterprise-level support is available.",
+            "text": "Check out the  PipelineIO Support Forum  for discussions, feature requests, and 24x7 support from San Francisco-based PipelineIO and 1000's of global PipelineIO users and customers.  While all support requests are high priority, we offer dedicated  enterprise-level support , as well.",
             "title": "24x7 Global Support"
         },
         {
@@ -32,23 +32,43 @@
         },
         {
             "location": "/getting_started/",
-            "text": "PipelineIO Community Edition\n\n\n\n\nHosted in Shared PipelineIO Environment\n\n\nTrain and Deploy All Major Model Types\n\n\nSupports Spark ML, TensorFlow AI, Scikit-Learn, R, Xgboost, Ensembles, Ad-hoc Python, Ad-hoc Python, PMML\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nPipelineIO Professional Edition\n\n\n\n\nIncludes everything from PipelineIO Community Edition\n\n\nHosted in Your Own Cloud or On-Premise Environment\n\n\nEasy One-Click Installation\n\n\nPre-built Docker-based and Cloud-based Images \n\n\nDeploy in All Major Cloud Providers (AWS, Google, Azure) and On-Premise\n\n\n24x7 Global Support, 24 hour Response SLA\n\n\n4 Training Hours Included (Online)\n\n\nFlexible Auto-Scaling and Spot-Pricing Policies\n\n\nAdvanced Admin UI including Cluster and Model Management\n\n\nContinuous, Online Model Training and Deployment Pipelines\n\n\nA/B and Multi-armed Bandit Model Testing\n\n\nCanary Model Deployments including Traffic Splitting and Shadowing\n\n\nAutomated Model Hyper-Parameter Tuning \n\n\nAutomated Model Optimizations including Native CPU x86 SSE2/AVX2/FMA and GPU PTX Instruction Set Architectures\n\n\nEnd-to-End Pipeline Monitoring of all Metrics including Model Prediction Latencies, GPU and CPU System Metrics, and Cluster Health\n\n\nAutomated Circuit Breakers to Control Overall System Health\n\n\nReal-time Dashboards for All Metrics and Circuit Breakers\n\n\n\n\nContact \nsales@pipeline.io\n for demo and pricing information.\n\n\nPipelineIO Enterprise Edition\n\n\n\n\nIncludes everything from PipelineIO Professional Edition\n\n\n24x7 Global Support, 8 hour Response SLA \n\n\n32 Training Hours Included (On-site or Online)\n\n\nDeploy in Hybrid Cloud and On-Premise Environment for Maximum High Availability\n\n\nAutomatic Traffic Shifting Between Hybrid Cloud and On-Premise Deployments for Maxmium Cost Savings\n\n\n\n\nContact \nsales@pipeline.io\n for demo and pricing information.\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "text": "Getting Started\n\n\nPipelineIO Community Edition\n\n\n\n\nHosted in Shared PipelineIO Environment\n\n\nTrain and Deploy All Major Model Types\n\n\nSupports Spark ML, TensorFlow AI, Scikit-Learn, R, Xgboost, Ensembles, Ad-hoc Python, Ad-hoc Python, PMML\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nPipelineIO Professional Edition\n\n\n\n\nIncludes everything from PipelineIO Community Edition\n\n\nHosted in Your Own Cloud or On-Premise Environment\n\n\nEasy One-Click Installation\n\n\nPre-built Docker-based and Cloud-based Images \n\n\nDeploy in All Major Cloud Providers (AWS, Google, Azure) and On-Premise\n\n\n24x7 Global Support, 24 hour Response SLA\n\n\n4 Training Hours Included (Online)\n\n\nFlexible Auto-Scaling and Spot-Pricing Policies\n\n\nAdvanced Admin UI including Cluster and Model Management\n\n\nContinuous, Online Model Training and Deployment Pipelines\n\n\nA/B and Multi-armed Bandit Model Testing\n\n\nCanary Model Deployments including Traffic Splitting and Shadowing\n\n\nAutomated Model Hyper-Parameter Tuning \n\n\nAutomated Model Optimizations including Native CPU x86 SSE2/AVX2/FMA and GPU PTX Instruction Set Architectures\n\n\nEnd-to-End Pipeline Monitoring of all Metrics including Model Prediction Latencies, GPU and CPU System Metrics, and Cluster Health\n\n\nAutomated Circuit Breakers to Control Overall System Health\n\n\nReal-time Dashboards for All Metrics and Circuit Breakers\n\n\n\n\nContact \nsales@pipeline.io\n for demo and pricing information.\n\n\nPipelineIO Enterprise Edition\n\n\n\n\nIncludes everything from PipelineIO Professional Edition\n\n\n24x7 Global Support, 8 hour Response SLA \n\n\n32 Training Hours Included (On-site or Online)\n\n\nDeploy in Hybrid Cloud and On-Premise Environment for Maximum High Availability\n\n\nAutomatic Traffic Shifting Between Hybrid Cloud and On-Premise Deployments for Maxmium Cost Savings\n\n\n\n\nContact \nsales@pipeline.io\n for demo and pricing information.\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "Getting Started"
+        },
+        {
+            "location": "/getting_started/#getting-started",
+            "text": "",
             "title": "Getting Started"
         },
         {
             "location": "/getting_started/#pipelineio-community-edition",
-            "text": "Hosted in Shared PipelineIO Environment  Train and Deploy All Major Model Types  Supports Spark ML, TensorFlow AI, Scikit-Learn, R, Xgboost, Ensembles, Ad-hoc Python, Ad-hoc Python, PMML   Click  here  to signup and start deploying models!",
+            "text": "Hosted in Shared PipelineIO Environment  Train and Deploy All Major Model Types  Supports Spark ML, TensorFlow AI, Scikit-Learn, R, Xgboost, Ensembles, Ad-hoc Python, Ad-hoc Python, PMML",
             "title": "PipelineIO Community Edition"
         },
         {
+            "location": "/getting_started/#click-here-to-signup-and-start-deploying-models",
+            "text": "",
+            "title": "Click here to signup and start deploying models!"
+        },
+        {
             "location": "/getting_started/#pipelineio-professional-edition",
-            "text": "Includes everything from PipelineIO Community Edition  Hosted in Your Own Cloud or On-Premise Environment  Easy One-Click Installation  Pre-built Docker-based and Cloud-based Images   Deploy in All Major Cloud Providers (AWS, Google, Azure) and On-Premise  24x7 Global Support, 24 hour Response SLA  4 Training Hours Included (Online)  Flexible Auto-Scaling and Spot-Pricing Policies  Advanced Admin UI including Cluster and Model Management  Continuous, Online Model Training and Deployment Pipelines  A/B and Multi-armed Bandit Model Testing  Canary Model Deployments including Traffic Splitting and Shadowing  Automated Model Hyper-Parameter Tuning   Automated Model Optimizations including Native CPU x86 SSE2/AVX2/FMA and GPU PTX Instruction Set Architectures  End-to-End Pipeline Monitoring of all Metrics including Model Prediction Latencies, GPU and CPU System Metrics, and Cluster Health  Automated Circuit Breakers to Control Overall System Health  Real-time Dashboards for All Metrics and Circuit Breakers   Contact  sales@pipeline.io  for demo and pricing information.",
+            "text": "Includes everything from PipelineIO Community Edition  Hosted in Your Own Cloud or On-Premise Environment  Easy One-Click Installation  Pre-built Docker-based and Cloud-based Images   Deploy in All Major Cloud Providers (AWS, Google, Azure) and On-Premise  24x7 Global Support, 24 hour Response SLA  4 Training Hours Included (Online)  Flexible Auto-Scaling and Spot-Pricing Policies  Advanced Admin UI including Cluster and Model Management  Continuous, Online Model Training and Deployment Pipelines  A/B and Multi-armed Bandit Model Testing  Canary Model Deployments including Traffic Splitting and Shadowing  Automated Model Hyper-Parameter Tuning   Automated Model Optimizations including Native CPU x86 SSE2/AVX2/FMA and GPU PTX Instruction Set Architectures  End-to-End Pipeline Monitoring of all Metrics including Model Prediction Latencies, GPU and CPU System Metrics, and Cluster Health  Automated Circuit Breakers to Control Overall System Health  Real-time Dashboards for All Metrics and Circuit Breakers",
             "title": "PipelineIO Professional Edition"
         },
         {
+            "location": "/getting_started/#contact-salespipelineio-for-demo-and-pricing-information",
+            "text": "",
+            "title": "Contact sales@pipeline.io for demo and pricing information."
+        },
+        {
             "location": "/getting_started/#pipelineio-enterprise-edition",
-            "text": "Includes everything from PipelineIO Professional Edition  24x7 Global Support, 8 hour Response SLA   32 Training Hours Included (On-site or Online)  Deploy in Hybrid Cloud and On-Premise Environment for Maximum High Availability  Automatic Traffic Shifting Between Hybrid Cloud and On-Premise Deployments for Maxmium Cost Savings   Contact  sales@pipeline.io  for demo and pricing information.",
+            "text": "Includes everything from PipelineIO Professional Edition  24x7 Global Support, 8 hour Response SLA   32 Training Hours Included (On-site or Online)  Deploy in Hybrid Cloud and On-Premise Environment for Maximum High Availability  Automatic Traffic Shifting Between Hybrid Cloud and On-Premise Deployments for Maxmium Cost Savings",
             "title": "PipelineIO Enterprise Edition"
+        },
+        {
+            "location": "/getting_started/#contact-salespipelineio-for-demo-and-pricing-information_1",
+            "text": "",
+            "title": "Contact sales@pipeline.io for demo and pricing information."
         },
         {
             "location": "/getting_started/#help-make-this-document-better",
@@ -117,7 +137,7 @@
         },
         {
             "location": "/model_deploy/",
-            "text": "Deploy and Test ML/AI Models\n\n\nSupported Model Types\n\n\n\n\nScikit-Learn\n\n\nR\n\n\nSpark ML\n\n\nTensorFlow\n\n\nXGBoost\n\n\nPython3\n\n\nJava\n\n\nPMML\n\n\nEnsembles\n\n\n\n\nInitialize Model\n\n\npio init-model --model-server-url <model_server_url> \\\n               --model-type <model_type> \\\n               --model-namespace <model_namespace> \\\n               --model_name <model_name> \\\n               --model-version <model_version> \\\n               --model-path /path/to/model \\\n               --model-test-input-path /path/to/test/inputs\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\nExamples\n\n\ngit clone https://github.com/fluxcapacitor/source.ml\n\n\n\n\nTensorFlow\n\n\nmodel_type: \ntensorflow\n\n\nStart Model Server\n\n\npio start prediction-tensorflow\n\n\n\n\nInitialize Model\n\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type tensorflow \\\n               --model-namespace default \\\n               --model-name tensorflow_linear \\\n               --model-version 0 \\\n               --model-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\nScikit-Learn\n\n\nmodel_type: \nscikit\n\n\nStart Model Server\n\n\npio start prediction-scikit\n\n\n\n\nInitialize Model\n\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type scikit \\\n               --model-namespace default \\\n               --model-name scikit_linear \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\nSpark ML\n\n\nmodel_type: \nspark\n\n\nStart Model Server\n\n\npio start prediction-spark\n\n\n\n\nInitialize Model\n\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type spark \\\n               --model-namespace default \\\n               --model-name spark_airbnb \n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\nPython3\n\n\nmodel_type: \npython3\n\n\nStart Model Server\n\n\npio start prediction-python3\n\n\n\n\nInitialize Model\n\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type python3 \\\n               --model-namespace default \\\n               --model-name python3_zscore \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\nPMML\n\n\nmodel_type: \npmml\n\n\nStart Model Server\n\n\npio start prediction-pmml\n\n\n\n\nInitialize Model\n\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type pmml \\\n               --model-namespace default \\\n               --model-name pmml_airbnb \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0/test_inputs.txt\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "text": "Deploy and Test ML/AI Models\n\n\nSupported Model Types\n\n\n\n\nScikit-Learn\n\n\nR\n\n\nSpark ML\n\n\nTensorFlow\n\n\nXGBoost\n\n\nPython3\n\n\nJava\n\n\nPMML\n\n\nEnsembles\n\n\n\n\nInitialize Model\n\n\npio init-model --model-server-url <model_server_url> \\\n               --model-type <model_type> \\\n               --model-namespace <model_namespace> \\\n               --model_name <model_name> \\\n               --model-version <model_version> \\\n               --model-path /path/to/model \\\n               --model-test-input-path /path/to/test/inputs\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\nExamples\n\n\ngit clone https://github.com/fluxcapacitor/source.ml\n\n\n\n\nTensorFlow\n\n\nmodel_type: \ntensorflow\n\n\nInitialize Model\n\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type tensorflow \\\n               --model-namespace default \\\n               --model-name tensorflow_linear \\\n               --model-version 0 \\\n               --model-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\nScikit-Learn\n\n\nmodel_type: \nscikit\n\n\nInitialize Model\n\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type scikit \\\n               --model-namespace default \\\n               --model-name scikit_linear \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\nSpark ML\n\n\nmodel_type: \nspark\n\n\nInitialize Model\n\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type spark \\\n               --model-namespace default \\\n               --model-name spark_airbnb \n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\nPython3\n\n\nmodel_type: \npython3\n\n\nInitialize Model\n\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type python3 \\\n               --model-namespace default \\\n               --model-name python3_zscore \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\nPMML\n\n\nmodel_type: \npmml\n\n\nInitialize Model\n\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type pmml \\\n               --model-namespace default \\\n               --model-name pmml_airbnb \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0/test_inputs.txt\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Deploying a Model"
         },
         {
@@ -152,128 +172,28 @@
         },
         {
             "location": "/model_deploy/#tensorflow",
-            "text": "model_type:  tensorflow",
+            "text": "model_type:  tensorflow  Initialize Model  pio init-model --model-server-url http://your.model.server.com \\\n               --model-type tensorflow \\\n               --model-namespace default \\\n               --model-name tensorflow_linear \\\n               --model-version 0 \\\n               --model-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt  Deploy Model  pio deploy  Predict Model  pio predict",
             "title": "TensorFlow"
         },
         {
-            "location": "/model_deploy/#start-model-server",
-            "text": "pio start prediction-tensorflow",
-            "title": "Start Model Server"
-        },
-        {
-            "location": "/model_deploy/#initialize-model_1",
-            "text": "pio init-model --model-server-url http://your.model.server.com \\\n               --model-type tensorflow \\\n               --model-namespace default \\\n               --model-name tensorflow_linear \\\n               --model-version 0 \\\n               --model-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt",
-            "title": "Initialize Model"
-        },
-        {
-            "location": "/model_deploy/#deploy-model_1",
-            "text": "pio deploy",
-            "title": "Deploy Model"
-        },
-        {
-            "location": "/model_deploy/#predict-model_1",
-            "text": "pio predict",
-            "title": "Predict Model"
-        },
-        {
             "location": "/model_deploy/#scikit-learn",
-            "text": "model_type:  scikit",
+            "text": "model_type:  scikit  Initialize Model  pio init-model --model-server-url http://your.model.server.com \\\n               --model-type scikit \\\n               --model-namespace default \\\n               --model-name scikit_linear \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt  Deploy Model  pio deploy  Predict Model  pio predict",
             "title": "Scikit-Learn"
         },
         {
-            "location": "/model_deploy/#start-model-server_1",
-            "text": "pio start prediction-scikit",
-            "title": "Start Model Server"
-        },
-        {
-            "location": "/model_deploy/#initialize-model_2",
-            "text": "pio init-model --model-server-url http://your.model.server.com \\\n               --model-type scikit \\\n               --model-namespace default \\\n               --model-name scikit_linear \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt",
-            "title": "Initialize Model"
-        },
-        {
-            "location": "/model_deploy/#deploy-model_2",
-            "text": "pio deploy",
-            "title": "Deploy Model"
-        },
-        {
-            "location": "/model_deploy/#predict-model_2",
-            "text": "pio predict",
-            "title": "Predict Model"
-        },
-        {
             "location": "/model_deploy/#spark-ml",
-            "text": "model_type:  spark",
+            "text": "model_type:  spark  Initialize Model  pio init-model --model-server-url http://your.model.server.com \\\n               --model-type spark \\\n               --model-namespace default \\\n               --model-name spark_airbnb \n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt  Deploy Model  pio deploy  Predict Model  pio predict",
             "title": "Spark ML"
         },
         {
-            "location": "/model_deploy/#start-model-server_2",
-            "text": "pio start prediction-spark",
-            "title": "Start Model Server"
-        },
-        {
-            "location": "/model_deploy/#initialize-model_3",
-            "text": "pio init-model --model-server-url http://your.model.server.com \\\n               --model-type spark \\\n               --model-namespace default \\\n               --model-name spark_airbnb \n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt",
-            "title": "Initialize Model"
-        },
-        {
-            "location": "/model_deploy/#deploy-model_3",
-            "text": "pio deploy",
-            "title": "Deploy Model"
-        },
-        {
-            "location": "/model_deploy/#predict-model_3",
-            "text": "pio predict",
-            "title": "Predict Model"
-        },
-        {
             "location": "/model_deploy/#python3",
-            "text": "model_type:  python3",
+            "text": "model_type:  python3  Initialize Model  pio init-model --model-server-url http://your.model.server.com \\\n               --model-type python3 \\\n               --model-namespace default \\\n               --model-name python3_zscore \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt  Deploy Model  pio deploy  Predict Model  pio predict",
             "title": "Python3"
         },
         {
-            "location": "/model_deploy/#start-model-server_3",
-            "text": "pio start prediction-python3",
-            "title": "Start Model Server"
-        },
-        {
-            "location": "/model_deploy/#initialize-model_4",
-            "text": "pio init-model --model-server-url http://your.model.server.com \\\n               --model-type python3 \\\n               --model-namespace default \\\n               --model-name python3_zscore \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt",
-            "title": "Initialize Model"
-        },
-        {
-            "location": "/model_deploy/#deploy-model_4",
-            "text": "pio deploy",
-            "title": "Deploy Model"
-        },
-        {
-            "location": "/model_deploy/#predict-model_4",
-            "text": "pio predict",
-            "title": "Predict Model"
-        },
-        {
             "location": "/model_deploy/#pmml",
-            "text": "model_type:  pmml",
+            "text": "model_type:  pmml  Initialize Model  pio init-model --model-server-url http://your.model.server.com \\\n               --model-type pmml \\\n               --model-namespace default \\\n               --model-name pmml_airbnb \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0/test_inputs.txt  Deploy Model  pio deploy  Predict Model  pio predict",
             "title": "PMML"
-        },
-        {
-            "location": "/model_deploy/#start-model-server_4",
-            "text": "pio start prediction-pmml",
-            "title": "Start Model Server"
-        },
-        {
-            "location": "/model_deploy/#initialize-model_5",
-            "text": "pio init-model --model-server-url http://your.model.server.com \\\n               --model-type pmml \\\n               --model-namespace default \\\n               --model-name pmml_airbnb \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0/test_inputs.txt",
-            "title": "Initialize Model"
-        },
-        {
-            "location": "/model_deploy/#deploy-model_5",
-            "text": "pio deploy",
-            "title": "Deploy Model"
-        },
-        {
-            "location": "/model_deploy/#predict-model_5",
-            "text": "pio predict",
-            "title": "Predict Model"
         },
         {
             "location": "/model_deploy/#help-make-this-document-better",
