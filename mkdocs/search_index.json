@@ -177,13 +177,23 @@
         },
         {
             "location": "/model_train/",
-            "text": "Train Model\n\u00b6\n\n\nBelow is the list of applications and tools supported by PipelineIO.  This set of tools derives from the ridiculously popular PANCAKE STACK made famous in 2016.\n\n\n\n\nAll applications and tools can be auto-scaled across both CPU and GPU nodes in all major cloud provider and on-premise environments.\n\n\n\n\n\n\n\n\nTool\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nairflow\n\n\n\n\n\n\n\n\ncassandra\n\n\n\n\n\n\n\n\nelasticsearch\n\n\n\n\n\n\n\n\nhdfs\n\n\n\n\n\n\n\n\njupyter\n\n\n\n\n\n\n\n\nkafka\n\n\n\n\n\n\n\n\nkibana\n\n\n\n\n\n\n\n\nmetastore\n\n\n\n\n\n\n\n\nmysql\n\n\n\n\n\n\n\n\npresto\n\n\n\n\n\n\n\n\nredis\n\n\n\n\n\n\n\n\nspark\n\n\n\n\n\n\n\n\nzeppelin\n\n\n\n\n\n\n\n\nzookeeper\n\n\n\n\n\n\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "Train Model\n\u00b6\n\n\nApplications and Tools\n\u00b6\n\n\nBelow is the list of applications and tools supported by PipelineIO.  This set of tools derives from the ridiculously popular PANCAKE STACK made famous in 2016.\n\n\n\n\nAll applications and tools can be auto-scaled across both CPU and GPU nodes in all major cloud provider and on-premise environments.\n\n\n\n\n\n\n\n\nTool\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nairflow\n\n\n\n\n\n\n\n\ncassandra\n\n\n\n\n\n\n\n\nelasticsearch\n\n\n\n\n\n\n\n\nhdfs\n\n\n\n\n\n\n\n\njupyter\n\n\n\n\n\n\n\n\nkafka\n\n\n\n\n\n\n\n\nkibana\n\n\n\n\n\n\n\n\nmetastore\n\n\n\n\n\n\n\n\nmysql\n\n\n\n\n\n\n\n\npresto\n\n\n\n\n\n\n\n\nredis\n\n\n\n\n\n\n\n\nspark\n\n\n\n\n\n\n\n\nzeppelin\n\n\n\n\n\n\n\n\nzookeeper\n\n\n\n\n\n\n\n\n\n\nPipelineIO Cluster\n\u00b6\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "Train Model"
         },
         {
             "location": "/model_train/#train-model",
-            "text": "Below is the list of applications and tools supported by PipelineIO.  This set of tools derives from the ridiculously popular PANCAKE STACK made famous in 2016.   All applications and tools can be auto-scaled across both CPU and GPU nodes in all major cloud provider and on-premise environments.     Tool  Description      airflow     cassandra     elasticsearch     hdfs     jupyter     kafka     kibana     metastore     mysql     presto     redis     spark     zeppelin     zookeeper",
+            "text": "",
             "title": "Train Model"
+        },
+        {
+            "location": "/model_train/#applications-and-tools",
+            "text": "Below is the list of applications and tools supported by PipelineIO.  This set of tools derives from the ridiculously popular PANCAKE STACK made famous in 2016.   All applications and tools can be auto-scaled across both CPU and GPU nodes in all major cloud provider and on-premise environments.     Tool  Description      airflow     cassandra     elasticsearch     hdfs     jupyter     kafka     kibana     metastore     mysql     presto     redis     spark     zeppelin     zookeeper",
+            "title": "Applications and Tools"
+        },
+        {
+            "location": "/model_train/#pipelineio-cluster",
+            "text": "",
+            "title": "PipelineIO Cluster"
         },
         {
             "location": "/model_train/#suggest-an-edit",
@@ -302,13 +312,13 @@
         },
         {
             "location": "/model_experiment/",
-            "text": "Model Experiments\n\u00b6\n\n\nA/B Testing\n\u00b6\n\n\n\n\nMulti-armed Bandit Testing\n\u00b6\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "Experiment\n\u00b6\n\n\nA/B Testing\n\u00b6\n\n\n\n\nMulti-armed Bandit Testing\n\u00b6\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "Experiment"
         },
         {
-            "location": "/model_experiment/#model-experiments",
+            "location": "/model_experiment/#experiment",
             "text": "",
-            "title": "Model Experiments"
+            "title": "Experiment"
         },
         {
             "location": "/model_experiment/#ab-testing",
@@ -327,13 +337,13 @@
         },
         {
             "location": "/model_monitor/",
-            "text": "Monitoring a Model\n\u00b6\n\n\nMetrics, dashboards, and visualizations are native to PipelineIO.  \n\n\nWe believe that you should have full insight into everything deployed to production.\n\n\nPipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.\n\n\nIn addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.\n\n\nExample Dashboards\n\u00b6\n\n\nLatency\n\u00b6\n\n\nHigher latency may lead to an unhealthy model server if left unbounded.\n\n\nHealth\n\u00b6\n\n\nUnhealthy or latent services may open a \ncircuit\n.  This causes the circuit to return a degraded, fallback response.\n\n\n\n\nMemory Usage\n\u00b6\n\n\nHigher memory usage beyond physical container or node limits may degrade performance.\n\n\nGPU Utilization\n\u00b6\n\n\nHigher, consistent utilization is preferred.  You want to saturate your cores, but not oversaturate them.\n\n\nRequest Batch Size\n\u00b6\n\n\nLarger batch sizes usually provide higher throughput.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "Monitor Model\n\u00b6\n\n\nMetrics, dashboards, and visualizations are native to PipelineIO.  \n\n\nWe believe that you should have full insight into everything deployed to production.\n\n\nPipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.\n\n\nIn addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.\n\n\nExample Dashboards\n\u00b6\n\n\nLatency\n\u00b6\n\n\nHigher latency may lead to an unhealthy model server if left unbounded.\n\n\nHealth\n\u00b6\n\n\nUnhealthy or latent services may open a \ncircuit\n.  This causes the circuit to return a degraded, fallback response.\n\n\n\n\nMemory Usage\n\u00b6\n\n\nHigher memory usage beyond physical container or node limits may degrade performance.\n\n\nGPU Utilization\n\u00b6\n\n\nHigher, consistent utilization is preferred.  You want to saturate your cores, but not oversaturate them.\n\n\nRequest Batch Size\n\u00b6\n\n\nLarger batch sizes usually provide higher throughput.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "Monitor Model"
         },
         {
-            "location": "/model_monitor/#monitoring-a-model",
+            "location": "/model_monitor/#monitor-model",
             "text": "Metrics, dashboards, and visualizations are native to PipelineIO.    We believe that you should have full insight into everything deployed to production.  PipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.  In addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.",
-            "title": "Monitoring a Model"
+            "title": "Monitor Model"
         },
         {
             "location": "/model_monitor/#example-dashboards",
@@ -372,13 +382,23 @@
         },
         {
             "location": "/streaming/",
-            "text": "PipelineIO Streaming\n\u00b6\n\n\n \n\n\n \nAWS Kinesis\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "PipelineIO Streaming\n\u00b6\n\n\nPipelineIO integrates with popular streaming tools such as Kafka, Kinesis, Spark Streaming, Flink Streaming, Storm, and Huron.\n\n\n \n\n\n \nAWS Kinesis\n\n\nContinuous, Streaming Model Predictions\n\u00b6\n\n\nPipelineIO's modular design lets you re-use your REST-based models inside your streams for continuous model predictions.\n\n\nContinuous, Incremental Model Training\n\u00b6\n\n\nPipelineIO supports continuous, incremental model training.  This is best described by Scikit-learn's \npartial_fit()\n functionality.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "Streaming"
         },
         {
             "location": "/streaming/#pipelineio-streaming",
-            "text": "AWS Kinesis",
+            "text": "PipelineIO integrates with popular streaming tools such as Kafka, Kinesis, Spark Streaming, Flink Streaming, Storm, and Huron.       AWS Kinesis",
             "title": "PipelineIO Streaming"
+        },
+        {
+            "location": "/streaming/#continuous-streaming-model-predictions",
+            "text": "PipelineIO's modular design lets you re-use your REST-based models inside your streams for continuous model predictions.",
+            "title": "Continuous, Streaming Model Predictions"
+        },
+        {
+            "location": "/streaming/#continuous-incremental-model-training",
+            "text": "PipelineIO supports continuous, incremental model training.  This is best described by Scikit-learn's  partial_fit()  functionality.",
+            "title": "Continuous, Incremental Model Training"
         },
         {
             "location": "/streaming/#suggest-an-edit",
