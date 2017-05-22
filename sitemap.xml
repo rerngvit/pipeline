@@ -19,6 +19,14 @@
 
     
     <url>
+     <loc>http://pipeline.io/install/</loc>
+     <lastmod>2017-05-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>http://pipeline.io/cli/</loc>
      <lastmod>2017-05-22</lastmod>
      <changefreq>daily</changefreq>
@@ -27,7 +35,23 @@
 
     
     <url>
+     <loc>http://pipeline.io/rest/</loc>
+     <lastmod>2017-05-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>http://pipeline.io/model_train/</loc>
+     <lastmod>2017-05-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://pipeline.io/model_optimize/</loc>
      <lastmod>2017-05-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -51,6 +75,22 @@
 
     
     <url>
+     <loc>http://pipeline.io/streaming/</loc>
+     <lastmod>2017-05-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://pipeline.io/gpu/</loc>
+     <lastmod>2017-05-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>http://pipeline.io/open_source/</loc>
      <lastmod>2017-05-22</lastmod>
      <changefreq>daily</changefreq>
@@ -60,6 +100,22 @@
     
     <url>
      <loc>http://pipeline.io/community/</loc>
+     <lastmod>2017-05-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://pipeline.io/media/</loc>
+     <lastmod>2017-05-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://pipeline.io/pio_training/</loc>
      <lastmod>2017-05-22</lastmod>
      <changefreq>daily</changefreq>
     </url>

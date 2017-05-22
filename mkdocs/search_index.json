@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to PipelineIO!\n\u00b6\n\n\nWhat is PipelineIO?\n\u00b6\n\n\nPipelineIO\n is an end-to-end, highly-scalable, highly-available, GPU-based machine learning and artificial intelligence model training and deployment platform.\n\n\nPipelineIO, our employees, our advisors, our investors, and our media activity are listed on \nCrunchbase\n along with 1000's of our \nglobal enterprise users and customers\n.\n\n\nClick \nhere\n to get started with either our free \nCommunity Edition\n, our upgraded \nProfessional Edition\n, or our complete \nEnterprise Edition\n.\n\n\n24x7 Global Support\n\u00b6\n\n\nCheck out the \nPipelineIO Support Forum\n for discussions, feature requests, and 24x7 support from San Francisco-based PipelineIO and 1000's of global PipelineIO users and customers.\n\n\nWhile all support requests are high priority, we offer dedicated \nenterprise-level support\n, as well.\n\n\nMore Info?\n\u00b6\n\n\nEmail us at \nhelp@pipeline.io\n and we'll get right back to you!\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "text": "Welcome to PipelineIO!\n\u00b6\n\n\n\n\nWhat is PipelineIO?\n\u00b6\n\n\nPipelineIO\n is an end-to-end, highly-scalable, highly-available, GPU-based machine learning and artificial intelligence model training and deployment platform.\n\n\nPipelineIO, our employees, our advisors, our investors, and our media activity are listed on \nCrunchbase\n along with 1000's of our \nglobal enterprise users and customers\n.\n\n\nClick \nhere\n to get started with either our free \nCommunity Edition\n, our upgraded \nProfessional Edition\n, or our complete \nEnterprise Edition\n.\n\n\nWho is PipelineIO?\n\u00b6\n\n\nPipelineIO is built with Love and Scale by a core group of ex-Netflix, Databricks, TensorFlow, and Kubernetes Engineers.  However, the extended PipelineIO Community consists of awesome engineers from many companies thoughout the world. \n\n\n\n \n\n \n\n\n24x7 Global Support\n\u00b6\n\n\nCheck out the \nPipelineIO Support Forum\n for discussions, feature requests, and 24x7 support from San Francisco-based PipelineIO and 1000's of global PipelineIO users and customers.\n\n\nWhile all support requests are high priority, we offer dedicated \nenterprise-level support\n, as well.\n\n\nWant More Info?\n\u00b6\n\n\nEmail us at \nhelp@pipeline.io\n and we'll get right back to you!\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Home"
         },
         {
@@ -16,14 +16,19 @@
             "title": "What is PipelineIO?"
         },
         {
+            "location": "/#who-is-pipelineio",
+            "text": "PipelineIO is built with Love and Scale by a core group of ex-Netflix, Databricks, TensorFlow, and Kubernetes Engineers.  However, the extended PipelineIO Community consists of awesome engineers from many companies thoughout the world.",
+            "title": "Who is PipelineIO?"
+        },
+        {
             "location": "/#24x7-global-support",
             "text": "Check out the  PipelineIO Support Forum  for discussions, feature requests, and 24x7 support from San Francisco-based PipelineIO and 1000's of global PipelineIO users and customers.  While all support requests are high priority, we offer dedicated  enterprise-level support , as well.",
             "title": "24x7 Global Support"
         },
         {
-            "location": "/#more-info",
+            "location": "/#want-more-info",
             "text": "Email us at  help@pipeline.io  and we'll get right back to you!",
-            "title": "More Info?"
+            "title": "Want More Info?"
         },
         {
             "location": "/#help-make-this-document-better",
@@ -32,7 +37,7 @@
         },
         {
             "location": "/getting_started/",
-            "text": "Getting Started\n\u00b6\n\n\nPipelineIO Community Edition\n\u00b6\n\n\n\n\nHosted in Shared PipelineIO Environment\n\n\nTrain and Deploy All Major Model Types\n\n\nSupports Spark ML, TensorFlow AI, Scikit-Learn, R, Xgboost, Ensembles, Ad-hoc Python, Ad-hoc Python, PMML\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nPipelineIO Professional Edition\n\u00b6\n\n\n\n\nIncludes everything from PipelineIO Community Edition\n\n\nHosted in Your Own Cloud or On-Premise Environment\n\n\nEasy One-Click Installation\n\n\nPre-built Docker-based and Cloud-based Images \n\n\nDeploy in All Major Cloud Providers (AWS, Google, Azure) and On-Premise\n\n\n24x7 Global Support, 24 hour Response SLA\n\n\n4 Training Hours Included (Online)\n\n\nFlexible Auto-Scaling and Spot-Pricing Policies\n\n\nAdvanced Admin UI including Cluster and Model Management\n\n\nContinuous, Online Model Training and Deployment Pipelines\n\n\nA/B and Multi-armed Bandit Model Testing\n\n\nCanary Model Deployments including Traffic Splitting and Shadowing\n\n\nAutomated Model Hyper-Parameter Tuning \n\n\nAutomated Model Optimizations including Native CPU x86 SSE2/AVX2/FMA and GPU PTX Instruction Set Architectures\n\n\nEnd-to-End Pipeline Monitoring of all Metrics including Model Prediction Latencies, GPU and CPU System Metrics, and Cluster Health\n\n\nAutomated Circuit Breakers to Control Overall System Health\n\n\nReal-time Dashboards for All Metrics and Circuit Breakers\n\n\n\n\nContact \nsales@pipeline.io\n for demo and pricing information.\n\n\nPipelineIO Enterprise Edition\n\u00b6\n\n\n\n\nIncludes everything from PipelineIO Professional Edition\n\n\n24x7 Global Support, 8 hour Response SLA \n\n\n32 Training Hours Included (On-site or Online)\n\n\nDeploy in Hybrid Cloud and On-Premise Environment for Maximum High Availability\n\n\nAutomatic Traffic Shifting Between Hybrid Cloud and On-Premise Deployments for Maxmium Cost Savings\n\n\n\n\nContact \nsales@pipeline.io\n for demo and pricing information.\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "text": "Getting Started\n\u00b6\n\n\nSupported Environments\n\u00b6\n\n\nPipelineIO can be self-hosted on-premise or in any major cloud provider.\n\n\n\n\n\n\n\nPipelineIO Community Edition\n\u00b6\n\n\n\n\nHost in your own Cloud-based or On-Premise Environment - er use the Shared PipelineIO Community Edition\n\n\nTrain and Deploy All Major Model Types including Spark ML, TensorFlow AI, Scikit-Learn, R, Xgboost, Ensembles, Ad-hoc Python, Ad-hoc Python, PMML\n\n\n\n\nClick \nhere\n to signup and start deploying models!\n\n\nPipelineIO Professional Edition\n\u00b6\n\n\n\n\nIncludes everything from PipelineIO Community Edition\n\n\nHosted in Your Own Cloud or On-Premise Environment\n\n\nEasy One-Click Installation\n\n\nPre-built Docker-based and Cloud-based Images \n\n\nDeploy in All Major Cloud Providers (AWS, Google, Azure) and On-Premise\n\n\n24x7 Global Support, 24 hour Response SLA\n\n\n4 Training Hours Included (Online)\n\n\nFlexible Auto-Scaling and Spot-Pricing Policies\n\n\nAdvanced Admin UI including Cluster and Model Management\n\n\nContinuous, Online Model Training and Deployment Pipelines\n\n\nA/B and Multi-armed Bandit Model Testing\n\n\nCanary Model Deployments including Traffic Splitting and Shadowing\n\n\nAutomated Model Hyper-Parameter Tuning \n\n\nAutomated Model Optimizations including Native CPU x86 SSE2/AVX2/FMA and GPU PTX Instruction Set Architectures\n\n\nEnd-to-End Pipeline Monitoring of all Metrics including Model Prediction Latencies, GPU and CPU System Metrics, and Cluster Health\n\n\nAutomated Circuit Breakers to Control Overall System Health\n\n\nReal-time Dashboards for All Metrics and Circuit Breakers\n\n\n\n\nContact \nsales@pipeline.io\n for demo and pricing information.\n\n\nPipelineIO Enterprise Edition\n\u00b6\n\n\n\n\nIncludes everything from PipelineIO Professional Edition\n\n\n24x7 Global Support, 8 hour Response SLA \n\n\n32 Training Hours Included (On-site or Online)\n\n\nDeploy in Hybrid Cloud and On-Premise Environment for Maximum High Availability\n\n\nAutomatic Traffic Shifting Between Hybrid Cloud and On-Premise Deployments for Maxmium Cost Savings\n\n\n\n\nContact \nsales@pipeline.io\n for demo and pricing information.\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Getting Started"
         },
         {
@@ -41,8 +46,13 @@
             "title": "Getting Started"
         },
         {
+            "location": "/getting_started/#supported-environments",
+            "text": "PipelineIO can be self-hosted on-premise or in any major cloud provider.",
+            "title": "Supported Environments"
+        },
+        {
             "location": "/getting_started/#pipelineio-community-edition",
-            "text": "Hosted in Shared PipelineIO Environment  Train and Deploy All Major Model Types  Supports Spark ML, TensorFlow AI, Scikit-Learn, R, Xgboost, Ensembles, Ad-hoc Python, Ad-hoc Python, PMML   Click  here  to signup and start deploying models!",
+            "text": "Host in your own Cloud-based or On-Premise Environment - er use the Shared PipelineIO Community Edition  Train and Deploy All Major Model Types including Spark ML, TensorFlow AI, Scikit-Learn, R, Xgboost, Ensembles, Ad-hoc Python, Ad-hoc Python, PMML   Click  here  to signup and start deploying models!",
             "title": "PipelineIO Community Edition"
         },
         {
@@ -61,9 +71,44 @@
             "title": "Help make this document better"
         },
         {
+            "location": "/install/",
+            "text": "Installing PipelineIO in Your Environment\n\u00b6\n\n\nPipelineIO uses Kubernetes for Docker Container Management and Orchestration.\n\n \n\n\nPipelineIO \nMini\n (Local Laptop)\n\u00b6\n\n\nSmall Kubernetes cluster for your laptop\n\n\nPipelineIO \nAWS\n\u00b6\n\n\n\n\nPipelineIO \nGoogle\n\u00b6\n\n\n\n\nPipelineIO \nAzure\n\u00b6\n\n\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "Install PipelineIO"
+        },
+        {
+            "location": "/install/#installing-pipelineio-in-your-environment",
+            "text": "PipelineIO uses Kubernetes for Docker Container Management and Orchestration.",
+            "title": "Installing PipelineIO in Your Environment"
+        },
+        {
+            "location": "/install/#pipelineio-mini-local-laptop",
+            "text": "Small Kubernetes cluster for your laptop",
+            "title": "PipelineIO Mini (Local Laptop)"
+        },
+        {
+            "location": "/install/#pipelineio-aws",
+            "text": "",
+            "title": "PipelineIO AWS"
+        },
+        {
+            "location": "/install/#pipelineio-google",
+            "text": "",
+            "title": "PipelineIO Google"
+        },
+        {
+            "location": "/install/#pipelineio-azure",
+            "text": "",
+            "title": "PipelineIO Azure"
+        },
+        {
+            "location": "/install/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
             "location": "/cli/",
             "text": "PipelineIO Commands\n\u00b6\n\n\nInstallation\n\u00b6\n\n\npip install -U pio-cli\n\n\n\n\nYou can view the commands supported by the CLI using just \npio\n.\n\npio\n\n\n\nPipelineIO CLI Configuration\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-pio\n\n\nInitialize PIO CLI\n\n\n\n\n\n\npio config\n\n\nView current configuration\n\n\n\n\n\n\npio config-get\n\n\nGet value for config key\n\n\n\n\n\n\npio config-set\n\n\nSet value for config key\n\n\n\n\n\n\n\n\nAI/ML Model Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-model\n\n\nInitialize model for deployment and prediction\n\n\n\n\n\n\npio deploy\n\n\nDeploy model to model server\n\n\n\n\n\n\npio deploy-from-git\n\n\nDeploy a model from git\n\n\n\n\n\n\npio predict\n\n\nPredict with model\n\n\n\n\n\n\npio predict-many\n\n\nPredict many times (mini load-test)\n\n\n\n\n\n\n\n\nNew Cluster Creation\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-kops\n\n\nInitialize cluster (new)\n\n\n\n\n\n\npio up\n\n\nStart the cluster\n\n\n\n\n\n\n\n\nExisting Cluster Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio init-cluster\n\n\nInitialize cluster (existing)\n\n\n\n\n\n\npio cluster\n\n\nView the current cluster\n\n\n\n\n\n\npio clusters\n\n\nView all federated, hybrid, cross-cloud, on-premise cluster\n\n\n\n\n\n\npio join\n\n\nJoin a federeated, hybrid, cross-cloud, on-premise cluster\n\n\n\n\n\n\npio nodes\n\n\nView cluster nodes\n\n\n\n\n\n\npio instancegroups\n\n\nView instance groups\n\n\n\n\n\n\npio volumes\n\n\nView volumes and volume claims\n\n\n\n\n\n\npio secrets\n\n\nView secrets\n\n\n\n\n\n\npio maps\n\n\nView config maps\n\n\n\n\n\n\npio system/top\n\n\nView system resource utilization (RAM, CPU) for an app\n\n\n\n\n\n\n\n\nApplication Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio apps\n\n\nRetrieve available and running apps\n\n\n\n\n\n\npio start\n\n\nStart an app\n\n\n\n\n\n\npio stop\n\n\nStop/kill an app\n\n\n\n\n\n\npio scale\n\n\nScale an app (ie. Spark Worker or TensorFlow Model Server)\n\n\n\n\n\n\npio upgrade\n\n\nUpgrade an app\n\n\n\n\n\n\npio rollback\n\n\nRollback an app\n\n\n\n\n\n\npio canary\n\n\nCanary a new version of an app\n\n\n\n\n\n\npio logs\n\n\nView app logs\n\n\n\n\n\n\npio connect/shell\n\n\nConnect to an app to run commands at the terminal\n\n\n\n\n\n\npio proxy/tunnel\n\n\nCreate a proxy/tunnel to a private app in your cluster\n\n\n\n\n\n\npio system/top\n\n\nGet system resource utilization (RAM, CPU) for an app\n\n\n\n\n\n\n\n\nJob and Workflow Management\n\u00b6\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\npio flow\n\n\nStart an Airflow job\n\n\n\n\n\n\npio submit\n\n\nSubmit a Spark job",
-            "title": "Installing CLI"
+            "title": "Command Line Interface"
         },
         {
             "location": "/cli/#pipelineio-commands",
@@ -106,13 +151,28 @@
             "title": "Job and Workflow Management"
         },
         {
+            "location": "/rest/",
+            "text": "Documentation Coming Soon!\n\u00b6\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "REST API"
+        },
+        {
+            "location": "/rest/#documentation-coming-soon",
+            "text": "",
+            "title": "Documentation Coming Soon!"
+        },
+        {
+            "location": "/rest/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
             "location": "/model_train/",
-            "text": "Model Training\n\u00b6\n\n\nBelow is the list of applications and tools supported by PipelineIO.\n\n\nAll applications and tools can be auto-scaled across both CPU and GPU nodes in all major cloud provider and on-premise environments.\n\n\n\n\n\n\n\n\nTool\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nairflow\n\n\n\n\n\n\n\n\ncassandra\n\n\n\n\n\n\n\n\nelasticsearch\n\n\n\n\n\n\n\n\nhdfs\n\n\n\n\n\n\n\n\njupyter\n\n\n\n\n\n\n\n\nkafka\n\n\n\n\n\n\n\n\nkibana\n\n\n\n\n\n\n\n\nmetastore\n\n\n\n\n\n\n\n\nmysql\n\n\n\n\n\n\n\n\npresto\n\n\n\n\n\n\n\n\nredis\n\n\n\n\n\n\n\n\nspark\n\n\n\n\n\n\n\n\nzeppelin\n\n\n\n\n\n\n\n\nzookeeper\n\n\n\n\n\n\n\n\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
-            "title": "Training a Model"
+            "text": "Model Training\n\u00b6\n\n\nBelow is the list of applications and tools supported by PipelineIO.  This set of tools derives from the ridiculously popular PANCAKE STACK made famous in 2016.\n\n\n\n\nAll applications and tools can be auto-scaled across both CPU and GPU nodes in all major cloud provider and on-premise environments.\n\n\n\n\n\n\n\n\nTool\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nairflow\n\n\n\n\n\n\n\n\ncassandra\n\n\n\n\n\n\n\n\nelasticsearch\n\n\n\n\n\n\n\n\nhdfs\n\n\n\n\n\n\n\n\njupyter\n\n\n\n\n\n\n\n\nkafka\n\n\n\n\n\n\n\n\nkibana\n\n\n\n\n\n\n\n\nmetastore\n\n\n\n\n\n\n\n\nmysql\n\n\n\n\n\n\n\n\npresto\n\n\n\n\n\n\n\n\nredis\n\n\n\n\n\n\n\n\nspark\n\n\n\n\n\n\n\n\nzeppelin\n\n\n\n\n\n\n\n\nzookeeper\n\n\n\n\n\n\n\n\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "Train Model"
         },
         {
             "location": "/model_train/#model-training",
-            "text": "Below is the list of applications and tools supported by PipelineIO.  All applications and tools can be auto-scaled across both CPU and GPU nodes in all major cloud provider and on-premise environments.     Tool  Description      airflow     cassandra     elasticsearch     hdfs     jupyter     kafka     kibana     metastore     mysql     presto     redis     spark     zeppelin     zookeeper",
+            "text": "Below is the list of applications and tools supported by PipelineIO.  This set of tools derives from the ridiculously popular PANCAKE STACK made famous in 2016.   All applications and tools can be auto-scaled across both CPU and GPU nodes in all major cloud provider and on-premise environments.     Tool  Description      airflow     cassandra     elasticsearch     hdfs     jupyter     kafka     kibana     metastore     mysql     presto     redis     spark     zeppelin     zookeeper",
             "title": "Model Training"
         },
         {
@@ -121,9 +181,39 @@
             "title": "Help make this document better"
         },
         {
+            "location": "/model_optimize/",
+            "text": "Optimize a Model\n\u00b6\n\n\nUpon deploying your model, PipelineIO will attempt to optimize your model for high-performance serving and predicting.\n\n\nVarious model optimization and simplification techniques include folding batch normalizations, quantizing weights, and generating native code for both CPU and GPU.\n\n\nExamples\n\u00b6\n\n\nTensorFlow: Quantizing Weights\n\u00b6\n\n\nUnoptimized Linear Regression \n\n\nOptimized Linear Regression\n\n\nSpark ML: Generating Native Code\n\u00b6\n\n\n \n\n \n\n\nUnoptimized Decision Tree\n\n\nOptimized Decision Tree\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "Optimize Model"
+        },
+        {
+            "location": "/model_optimize/#optimize-a-model",
+            "text": "Upon deploying your model, PipelineIO will attempt to optimize your model for high-performance serving and predicting.  Various model optimization and simplification techniques include folding batch normalizations, quantizing weights, and generating native code for both CPU and GPU.",
+            "title": "Optimize a Model"
+        },
+        {
+            "location": "/model_optimize/#examples",
+            "text": "",
+            "title": "Examples"
+        },
+        {
+            "location": "/model_optimize/#tensorflow-quantizing-weights",
+            "text": "Unoptimized Linear Regression   Optimized Linear Regression",
+            "title": "TensorFlow: Quantizing Weights"
+        },
+        {
+            "location": "/model_optimize/#spark-ml-generating-native-code",
+            "text": "Unoptimized Decision Tree  Optimized Decision Tree",
+            "title": "Spark ML: Generating Native Code"
+        },
+        {
+            "location": "/model_optimize/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
             "location": "/model_deploy/",
-            "text": "Deploy and Test ML/AI Models\n\u00b6\n\n\nSupported Model Types\n\u00b6\n\n\n\n\nScikit-Learn\n\n\nR\n\n\nSpark ML\n\n\nTensorFlow\n\n\nXGBoost\n\n\nPython3\n\n\nJava\n\n\nPMML\n\n\nEnsembles\n\n\n\n\nExamples\n\u00b6\n\n\ngit clone https://github.com/fluxcapacitor/source.ml\n\n\n\n\nTensorFlow\n\u00b6\n\n\nmodel_type: \ntensorflow\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type tensorflow \\\n               --model-namespace default \\\n               --model-name tensorflow_linear \\\n               --model-version 0 \\\n               --model-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nScikit-Learn\n\u00b6\n\n\nmodel_type: \nscikit\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type scikit \\\n               --model-namespace default \\\n               --model-name scikit_linear \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nSpark ML\n\u00b6\n\n\nmodel_type: \nspark\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type spark \\\n               --model-namespace default \\\n               --model-name spark_airbnb \n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nPython3\n\u00b6\n\n\nmodel_type: \npython3\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type python3 \\\n               --model-namespace default \\\n               --model-name python3_zscore \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nPMML\n\u00b6\n\n\nmodel_type: \npmml\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type pmml \\\n               --model-namespace default \\\n               --model-name pmml_airbnb \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
-            "title": "Deploying a Model"
+            "text": "Deploy and Test ML/AI Models\n\u00b6\n\n\n\n\nSupported Model Types\n\u00b6\n\n\n\n\nScikit-Learn\n\n\nR\n\n\nSpark ML\n\n\nTensorFlow\n\n\nXGBoost\n\n\nPython3\n\n\nJava\n\n\nPMML\n\n\nEnsembles\n\n\n\n\nExamples\n\u00b6\n\n\ngit clone https://github.com/fluxcapacitor/source.ml\n\n\n\n\nTensorFlow\n\u00b6\n\n\nmodel_type: \ntensorflow\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type tensorflow \\\n               --model-namespace default \\\n               --model-name tensorflow_linear \\\n               --model-version 0 \\\n               --model-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nScikit-Learn\n\u00b6\n\n\nmodel_type: \nscikit\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type scikit \\\n               --model-namespace default \\\n               --model-name scikit_linear \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nSpark ML\n\u00b6\n\n\nmodel_type: \nspark\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type spark \\\n               --model-namespace default \\\n               --model-name spark_airbnb \n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nPython3\n\u00b6\n\n\nmodel_type: \npython3\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type python3 \\\n               --model-namespace default \\\n               --model-name python3_zscore \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nPMML\n\u00b6\n\n\nmodel_type: \npmml\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type pmml \\\n               --model-namespace default \\\n               --model-name pmml_airbnb \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "Deploy Model"
         },
         {
             "location": "/model_deploy/#deploy-and-test-mlai-models",
@@ -173,7 +263,7 @@
         {
             "location": "/model_monitor/",
             "text": "Monitoring a Model\n\u00b6\n\n\nMetrics, dashboards, and visualizations are native to PipelineIO.  \n\n\nWe believe that you should have full insight into everything deployed to production.\n\n\nPipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.\n\n\nIn addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.\n\n\nExample Dashboards\n\u00b6\n\n\nLatency\n\u00b6\n\n\nHigher latency may lead to an unhealthy model server if left unbounded.\n\n\nHealth\n\u00b6\n\n\nUnhealthy or latent services may open a \ncircuit\n.  This causes the circuit to return a degraded, fallback response.\n\nModel Health\n\n\nMemory Usage\n\u00b6\n\n\nHigher memory usage beyond physical container or node limits may degrade performance.\n\n\nGPU Utilization\n\u00b6\n\n\nHigher, consistent utilization is preferred.  You want to saturate your cores, but not oversaturate them.\n\n\nRequest Batch Size\n\u00b6\n\n\nLarger batch sizes usually provide higher throughput.\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
-            "title": "Monitoring a Model"
+            "title": "Monitor Model"
         },
         {
             "location": "/model_monitor/#monitoring-a-model",
@@ -216,13 +306,58 @@
             "title": "Help make this document better"
         },
         {
+            "location": "/streaming/",
+            "text": "PipelineIO Streaming\n\u00b6\n\n\n \n\n\n  \n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "Streaming"
+        },
+        {
+            "location": "/streaming/#pipelineio-streaming",
+            "text": "",
+            "title": "PipelineIO Streaming"
+        },
+        {
+            "location": "/streaming/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/gpu/",
+            "text": "GPUs\n\u00b6\n\n\nPipelineIO supports GPUs natively throughout the entire platform.\n\n\nHere are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate PipelineIO's support for GPUs.\n\n\nDocker Images\n\u00b6\n\n\nAWS GPU + Tensorflow + Spark + HDFS + Docker\n\n\nGoogle Cloud GPU + Tensorflow + Spark + HDFS + Docker\n\n\nConference and Meetup Talks\n\u00b6\n\n\nGPU Tech Conference - San Jose - May 2017 (Slides)\n\n\nPyData London - May 2017 (Video)\n\n\nEverything GPU-related in our GitHub Repo!\n\u00b6\n\n\ngpu.ml\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "GPUs"
+        },
+        {
+            "location": "/gpu/#gpus",
+            "text": "PipelineIO supports GPUs natively throughout the entire platform.  Here are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate PipelineIO's support for GPUs.",
+            "title": "GPUs"
+        },
+        {
+            "location": "/gpu/#docker-images",
+            "text": "AWS GPU + Tensorflow + Spark + HDFS + Docker  Google Cloud GPU + Tensorflow + Spark + HDFS + Docker",
+            "title": "Docker Images"
+        },
+        {
+            "location": "/gpu/#conference-and-meetup-talks",
+            "text": "GPU Tech Conference - San Jose - May 2017 (Slides)  PyData London - May 2017 (Video)",
+            "title": "Conference and Meetup Talks"
+        },
+        {
+            "location": "/gpu/#everything-gpu-related-in-our-github-repo",
+            "text": "gpu.ml",
+            "title": "Everything GPU-related in our GitHub Repo!"
+        },
+        {
+            "location": "/gpu/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
             "location": "/open_source/",
-            "text": "PipelineIO is Open Source\n\u00b6\n\n\nOpen Source Development using GitHub and DockerHub\n\u00b6\n\n\nPipelineIO\n and the extended PipelineIO global \ncommunity\n are 100% dedicated to open source development.  \n\n\nWe develop openly in \nGitHub\n and post many of our Docker images in \nDockerHub\n for everyone to embrace and extend.\n\n\nCommitters and Contributors to Many Open Source Projects\n\u00b6\n\n\nMany of our employees, contributors, and community members are active committers and contributors to such popular open source projects as...\n\n\n\n\nApache Spark\n\n\nKafka\n\n\nNiFi\n\n\nCassandra\n\n\nArrow\n\n\nAirflow\n\n\nPresto\n\n\nTensorFlow\n\n\nKubernetes\n\n\nElasticsearch\n\n\nScikit-Learn\n\n\nR\n\n\nXgboost\n\n\nPMML\n\n\nHadoop\n\n\nMahout\n\n\nStorm\n\n\nCascading\n\n\nHive\n\n\nScala\n\n\nSbt\n\n\nMaven\n\n\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "text": "PipelineIO is Open Source\n\u00b6\n\n\nPipelineIO builds upon many great open source projects including Jupyter, Zeppelin, Spark, TensorFlow, ElasticSearch, Kafka, Docker, Kubernetes, Prometheus, etc.\n\n \n\n \n\n \n\n\n\n \n\n \n\n\n\nOpen Source Development using GitHub and DockerHub\n\u00b6\n\n\nPipelineIO\n and the extended PipelineIO global \ncommunity\n are 100% dedicated to open source development.  \n\n\nWe develop openly in \nGitHub\n and post many of our Docker images in \nDockerHub\n for everyone to embrace and extend.\n\n\n\n\n\nCommitters and Contributors to Many Open Source Projects\n\u00b6\n\n\nMany of our employees, contributors, and community members are active committers and contributors to such popular open source projects as...\n\n\n\n\nApache Spark\n\n\nKafka\n\n\nNiFi\n\n\nCassandra\n\n\nArrow\n\n\nAirflow\n\n\nPresto\n\n\nTensorFlow\n\n\nKubernetes\n\n\nElasticsearch\n\n\nScikit-Learn\n\n\nR\n\n\nXgboost\n\n\nPMML\n\n\nHadoop\n\n\nMahout\n\n\nStorm\n\n\nCascading\n\n\nHive\n\n\nScala\n\n\nSbt\n\n\nMaven\n\n\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Open Source"
         },
         {
             "location": "/open_source/#pipelineio-is-open-source",
-            "text": "",
+            "text": "PipelineIO builds upon many great open source projects including Jupyter, Zeppelin, Spark, TensorFlow, ElasticSearch, Kafka, Docker, Kubernetes, Prometheus, etc.",
             "title": "PipelineIO is Open Source"
         },
         {
@@ -242,16 +377,56 @@
         },
         {
             "location": "/community/",
-            "text": "PipelineIO and Community Events\n\u00b6\n\n\nPipelineIO is the main organizer and sponsor for the series of \nAdvanced Spark and TensorFlow Meetups\n throughout the world.\n\n\nWith over 20,000 members globally, we frequently host highly-technical, in-person and online meetups in such high-tech cities as...\n\n\n\n\nSan Francisco\n\n\nChicago\n\n\nNew York\n\n\nWashington DC\n\n\nLondon\n\n\nBerlin\n\n\nToronto\n\n\nWarsaw\n\n\nBeijing\n\n\nChennai\n\n\nBangalore\n\n\nDubai\n\n\n\n\n...and many more.\n\n\nIn 2016 alone, we hosted 60+ free meetup community events throughout the world.  \n\n\nWhile this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "text": "PipelineIO and Community Events\n\u00b6\n\n\nPipelineIO is the organizer and sponsor for the series of \nAdvanced Spark and TensorFlow Meetups\n throughout the world.\n\n\n\n\nWith over 20,000 members globally, we frequently host highly-technical, in-person and online meetups in such high-tech cities as...\n\n\n\n\nSan Francisco\n\n\nChicago\n\n\nNew York\n\n\nWashington DC\n\n\nLondon\n\n\nBerlin\n\n\nToronto\n\n\nWarsaw\n\n\nBeijing\n\n\nChennai\n\n\nBangalore\n\n\nDubai\n\n\n\n\n...and many more.\n\n\nIn 2016 alone, we hosted 60+ free meetup community events throughout the world.  \n\n\nWhile this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Community Events"
         },
         {
             "location": "/community/#pipelineio-and-community-events",
-            "text": "PipelineIO is the main organizer and sponsor for the series of  Advanced Spark and TensorFlow Meetups  throughout the world.  With over 20,000 members globally, we frequently host highly-technical, in-person and online meetups in such high-tech cities as...   San Francisco  Chicago  New York  Washington DC  London  Berlin  Toronto  Warsaw  Beijing  Chennai  Bangalore  Dubai   ...and many more.  In 2016 alone, we hosted 60+ free meetup community events throughout the world.    While this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.",
+            "text": "PipelineIO is the organizer and sponsor for the series of  Advanced Spark and TensorFlow Meetups  throughout the world.   With over 20,000 members globally, we frequently host highly-technical, in-person and online meetups in such high-tech cities as...   San Francisco  Chicago  New York  Washington DC  London  Berlin  Toronto  Warsaw  Beijing  Chennai  Bangalore  Dubai   ...and many more.  In 2016 alone, we hosted 60+ free meetup community events throughout the world.    While this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.",
             "title": "PipelineIO and Community Events"
         },
         {
             "location": "/community/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/media/",
+            "text": "Videos and Presentations\n\u00b6\n\n\nVideos\n\u00b6\n\n\n\n\n\n\nContinuously Train & Deploy Spark ML and Tensorflow AI Models from Jupyter Notebook to Production (StartupML Conference Jan 2017)\n\n\nRecent Advancements in Data Science Workflows: From Jupyter-based Notebook to NetflixOSS-based Production (Big Data Spain Nov 2016)\n\n\n\n\nPresentations\n\u00b6\n\n\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "Videos and Presentations"
+        },
+        {
+            "location": "/media/#videos-and-presentations",
+            "text": "",
+            "title": "Videos and Presentations"
+        },
+        {
+            "location": "/media/#videos",
+            "text": "Continuously Train & Deploy Spark ML and Tensorflow AI Models from Jupyter Notebook to Production (StartupML Conference Jan 2017)  Recent Advancements in Data Science Workflows: From Jupyter-based Notebook to NetflixOSS-based Production (Big Data Spain Nov 2016)",
+            "title": "Videos"
+        },
+        {
+            "location": "/media/#presentations",
+            "text": "",
+            "title": "Presentations"
+        },
+        {
+            "location": "/media/#help-make-this-document-better",
+            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
+            "title": "Help make this document better"
+        },
+        {
+            "location": "/pio_training/",
+            "text": "Documentation Coming Soon!\n\u00b6\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "Training and Workshops"
+        },
+        {
+            "location": "/pio_training/#documentation-coming-soon",
+            "text": "",
+            "title": "Documentation Coming Soon!"
+        },
+        {
+            "location": "/pio_training/#help-make-this-document-better",
             "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
             "title": "Help make this document better"
         },
