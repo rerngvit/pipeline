@@ -101,29 +101,14 @@
             "title": "Job and Workflow Management"
         },
         {
-            "location": "/rest/",
-            "text": "Documentation Coming Soon!\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
-            "title": "REST API"
-        },
-        {
-            "location": "/rest/#documentation-coming-soon",
-            "text": "",
-            "title": "Documentation Coming Soon!"
-        },
-        {
-            "location": "/rest/#help-make-this-document-better",
-            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
-            "title": "Help make this document better"
-        },
-        {
             "location": "/model_train/",
-            "text": "Documentation Coming Soon!\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
-            "title": "Train a Model"
+            "text": "Model Training\n\n\nBelow is the list of applications and tools supported by PipelineIO.\n\n\nAll applications and tools can be auto-scaled across both CPU and GPU nodes in all major cloud provider and on-premise environments.\n\n\n\n\n\n\n\n\nTool\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nairflow\n\n\n\n\n\n\n\n\ncassandra\n\n\n\n\n\n\n\n\nelasticsearch\n\n\n\n\n\n\n\n\nhdfs\n\n\n\n\n\n\n\n\njupyter\n\n\n\n\n\n\n\n\nkafka\n\n\n\n\n\n\n\n\nkibana\n\n\n\n\n\n\n\n\nmetastore\n\n\n\n\n\n\n\n\nmysql\n\n\n\n\n\n\n\n\npresto\n\n\n\n\n\n\n\n\nredis\n\n\n\n\n\n\n\n\nspark\n\n\n\n\n\n\n\n\nzeppelin\n\n\n\n\n\n\n\n\nzookeeper\n\n\n\n\n\n\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "title": "Training Model"
         },
         {
-            "location": "/model_train/#documentation-coming-soon",
-            "text": "",
-            "title": "Documentation Coming Soon!"
+            "location": "/model_train/#model-training",
+            "text": "Below is the list of applications and tools supported by PipelineIO.  All applications and tools can be auto-scaled across both CPU and GPU nodes in all major cloud provider and on-premise environments.     Tool  Description      airflow     cassandra     elasticsearch     hdfs     jupyter     kafka     kibana     metastore     mysql     presto     redis     spark     zeppelin     zookeeper",
+            "title": "Model Training"
         },
         {
             "location": "/model_train/#help-make-this-document-better",
@@ -133,7 +118,7 @@
         {
             "location": "/model_deploy/",
             "text": "Deploy and Test ML/AI Models\n\n\nSupported Model Types\n\n\n\n\nScikit-Learn\n\n\nR\n\n\nSpark ML\n\n\nTensorFlow\n\n\nXGBoost\n\n\nPython3\n\n\nJava\n\n\nPMML\n\n\nEnsembles\n\n\n\n\nInitialize Model\n\n\npio init-model --model-server-url <model_server_url> \\\n               --model-type <model_type> \\\n               --model-namespace <model_namespace> \\\n               --model_name <model_name> \\\n               --model-version <model_version> \\\n               --model-path /path/to/model \\\n               --model-test-input-path /path/to/test/inputs\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\nExamples\n\n\ngit clone https://github.com/fluxcapacitor/source.ml\n\n\n\n\nTensorFlow\n\n\nmodel_type: \ntensorflow\n\n\nStart Model Server\n\n\npio start prediction-tensorflow\n\n\n\n\nInitialize Model\n\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type tensorflow \\\n               --model-namespace default \\\n               --model-name tensorflow_linear \\\n               --model-version 0 \\\n               --model-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\nScikit-Learn\n\n\nmodel_type: \nscikit\n\n\nStart Model Server\n\n\npio start prediction-scikit\n\n\n\n\nInitialize Model\n\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type scikit \\\n               --model-namespace default \\\n               --model-name scikit_linear \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\nSpark ML\n\n\nmodel_type: \nspark\n\n\nStart Model Server\n\n\npio start prediction-spark\n\n\n\n\nInitialize Model\n\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type spark \\\n               --model-namespace default \\\n               --model-name spark_airbnb \n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\nPython3\n\n\nmodel_type: \npython3\n\n\nStart Model Server\n\n\npio start prediction-python3\n\n\n\n\nInitialize Model\n\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type python3 \\\n               --model-namespace default \\\n               --model-name python3_zscore \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\nPMML\n\n\nmodel_type: \npmml\n\n\nStart Model Server\n\n\npio start prediction-pmml\n\n\n\n\nInitialize Model\n\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type pmml \\\n               --model-namespace default \\\n               --model-name pmml_airbnb \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0/test_inputs.txt\n\n\n\n\nDeploy Model\n\n\npio deploy\n\n\n\n\nPredict Model\n\n\npio predict\n\n\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
-            "title": "Deploy a Model"
+            "title": "Deploying Models"
         },
         {
             "location": "/model_deploy/#deploy-and-test-mlai-models",
@@ -296,36 +281,6 @@
             "title": "Help make this document better"
         },
         {
-            "location": "/model_predict/",
-            "text": "Documentation Coming Soon!\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
-            "title": "Predict with Model"
-        },
-        {
-            "location": "/model_predict/#documentation-coming-soon",
-            "text": "",
-            "title": "Documentation Coming Soon!"
-        },
-        {
-            "location": "/model_predict/#help-make-this-document-better",
-            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
-            "title": "Help make this document better"
-        },
-        {
-            "location": "/model_experiment/",
-            "text": "Documentation Coming Soon!\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
-            "title": "Experiment with Models"
-        },
-        {
-            "location": "/model_experiment/#documentation-coming-soon",
-            "text": "",
-            "title": "Documentation Coming Soon!"
-        },
-        {
-            "location": "/model_experiment/#help-make-this-document-better",
-            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
-            "title": "Help make this document better"
-        },
-        {
             "location": "/cluster/",
             "text": "Documentation Coming Soon!\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Hybrid Cloud and On-Premise"
@@ -352,66 +307,6 @@
         },
         {
             "location": "/visualization/#help-make-this-document-better",
-            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
-            "title": "Help make this document better"
-        },
-        {
-            "location": "/performance/",
-            "text": "Documentation Coming Soon!\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
-            "title": "Performance"
-        },
-        {
-            "location": "/performance/#documentation-coming-soon",
-            "text": "",
-            "title": "Documentation Coming Soon!"
-        },
-        {
-            "location": "/performance/#help-make-this-document-better",
-            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
-            "title": "Help make this document better"
-        },
-        {
-            "location": "/gpu/",
-            "text": "GPUs\n\n\nPipelineIO supports GPUs natively throughout the entire platform.\n\n\nHere are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate our support for GPUs.\n\n\nDocker Images\n\n\nAWS GPU + Tensorflow + Spark + HDFS + Docker\n\n\nGoogle Cloud GPU + Tensorflow + Spark + HDFS + Docker\n\n\nConference and Meetup Talks\n\n\nGPU Tech Conference - San Jose - May 2017 (Slides)\n\n\nPyData London - May 2017 (Video)\n\n\nEverything GPU-related in our GitHub Repo!\n\n\ngpu.ml\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
-            "title": "GPUs"
-        },
-        {
-            "location": "/gpu/#gpus",
-            "text": "PipelineIO supports GPUs natively throughout the entire platform.  Here are some publically-available resources including Docker images, source code, Nvidia driver and toolkit configuration, videos, slides, and workshop materials that demonstrate our support for GPUs.",
-            "title": "GPUs"
-        },
-        {
-            "location": "/gpu/#docker-images",
-            "text": "AWS GPU + Tensorflow + Spark + HDFS + Docker  Google Cloud GPU + Tensorflow + Spark + HDFS + Docker",
-            "title": "Docker Images"
-        },
-        {
-            "location": "/gpu/#conference-and-meetup-talks",
-            "text": "GPU Tech Conference - San Jose - May 2017 (Slides)  PyData London - May 2017 (Video)",
-            "title": "Conference and Meetup Talks"
-        },
-        {
-            "location": "/gpu/#everything-gpu-related-in-our-github-repo",
-            "text": "gpu.ml",
-            "title": "Everything GPU-related in our GitHub Repo!"
-        },
-        {
-            "location": "/gpu/#help-make-this-document-better",
-            "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
-            "title": "Help make this document better"
-        },
-        {
-            "location": "/pio_training/",
-            "text": "Documentation Coming Soon!\n\n\n\n\nHelp make this document better\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
-            "title": "Training and Workshops"
-        },
-        {
-            "location": "/pio_training/#documentation-coming-soon",
-            "text": "",
-            "title": "Documentation Coming Soon!"
-        },
-        {
-            "location": "/pio_training/#help-make-this-document-better",
             "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
             "title": "Help make this document better"
         },

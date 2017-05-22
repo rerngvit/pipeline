@@ -27,14 +27,6 @@
 
     
     <url>
-     <loc>http://pipeline.io/rest/</loc>
-     <lastmod>2017-05-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
      <loc>http://pipeline.io/model_train/</loc>
      <lastmod>2017-05-22</lastmod>
      <changefreq>daily</changefreq>
@@ -51,22 +43,6 @@
 
     
     <url>
-     <loc>http://pipeline.io/model_predict/</loc>
-     <lastmod>2017-05-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>http://pipeline.io/model_experiment/</loc>
-     <lastmod>2017-05-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
      <loc>http://pipeline.io/cluster/</loc>
      <lastmod>2017-05-22</lastmod>
      <changefreq>daily</changefreq>
@@ -76,30 +52,6 @@
     
     <url>
      <loc>http://pipeline.io/visualization/</loc>
-     <lastmod>2017-05-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>http://pipeline.io/performance/</loc>
-     <lastmod>2017-05-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>http://pipeline.io/gpu/</loc>
-     <lastmod>2017-05-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>http://pipeline.io/pio_training/</loc>
      <lastmod>2017-05-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -130,19 +82,19 @@
     
 
     
-        
     <url>
      <loc>http://pipeline.io/legal/privacy/</loc>
      <lastmod>2017-05-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
     <url>
      <loc>http://pipeline.io/legal/terms/</loc>
      <lastmod>2017-05-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     
 
 </urlset>
