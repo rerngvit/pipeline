@@ -262,7 +262,7 @@
         },
         {
             "location": "/model_monitor/",
-            "text": "Monitoring a Model\n\u00b6\n\n\nMetrics, dashboards, and visualizations are native to PipelineIO.  \n\n\nWe believe that you should have full insight into everything deployed to production.\n\n\nPipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.\n\n\nIn addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.\n\n\nExample Dashboards\n\u00b6\n\n\nLatency\n\u00b6\n\n\nHigher latency may lead to an unhealthy model server if left unbounded.\n\n\nHealth\n\u00b6\n\n\nUnhealthy or latent services may open a \ncircuit\n.  This causes the circuit to return a degraded, fallback response.\n\nModel Health\n\n\nMemory Usage\n\u00b6\n\n\nHigher memory usage beyond physical container or node limits may degrade performance.\n\n\nGPU Utilization\n\u00b6\n\n\nHigher, consistent utilization is preferred.  You want to saturate your cores, but not oversaturate them.\n\n\nRequest Batch Size\n\u00b6\n\n\nLarger batch sizes usually provide higher throughput.\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "text": "Monitoring a Model\n\u00b6\n\n\nMetrics, dashboards, and visualizations are native to PipelineIO.  \n\n\nWe believe that you should have full insight into everything deployed to production.\n\n\nPipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.\n\n\nIn addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.\n\n\nExample Dashboards\n\u00b6\n\n\nLatency\n\u00b6\n\n\nHigher latency may lead to an unhealthy model server if left unbounded.\n\n\nHealth\n\u00b6\n\n\nUnhealthy or latent services may open a \ncircuit\n.  This causes the circuit to return a degraded, fallback response.\n\n\n\n\nMemory Usage\n\u00b6\n\n\nHigher memory usage beyond physical container or node limits may degrade performance.\n\n\nGPU Utilization\n\u00b6\n\n\nHigher, consistent utilization is preferred.  You want to saturate your cores, but not oversaturate them.\n\n\nRequest Batch Size\n\u00b6\n\n\nLarger batch sizes usually provide higher throughput.\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Monitor Model"
         },
         {
@@ -282,7 +282,7 @@
         },
         {
             "location": "/model_monitor/#health",
-            "text": "Unhealthy or latent services may open a  circuit .  This causes the circuit to return a degraded, fallback response. Model Health",
+            "text": "Unhealthy or latent services may open a  circuit .  This causes the circuit to return a degraded, fallback response.",
             "title": "Health"
         },
         {
@@ -307,12 +307,12 @@
         },
         {
             "location": "/streaming/",
-            "text": "PipelineIO Streaming\n\u00b6\n\n\n \n\n\n  \n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "text": "PipelineIO Streaming\n\u00b6\n\n\n \n\n\n \nAWS Kinesis\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Streaming"
         },
         {
             "location": "/streaming/#pipelineio-streaming",
-            "text": "",
+            "text": "AWS Kinesis",
             "title": "PipelineIO Streaming"
         },
         {
