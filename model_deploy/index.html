@@ -362,6 +362,54 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#deployment-workflow" title="Deployment Workflow" class="md-nav__link">
+    Deployment Workflow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upgrade" title="Upgrade" class="md-nav__link">
+    Upgrade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#canary-deploy" title="Canary Deploy" class="md-nav__link">
+    Canary Deploy
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#traffic-splitting" title="Traffic Splitting" class="md-nav__link">
+    Traffic Splitting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#traffic-shadowing" title="Traffic Shadowing" class="md-nav__link">
+    Traffic Shadowing
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rollback" title="Rollback" class="md-nav__link">
+    Rollback
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#help-make-this-document-better" title="Help make this document better" class="md-nav__link">
     Help make this document better
   </a>
@@ -443,6 +491,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../contribute/" title="Contribute to PipelineIO" class="md-nav__link">
+      Contribute to PipelineIO
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
     <a href="../community/" title="Community Events" class="md-nav__link">
       Community Events
     </a>
@@ -469,18 +529,6 @@
   <li class="md-nav__item">
     <a href="../pio_training/" title="Training and Workshops" class="md-nav__link">
       Training and Workshops
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="../contributing/" title="Contributing" class="md-nav__link">
-      Contributing
     </a>
   </li>
 
@@ -569,6 +617,54 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deployment-workflow" title="Deployment Workflow" class="md-nav__link">
+    Deployment Workflow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upgrade" title="Upgrade" class="md-nav__link">
+    Upgrade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#canary-deploy" title="Canary Deploy" class="md-nav__link">
+    Canary Deploy
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#traffic-splitting" title="Traffic Splitting" class="md-nav__link">
+    Traffic Splitting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#traffic-shadowing" title="Traffic Shadowing" class="md-nav__link">
+    Traffic Shadowing
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rollback" title="Rollback" class="md-nav__link">
+    Rollback
+  </a>
   
 </li>
       
@@ -698,6 +794,24 @@
 </pre></div></p>
 <p>Predict Model
 <div class="codehilite"><pre><span></span>pio predict
+</pre></div></p>
+<h2 id="deployment-workflow">Deployment Workflow<a class="headerlink" href="#deployment-workflow" title="Permanent link">&para;</a></h2>
+<p>PipelineIO uses python-based Airflow for pipeline workflow management.
+<div class="codehilite"><pre><span></span>pio flow
+</pre></div></p>
+<h2 id="upgrade">Upgrade<a class="headerlink" href="#upgrade" title="Permanent link">&para;</a></h2>
+<p>PipelineIO supports rolling upgrades.
+<div class="codehilite"><pre><span></span>pio upgrade
+</pre></div></p>
+<h2 id="canary-deploy">Canary Deploy<a class="headerlink" href="#canary-deploy" title="Permanent link">&para;</a></h2>
+<p>PipelineIO supports various canary deployment strategies including traffic-splitting and traffic-shadowing.
+<div class="codehilite"><pre><span></span>pio canary
+</pre></div></p>
+<h3 id="traffic-splitting">Traffic Splitting<a class="headerlink" href="#traffic-splitting" title="Permanent link">&para;</a></h3>
+<h3 id="traffic-shadowing">Traffic Shadowing<a class="headerlink" href="#traffic-shadowing" title="Permanent link">&para;</a></h3>
+<h2 id="rollback">Rollback<a class="headerlink" href="#rollback" title="Permanent link">&para;</a></h2>
+<p>PipelineIO supports rolling back to any previous revision.
+<div class="codehilite"><pre><span></span>pio rollback --revision=1
 </pre></div></p>
 <hr />
 <h2 id="help-make-this-document-better">Help make this document better<a class="headerlink" href="#help-make-this-document-better" title="Permanent link">&para;</a></h2>

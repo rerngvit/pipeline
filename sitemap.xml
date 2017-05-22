@@ -107,6 +107,14 @@
 
     
     <url>
+     <loc>http://pipeline.io/contribute/</loc>
+     <lastmod>2017-05-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>http://pipeline.io/community/</loc>
      <lastmod>2017-05-22</lastmod>
      <changefreq>daily</changefreq>
@@ -124,14 +132,6 @@
     
     <url>
      <loc>http://pipeline.io/pio_training/</loc>
-     <lastmod>2017-05-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>http://pipeline.io/contributing/</loc>
      <lastmod>2017-05-22</lastmod>
      <changefreq>daily</changefreq>
     </url>

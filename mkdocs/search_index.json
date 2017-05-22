@@ -212,7 +212,7 @@
         },
         {
             "location": "/model_deploy/",
-            "text": "Deploy Model\n\u00b6\n\n\n\n\nSupported Model Types\n\u00b6\n\n\n\n\nScikit-Learn\n\n\nR\n\n\nSpark ML\n\n\nTensorFlow\n\n\nXGBoost\n\n\nPython3\n\n\nJava\n\n\nPMML\n\n\nEnsembles\n\n\n\n\nExamples\n\u00b6\n\n\ngit clone https://github.com/fluxcapacitor/source.ml\n\n\n\n\nTensorFlow\n\u00b6\n\n\nmodel_type: \ntensorflow\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type tensorflow \\\n               --model-namespace default \\\n               --model-name tensorflow_linear \\\n               --model-version 0 \\\n               --model-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nScikit-Learn\n\u00b6\n\n\nmodel_type: \nscikit\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type scikit \\\n               --model-namespace default \\\n               --model-name scikit_linear \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nSpark ML\n\u00b6\n\n\nmodel_type: \nspark\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type spark \\\n               --model-namespace default \\\n               --model-name spark_airbnb \n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nPython3\n\u00b6\n\n\nmodel_type: \npython3\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type python3 \\\n               --model-namespace default \\\n               --model-name python3_zscore \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nPMML\n\u00b6\n\n\nmodel_type: \npmml\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type pmml \\\n               --model-namespace default \\\n               --model-name pmml_airbnb \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "text": "Deploy Model\n\u00b6\n\n\n\n\nSupported Model Types\n\u00b6\n\n\n\n\nScikit-Learn\n\n\nR\n\n\nSpark ML\n\n\nTensorFlow\n\n\nXGBoost\n\n\nPython3\n\n\nJava\n\n\nPMML\n\n\nEnsembles\n\n\n\n\nExamples\n\u00b6\n\n\ngit clone https://github.com/fluxcapacitor/source.ml\n\n\n\n\nTensorFlow\n\u00b6\n\n\nmodel_type: \ntensorflow\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type tensorflow \\\n               --model-namespace default \\\n               --model-name tensorflow_linear \\\n               --model-version 0 \\\n               --model-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nScikit-Learn\n\u00b6\n\n\nmodel_type: \nscikit\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type scikit \\\n               --model-namespace default \\\n               --model-name scikit_linear \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nSpark ML\n\u00b6\n\n\nmodel_type: \nspark\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type spark \\\n               --model-namespace default \\\n               --model-name spark_airbnb \n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nPython3\n\u00b6\n\n\nmodel_type: \npython3\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type python3 \\\n               --model-namespace default \\\n               --model-name python3_zscore \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nPMML\n\u00b6\n\n\nmodel_type: \npmml\n\n\nInitialize Model\n\npio init-model --model-server-url http://your.model.server.com \\\n               --model-type pmml \\\n               --model-namespace default \\\n               --model-name pmml_airbnb \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0/test_inputs.txt\n\n\n\nDeploy Model\n\npio deploy\n\n\n\nPredict Model\n\npio predict\n\n\n\nDeployment Workflow\n\u00b6\n\n\nPipelineIO uses python-based Airflow for pipeline workflow management.\n\npio flow\n\n\n\nUpgrade\n\u00b6\n\n\nPipelineIO supports rolling upgrades.\n\npio upgrade\n\n\n\nCanary Deploy\n\u00b6\n\n\nPipelineIO supports various canary deployment strategies including traffic-splitting and traffic-shadowing.\n\npio canary\n\n\n\nTraffic Splitting\n\u00b6\n\n\nTraffic Shadowing\n\u00b6\n\n\nRollback\n\u00b6\n\n\nPipelineIO supports rolling back to any previous revision.\n\npio rollback --revision=1\n\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Deploy Model"
         },
         {
@@ -254,6 +254,36 @@
             "location": "/model_deploy/#pmml",
             "text": "model_type:  pmml  Initialize Model pio init-model --model-server-url http://your.model.server.com \\\n               --model-type pmml \\\n               --model-namespace default \\\n               --model-name pmml_airbnb \\\n               --model-version v0 \\\n               --model-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0 \\\n               --model-test-input-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0/test_inputs.txt  Deploy Model pio deploy  Predict Model pio predict",
             "title": "PMML"
+        },
+        {
+            "location": "/model_deploy/#deployment-workflow",
+            "text": "PipelineIO uses python-based Airflow for pipeline workflow management. pio flow",
+            "title": "Deployment Workflow"
+        },
+        {
+            "location": "/model_deploy/#upgrade",
+            "text": "PipelineIO supports rolling upgrades. pio upgrade",
+            "title": "Upgrade"
+        },
+        {
+            "location": "/model_deploy/#canary-deploy",
+            "text": "PipelineIO supports various canary deployment strategies including traffic-splitting and traffic-shadowing. pio canary",
+            "title": "Canary Deploy"
+        },
+        {
+            "location": "/model_deploy/#traffic-splitting",
+            "text": "",
+            "title": "Traffic Splitting"
+        },
+        {
+            "location": "/model_deploy/#traffic-shadowing",
+            "text": "",
+            "title": "Traffic Shadowing"
+        },
+        {
+            "location": "/model_deploy/#rollback",
+            "text": "PipelineIO supports rolling back to any previous revision. pio rollback --revision=1",
+            "title": "Rollback"
         },
         {
             "location": "/model_deploy/#help-make-this-document-better",
@@ -401,6 +431,91 @@
             "title": "Help make this document better"
         },
         {
+            "location": "/contribute/",
+            "text": "Contribute to PipelineIO\n\u00b6\n\n\nWant to join the PipelineIO Community?  \n\n\nWe will gladly accept pull requests for implementations of popular ML/AI models, fast prediction runtimes, and flexible experimentation frameworks.\n\n\nThe active list of outstanding PipelineIO issues and feature requests are \nhere\n.\n\n\nCreate a Pull Request\n\u00b6\n\n\nCreate a Branch for Your Changes\n\u00b6\n\n\ngit branch <branch-name>\n\n\n\n\nVerify New Branch is Created\n\u00b6\n\n\ngit branch\n\n### EXPECTED OUTPUT ###\n* master   <-- this is current branch\n  <branch-name>\n\n\n\n\nSwitch to Your New Branch\n\u00b6\n\n\ngit checkout <branch-name>\n\n### EXPECTED OUTPUT ###\nSwitched to branch '<branch-name>'\n\n\n\n\nVerify That You're on the Branch\n\u00b6\n\n\ngit branch\n  master\n* <branch-name> <-- you are now on the new branch\n\n\n\n\nMake Your Branch Changes\n\u00b6\n\n\n...\n\n\n\n\nVerify Branch Changes\n\u00b6\n\n\ngit status\n\n\n\n\nPrepare (Add) Your Branch Changes for Commit\n\u00b6\n\n\ngit add ...\n\n\n\n\nCommit Your Branch Changes Locally\n\u00b6\n\n\ngit commit -m \"<descriptive-message>\"\n\n\n\n\nPush Your Branch Changes Remotely\n\u00b6\n\n\ngit push -u origin <branch-name>\n\n### EXPECTED OUTPUT ###\n# Counting objects: 8, done.\n# Delta compression using up to 8 threads.\n# Compressing objects: 100% (6/6), done.\n# Writing objects: 100% (8/8), 684 bytes | 0 bytes/s, done.\n# Total 8 (delta 2), reused 0 (delta 0)\n# remote: Resolving deltas: 100% (2/2), completed with 1 local objects.\n# To github.com:fluxcapacitor/pipeline.git\n# * [new branch]      <branch-name> -> <branch-name>\n#Branch <branch-name> set up to track remote branch <branch-name> from origin.\n\n\nNote:  If you see an error related to \nPermission denied (publickey)\n or \nPlease make sure you have the correct access rights\n, follow the steps detailed \nhere\n.\n\n\nSubmit a Pull Request with Github Server UI\n\u00b6\n\n\n\n\nCompare your \n<branch-name>\n to the \nmaster\n branch on Github Server\n\n\n\n\nFix the Pull Request if Needed based on Comments\n\u00b6\n\n\nWait for Committer to Merge Pull Request (within Github UI)\n\u00b6\n\n\nDelete the Branch (from both Local and Remote Github)\n\u00b6\n\n\nGo back to \nmaster\n branch\n\ngit checkout master\n\n\n\nDelete Remote Branch\n\ngit push origin --delete <branch-name>\n\n\n\nDelete Local Branch\n\ngit branch -d <branch-name>\n\n\n\nLicense and Public Datasetse\n\u00b6\n\n\n\n\nYour work should be open source under a liberal license (ie. Apache2, MIT)\n\n\nYou should use publicly-available training and validation datasets so that others can easily replicate your work.",
+            "title": "Contribute to PipelineIO"
+        },
+        {
+            "location": "/contribute/#contribute-to-pipelineio",
+            "text": "Want to join the PipelineIO Community?    We will gladly accept pull requests for implementations of popular ML/AI models, fast prediction runtimes, and flexible experimentation frameworks.  The active list of outstanding PipelineIO issues and feature requests are  here .",
+            "title": "Contribute to PipelineIO"
+        },
+        {
+            "location": "/contribute/#create-a-pull-request",
+            "text": "",
+            "title": "Create a Pull Request"
+        },
+        {
+            "location": "/contribute/#create-a-branch-for-your-changes",
+            "text": "git branch <branch-name>",
+            "title": "Create a Branch for Your Changes"
+        },
+        {
+            "location": "/contribute/#verify-new-branch-is-created",
+            "text": "git branch\n\n### EXPECTED OUTPUT ###\n* master   <-- this is current branch\n  <branch-name>",
+            "title": "Verify New Branch is Created"
+        },
+        {
+            "location": "/contribute/#switch-to-your-new-branch",
+            "text": "git checkout <branch-name>\n\n### EXPECTED OUTPUT ###\nSwitched to branch '<branch-name>'",
+            "title": "Switch to Your New Branch"
+        },
+        {
+            "location": "/contribute/#verify-that-youre-on-the-branch",
+            "text": "git branch\n  master\n* <branch-name> <-- you are now on the new branch",
+            "title": "Verify That You're on the Branch"
+        },
+        {
+            "location": "/contribute/#make-your-branch-changes",
+            "text": "...",
+            "title": "Make Your Branch Changes"
+        },
+        {
+            "location": "/contribute/#verify-branch-changes",
+            "text": "git status",
+            "title": "Verify Branch Changes"
+        },
+        {
+            "location": "/contribute/#prepare-add-your-branch-changes-for-commit",
+            "text": "git add ...",
+            "title": "Prepare (Add) Your Branch Changes for Commit"
+        },
+        {
+            "location": "/contribute/#commit-your-branch-changes-locally",
+            "text": "git commit -m \"<descriptive-message>\"",
+            "title": "Commit Your Branch Changes Locally"
+        },
+        {
+            "location": "/contribute/#push-your-branch-changes-remotely",
+            "text": "git push -u origin <branch-name>\n\n### EXPECTED OUTPUT ###\n# Counting objects: 8, done.\n# Delta compression using up to 8 threads.\n# Compressing objects: 100% (6/6), done.\n# Writing objects: 100% (8/8), 684 bytes | 0 bytes/s, done.\n# Total 8 (delta 2), reused 0 (delta 0)\n# remote: Resolving deltas: 100% (2/2), completed with 1 local objects.\n# To github.com:fluxcapacitor/pipeline.git\n# * [new branch]      <branch-name> -> <branch-name>\n#Branch <branch-name> set up to track remote branch <branch-name> from origin. \nNote:  If you see an error related to  Permission denied (publickey)  or  Please make sure you have the correct access rights , follow the steps detailed  here .",
+            "title": "Push Your Branch Changes Remotely"
+        },
+        {
+            "location": "/contribute/#submit-a-pull-request-with-github-server-ui",
+            "text": "Compare your  <branch-name>  to the  master  branch on Github Server",
+            "title": "Submit a Pull Request with Github Server UI"
+        },
+        {
+            "location": "/contribute/#fix-the-pull-request-if-needed-based-on-comments",
+            "text": "",
+            "title": "Fix the Pull Request if Needed based on Comments"
+        },
+        {
+            "location": "/contribute/#wait-for-committer-to-merge-pull-request-within-github-ui",
+            "text": "",
+            "title": "Wait for Committer to Merge Pull Request (within Github UI)"
+        },
+        {
+            "location": "/contribute/#delete-the-branch-from-both-local-and-remote-github",
+            "text": "Go back to  master  branch git checkout master  Delete Remote Branch git push origin --delete <branch-name>  Delete Local Branch git branch -d <branch-name>",
+            "title": "Delete the Branch (from both Local and Remote Github)"
+        },
+        {
+            "location": "/contribute/#license-and-public-datasetse",
+            "text": "Your work should be open source under a liberal license (ie. Apache2, MIT)  You should use publicly-available training and validation datasets so that others can easily replicate your work.",
+            "title": "License and Public Datasetse"
+        },
+        {
             "location": "/community/",
             "text": "PipelineIO and Community Events\n\u00b6\n\n\nPipelineIO is the organizer and sponsor for the series of \nAdvanced Spark and TensorFlow Meetups\n throughout the world.\n\n\n\n\nWith over 20,000 members globally, we frequently host highly-technical, in-person and online meetups in such high-tech cities as...\n\n\n\n\nSan Francisco\n\n\nChicago\n\n\nNew York\n\n\nWashington DC\n\n\nLondon\n\n\nBerlin\n\n\nToronto\n\n\nWarsaw\n\n\nBeijing\n\n\nChennai\n\n\nBangalore\n\n\nDubai\n\n\n\n\n...and many more.\n\n\nIn 2016 alone, we hosted 60+ free meetup community events throughout the world.  \n\n\nWhile this dedication to the community requires a large amount of human and financial capital, we continue to push forward with close to 100+ global community events planned in 2017.\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Community Events"
@@ -464,91 +579,6 @@
             "location": "/pio_training/#help-make-this-document-better",
             "text": "This guide, as well as the rest of our docs, are open-source and available on  GitHub . We welcome your contributions.   Suggest an edit to this page (by clicking the edit icon at the top next to the title).  Open an issue about this page  to report a problem.",
             "title": "Help make this document better"
-        },
-        {
-            "location": "/contributing/",
-            "text": "Contribute to PipelineIO\n\u00b6\n\n\nWant to join the PipelineIO Community?  \n\n\nWe will gladly accept implementations of poppular and useful ML/AI models and runtimes into PipelineIO.\n\n\nThe active list of outstanding PipelineIO issues and features are \nhere\n.\n\n\nCreating a Pull Request\n\u00b6\n\n\nCreate a Branch for Your Changes\n\u00b6\n\n\ngit branch <branch-name>\n\n\n\n\nVerify New Branch is Created\n\u00b6\n\n\ngit branch\n\n### EXPECTED OUTPUT ###\n* master   <-- this is current branch\n  <branch-name>\n\n\n\n\nSwitch to Your New Branch\n\u00b6\n\n\ngit checkout <branch-name>\n\n### EXPECTED OUTPUT ###\nSwitched to branch '<branch-name>'\n\n\n\n\nVerify That You're on the Branch\n\u00b6\n\n\ngit branch\n  master\n* <branch-name> <-- you are now on the new branch\n\n\n\n\nMake Your Branch Changes\n\u00b6\n\n\n...\n\n\n\n\nVerify Branch Changes\n\u00b6\n\n\ngit status\n\n\n\n\nPrepare (Add) Your Branch Changes for Commit\n\u00b6\n\n\ngit add ...\n\n\n\n\nCommit Your Branch Changes Locally\n\u00b6\n\n\ngit commit -m \"<descriptive-message>\"\n\n\n\n\nPush Your Branch Changes Remotely\n\u00b6\n\n\ngit push -u origin <branch-name>\n\n### EXPECTED OUTPUT ###\n# Counting objects: 8, done.\n# Delta compression using up to 8 threads.\n# Compressing objects: 100% (6/6), done.\n# Writing objects: 100% (8/8), 684 bytes | 0 bytes/s, done.\n# Total 8 (delta 2), reused 0 (delta 0)\n# remote: Resolving deltas: 100% (2/2), completed with 1 local objects.\n# To github.com:fluxcapacitor/pipeline.git\n# * [new branch]      <branch-name> -> <branch-name>\n#Branch <branch-name> set up to track remote branch <branch-name> from origin.\n\n\nNote:  If you see an error related to \nPermission denied (publickey)\n or \nPlease make sure you have the correct access rights\n, follow the steps detailed \nhere\n.\n\n\nSubmit a Pull Request with Github Server UI\n\u00b6\n\n\n\n\nCompare your \n<branch-name>\n to the \nmaster\n branch on Github Server\n\n\n\n\nFix the Pull Request if Needed based on Comments\n\u00b6\n\n\nWait for Committer to Merge Pull Request (within Github UI)\n\u00b6\n\n\nDelete the Branch (from both Local and Remote Github)\n\u00b6\n\n\nGo back to \nmaster\n branch\n\ngit checkout master\n\n\n\nDelete Remote Branch\n\ngit push origin --delete <branch-name>\n\n\n\nDelete Local Branch\n\ngit branch -d <branch-name>\n\n\n\nLicense and Public Datasetse\n\u00b6\n\n\n\n\nYour work should be open source under a liberal license (ie. Apache2, MIT)\n\n\nYou should use publicly-available training and validation datasets so that others can easily replicate your work.",
-            "title": "Contributing"
-        },
-        {
-            "location": "/contributing/#contribute-to-pipelineio",
-            "text": "Want to join the PipelineIO Community?    We will gladly accept implementations of poppular and useful ML/AI models and runtimes into PipelineIO.  The active list of outstanding PipelineIO issues and features are  here .",
-            "title": "Contribute to PipelineIO"
-        },
-        {
-            "location": "/contributing/#creating-a-pull-request",
-            "text": "",
-            "title": "Creating a Pull Request"
-        },
-        {
-            "location": "/contributing/#create-a-branch-for-your-changes",
-            "text": "git branch <branch-name>",
-            "title": "Create a Branch for Your Changes"
-        },
-        {
-            "location": "/contributing/#verify-new-branch-is-created",
-            "text": "git branch\n\n### EXPECTED OUTPUT ###\n* master   <-- this is current branch\n  <branch-name>",
-            "title": "Verify New Branch is Created"
-        },
-        {
-            "location": "/contributing/#switch-to-your-new-branch",
-            "text": "git checkout <branch-name>\n\n### EXPECTED OUTPUT ###\nSwitched to branch '<branch-name>'",
-            "title": "Switch to Your New Branch"
-        },
-        {
-            "location": "/contributing/#verify-that-youre-on-the-branch",
-            "text": "git branch\n  master\n* <branch-name> <-- you are now on the new branch",
-            "title": "Verify That You're on the Branch"
-        },
-        {
-            "location": "/contributing/#make-your-branch-changes",
-            "text": "...",
-            "title": "Make Your Branch Changes"
-        },
-        {
-            "location": "/contributing/#verify-branch-changes",
-            "text": "git status",
-            "title": "Verify Branch Changes"
-        },
-        {
-            "location": "/contributing/#prepare-add-your-branch-changes-for-commit",
-            "text": "git add ...",
-            "title": "Prepare (Add) Your Branch Changes for Commit"
-        },
-        {
-            "location": "/contributing/#commit-your-branch-changes-locally",
-            "text": "git commit -m \"<descriptive-message>\"",
-            "title": "Commit Your Branch Changes Locally"
-        },
-        {
-            "location": "/contributing/#push-your-branch-changes-remotely",
-            "text": "git push -u origin <branch-name>\n\n### EXPECTED OUTPUT ###\n# Counting objects: 8, done.\n# Delta compression using up to 8 threads.\n# Compressing objects: 100% (6/6), done.\n# Writing objects: 100% (8/8), 684 bytes | 0 bytes/s, done.\n# Total 8 (delta 2), reused 0 (delta 0)\n# remote: Resolving deltas: 100% (2/2), completed with 1 local objects.\n# To github.com:fluxcapacitor/pipeline.git\n# * [new branch]      <branch-name> -> <branch-name>\n#Branch <branch-name> set up to track remote branch <branch-name> from origin. \nNote:  If you see an error related to  Permission denied (publickey)  or  Please make sure you have the correct access rights , follow the steps detailed  here .",
-            "title": "Push Your Branch Changes Remotely"
-        },
-        {
-            "location": "/contributing/#submit-a-pull-request-with-github-server-ui",
-            "text": "Compare your  <branch-name>  to the  master  branch on Github Server",
-            "title": "Submit a Pull Request with Github Server UI"
-        },
-        {
-            "location": "/contributing/#fix-the-pull-request-if-needed-based-on-comments",
-            "text": "",
-            "title": "Fix the Pull Request if Needed based on Comments"
-        },
-        {
-            "location": "/contributing/#wait-for-committer-to-merge-pull-request-within-github-ui",
-            "text": "",
-            "title": "Wait for Committer to Merge Pull Request (within Github UI)"
-        },
-        {
-            "location": "/contributing/#delete-the-branch-from-both-local-and-remote-github",
-            "text": "Go back to  master  branch git checkout master  Delete Remote Branch git push origin --delete <branch-name>  Delete Local Branch git branch -d <branch-name>",
-            "title": "Delete the Branch (from both Local and Remote Github)"
-        },
-        {
-            "location": "/contributing/#license-and-public-datasetse",
-            "text": "Your work should be open source under a liberal license (ie. Apache2, MIT)  You should use publicly-available training and validation datasets so that others can easily replicate your work.",
-            "title": "License and Public Datasetse"
         },
         {
             "location": "/legal/",
