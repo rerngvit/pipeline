@@ -67,6 +67,14 @@
 
     
     <url>
+     <loc>http://pipeline.io/model_experiment/</loc>
+     <lastmod>2017-05-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>http://pipeline.io/model_monitor/</loc>
      <lastmod>2017-05-22</lastmod>
      <changefreq>daily</changefreq>
