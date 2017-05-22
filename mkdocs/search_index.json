@@ -177,13 +177,13 @@
         },
         {
             "location": "/model_train/",
-            "text": "Model Training\n\u00b6\n\n\nBelow is the list of applications and tools supported by PipelineIO.  This set of tools derives from the ridiculously popular PANCAKE STACK made famous in 2016.\n\n\n\n\nAll applications and tools can be auto-scaled across both CPU and GPU nodes in all major cloud provider and on-premise environments.\n\n\n\n\n\n\n\n\nTool\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nairflow\n\n\n\n\n\n\n\n\ncassandra\n\n\n\n\n\n\n\n\nelasticsearch\n\n\n\n\n\n\n\n\nhdfs\n\n\n\n\n\n\n\n\njupyter\n\n\n\n\n\n\n\n\nkafka\n\n\n\n\n\n\n\n\nkibana\n\n\n\n\n\n\n\n\nmetastore\n\n\n\n\n\n\n\n\nmysql\n\n\n\n\n\n\n\n\npresto\n\n\n\n\n\n\n\n\nredis\n\n\n\n\n\n\n\n\nspark\n\n\n\n\n\n\n\n\nzeppelin\n\n\n\n\n\n\n\n\nzookeeper\n\n\n\n\n\n\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "Train Model\n\u00b6\n\n\nBelow is the list of applications and tools supported by PipelineIO.  This set of tools derives from the ridiculously popular PANCAKE STACK made famous in 2016.\n\n\n\n\nAll applications and tools can be auto-scaled across both CPU and GPU nodes in all major cloud provider and on-premise environments.\n\n\n\n\n\n\n\n\nTool\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nairflow\n\n\n\n\n\n\n\n\ncassandra\n\n\n\n\n\n\n\n\nelasticsearch\n\n\n\n\n\n\n\n\nhdfs\n\n\n\n\n\n\n\n\njupyter\n\n\n\n\n\n\n\n\nkafka\n\n\n\n\n\n\n\n\nkibana\n\n\n\n\n\n\n\n\nmetastore\n\n\n\n\n\n\n\n\nmysql\n\n\n\n\n\n\n\n\npresto\n\n\n\n\n\n\n\n\nredis\n\n\n\n\n\n\n\n\nspark\n\n\n\n\n\n\n\n\nzeppelin\n\n\n\n\n\n\n\n\nzookeeper\n\n\n\n\n\n\n\n\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "Train Model"
         },
         {
-            "location": "/model_train/#model-training",
+            "location": "/model_train/#train-model",
             "text": "Below is the list of applications and tools supported by PipelineIO.  This set of tools derives from the ridiculously popular PANCAKE STACK made famous in 2016.   All applications and tools can be auto-scaled across both CPU and GPU nodes in all major cloud provider and on-premise environments.     Tool  Description      airflow     cassandra     elasticsearch     hdfs     jupyter     kafka     kibana     metastore     mysql     presto     redis     spark     zeppelin     zookeeper",
-            "title": "Model Training"
+            "title": "Train Model"
         },
         {
             "location": "/model_train/#suggest-an-edit",
@@ -192,13 +192,13 @@
         },
         {
             "location": "/model_optimize/",
-            "text": "Optimize a Model\n\u00b6\n\n\nUpon deploying your model, PipelineIO will attempt to optimize your model for high-performance serving and predicting.\n\n\nVarious model optimization and simplification techniques include folding batch normalizations, quantizing weights, and generating native code for both CPU and GPU.\n\n\nExamples\n\u00b6\n\n\nTensorFlow: Quantizing Weights\n\u00b6\n\n\n\n\nUnoptimized Linear Regression \n\n\nOptimized Linear Regression\n\n\nSpark ML: Generating Native Code\n\u00b6\n\n\n \n\n\n \n\n\n\n\nUnoptimized Decision Tree\n\n\nOptimized Decision Tree\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "Optimize Model\n\u00b6\n\n\nUpon deploying your model, PipelineIO will attempt to optimize your model for high-performance serving and predicting.\n\n\nVarious model optimization and simplification techniques include folding batch normalizations, quantizing weights, and generating native code for both CPU and GPU.\n\n\nExamples\n\u00b6\n\n\nTensorFlow: Quantizing Weights\n\u00b6\n\n\n\n\nUnoptimized Linear Regression \n\n\nOptimized Linear Regression\n\n\nSpark ML: Generating Native Code\n\u00b6\n\n\n \n\n\n \n\n\n\n\nUnoptimized Decision Tree\n\n\nOptimized Decision Tree\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "Optimize Model"
         },
         {
-            "location": "/model_optimize/#optimize-a-model",
+            "location": "/model_optimize/#optimize-model",
             "text": "Upon deploying your model, PipelineIO will attempt to optimize your model for high-performance serving and predicting.  Various model optimization and simplification techniques include folding batch normalizations, quantizing weights, and generating native code for both CPU and GPU.",
-            "title": "Optimize a Model"
+            "title": "Optimize Model"
         },
         {
             "location": "/model_optimize/#examples",
