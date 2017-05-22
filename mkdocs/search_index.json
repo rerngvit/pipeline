@@ -567,7 +567,7 @@
         },
         {
             "location": "/pio_training/",
-            "text": "PipelineIO Training\n\u00b6\n\n\nPublic Training\n\u00b6\n\n\nSpark TensorFlow GPU Apr 22 \n\n(SOLD OUT)\n\n\nSpark TensorFlow GPU May 27\n\n\nSpark TensorFlow GPU June 10\n\n\nO'Reilly TensorFlow Sep 07\n\n\nCorporate Training\n\u00b6\n\n\nAvailable upon request.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
+            "text": "PipelineIO Training\n\u00b6\n\n\nPublic Training\n\u00b6\n\n\nSpark TensorFlow GPU Apr 22 \n\n(SOLD OUT)\n\n\nSpark TensorFlow GPU May 27\n\n\nSpark TensorFlow GPU June 10\n\n\nO'Reilly TensorFlow Sep 07\n\n\nCorporate Training\n\u00b6\n\n\nAvailable upon \nrequest\n.\n\n\n\n\nSuggest an Edit\n\u00b6\n\n\nOption 1:  Click the \nEdit\n icon at the top right of this page.\n\n\nOption 2:  Create a \nGitHub Issue\n.",
             "title": "Training and Workshops"
         },
         {
@@ -582,7 +582,7 @@
         },
         {
             "location": "/pio_training/#corporate-training",
-            "text": "Available upon request.",
+            "text": "Available upon  request .",
             "title": "Corporate Training"
         },
         {
