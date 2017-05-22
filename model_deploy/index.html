@@ -197,8 +197,8 @@
       
   <li class="md-nav__item">
     
-      <a href="../products/" title="Products" class="md-nav__link">
-        Products
+      <a href="../getting_started/" title="Getting Started" class="md-nav__link">
+        Getting Started
       </a>
     
   </li>
@@ -243,6 +243,8 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
+      
+    
     
       <label class="md-nav__link md-nav__link--active" for="toc">
         Deploy a Model
@@ -256,20 +258,36 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#documentation-coming-soon" title="Documentation Coming Soon!" class="md-nav__link">
-    Documentation Coming Soon!
+  <a href="#supported-model-types" title="Supported Model Types" class="md-nav__link">
+    Supported Model Types
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#help-make-this-document-better" title="Help make this document better" class="md-nav__link">
-    Help make this document better
+  <a href="#initialize-model" title="Initialize Model" class="md-nav__link">
+    Initialize Model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deploy-model" title="Deploy Model" class="md-nav__link">
+    Deploy Model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#predict-model" title="Predict Model" class="md-nav__link">
+    Predict Model
   </a>
   
 </li>
@@ -448,20 +466,36 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#documentation-coming-soon" title="Documentation Coming Soon!" class="md-nav__link">
-    Documentation Coming Soon!
+  <a href="#supported-model-types" title="Supported Model Types" class="md-nav__link">
+    Supported Model Types
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#help-make-this-document-better" title="Help make this document better" class="md-nav__link">
-    Help make this document better
+  <a href="#initialize-model" title="Initialize Model" class="md-nav__link">
+    Initialize Model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deploy-model" title="Deploy Model" class="md-nav__link">
+    Deploy Model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#predict-model" title="Predict Model" class="md-nav__link">
+    Predict Model
   </a>
   
 </li>
@@ -481,9 +515,161 @@
                
               
                 
-                  <h1>Deploy a Model</h1>
-                
-                <h2 id="documentation-coming-soon">Documentation Coming Soon!</h2>
+                <h1 id="deploy-and-test-mlai-models">Deploy and Test ML/AI Models</h1>
+<h2 id="supported-model-types">Supported Model Types</h2>
+<ul>
+<li>Scikit-Learn</li>
+<li>R</li>
+<li>Spark ML</li>
+<li>TensorFlow</li>
+<li>XGBoost</li>
+<li>Python3</li>
+<li>Java</li>
+<li>PMML</li>
+<li>Ensembles</li>
+</ul>
+<h2 id="initialize-model">Initialize Model</h2>
+<pre><code>pio init-model --model-server-url &lt;model_server_url&gt; \
+               --model-type &lt;model_type&gt; \
+               --model-namespace &lt;model_namespace&gt; \
+               --model_name &lt;model_name&gt; \
+               --model-version &lt;model_version&gt; \
+               --model-path /path/to/model \
+               --model-test-input-path /path/to/test/inputs
+</code></pre>
+
+<h2 id="deploy-model">Deploy Model</h2>
+<pre><code>pio deploy
+</code></pre>
+
+<h2 id="predict-model">Predict Model</h2>
+<pre><code>pio predict
+</code></pre>
+
+<h1 id="examples">Examples</h1>
+<pre><code>git clone https://github.com/fluxcapacitor/source.ml
+</code></pre>
+
+<h2 id="tensorflow">TensorFlow</h2>
+<p>model_type: <code>tensorflow</code></p>
+<h3 id="start-model-server">Start Model Server</h3>
+<pre><code>pio start prediction-tensorflow
+</code></pre>
+
+<h3 id="initialize-model_1">Initialize Model</h3>
+<pre><code>pio init-model --model-server-url http://your.model.server.com \
+               --model-type tensorflow \
+               --model-namespace default \
+               --model-name tensorflow_linear \
+               --model-version 0 \
+               --model-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0 \
+               --model-test-input-path ./source.ml/prediction.ml/model_store/tensorflow/default/tensorflow_linear/0/test_inputs.txt
+</code></pre>
+
+<h3 id="deploy-model_1">Deploy Model</h3>
+<pre><code>pio deploy
+</code></pre>
+
+<h3 id="predict-model_1">Predict Model</h3>
+<pre><code>pio predict
+</code></pre>
+
+<h2 id="scikit-learn">Scikit-Learn</h2>
+<p>model_type: <code>scikit</code></p>
+<h3 id="start-model-server_1">Start Model Server</h3>
+<pre><code>pio start prediction-scikit
+</code></pre>
+
+<h3 id="initialize-model_2">Initialize Model</h3>
+<pre><code>pio init-model --model-server-url http://your.model.server.com \
+               --model-type scikit \
+               --model-namespace default \
+               --model-name scikit_linear \
+               --model-version v0 \
+               --model-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0 \
+               --model-test-input-path ./source.ml/prediction.ml/model_store/scikit/default/scikit_linear/v0/test_inputs.txt
+</code></pre>
+
+<h3 id="deploy-model_2">Deploy Model</h3>
+<pre><code>pio deploy
+</code></pre>
+
+<h3 id="predict-model_2">Predict Model</h3>
+<pre><code>pio predict
+</code></pre>
+
+<h2 id="spark-ml">Spark ML</h2>
+<p>model_type: <code>spark</code></p>
+<h3 id="start-model-server_2">Start Model Server</h3>
+<pre><code>pio start prediction-spark
+</code></pre>
+
+<h3 id="initialize-model_3">Initialize Model</h3>
+<pre><code>pio init-model --model-server-url http://your.model.server.com \
+               --model-type spark \
+               --model-namespace default \
+               --model-name spark_airbnb 
+               --model-version v0 \
+               --model-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0 \
+               --model-test-input-path ./source.ml/prediction.ml/model_store/spark/default/spark_airbnb/v0/test_inputs.txt
+</code></pre>
+
+<h3 id="deploy-model_3">Deploy Model</h3>
+<pre><code>pio deploy
+</code></pre>
+
+<h3 id="predict-model_3">Predict Model</h3>
+<pre><code>pio predict
+</code></pre>
+
+<h2 id="python3">Python3</h2>
+<p>model_type: <code>python3</code></p>
+<h3 id="start-model-server_3">Start Model Server</h3>
+<pre><code>pio start prediction-python3
+</code></pre>
+
+<h3 id="initialize-model_4">Initialize Model</h3>
+<pre><code>pio init-model --model-server-url http://your.model.server.com \
+               --model-type python3 \
+               --model-namespace default \
+               --model-name python3_zscore \
+               --model-version v0 \
+               --model-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0 \
+               --model-test-input-path ./source.ml/prediction.ml/model_store/python3/default/python3_zscore/v0/test_inputs.txt
+</code></pre>
+
+<h3 id="deploy-model_4">Deploy Model</h3>
+<pre><code>pio deploy
+</code></pre>
+
+<h3 id="predict-model_4">Predict Model</h3>
+<pre><code>pio predict
+</code></pre>
+
+<h2 id="pmml">PMML</h2>
+<p>model_type: <code>pmml</code></p>
+<h3 id="start-model-server_4">Start Model Server</h3>
+<pre><code>pio start prediction-pmml
+</code></pre>
+
+<h3 id="initialize-model_5">Initialize Model</h3>
+<pre><code>pio init-model --model-server-url http://your.model.server.com \
+               --model-type pmml \
+               --model-namespace default \
+               --model-name pmml_airbnb \
+               --model-version v0 \
+               --model-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0 \
+               --model-test-input-path ./source.ml/prediction.ml/model_store/pmml/default/pmml_airbnb/v0/test_inputs.txt
+</code></pre>
+
+<h3 id="deploy-model_5">Deploy Model</h3>
+<pre><code>pio deploy
+</code></pre>
+
+<h3 id="predict-model_5">Predict Model</h3>
+<pre><code>pio predict
+</code></pre>
+
 <hr />
 <h2 id="help-make-this-document-better">Help make this document better</h2>
 <p>This guide, as well as the rest of our docs, are open-source and available on 
