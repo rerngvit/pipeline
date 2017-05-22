@@ -9,7 +9,7 @@
         <meta name="description" content="End-to-End ML and AI Model Training and Deployment Platform with GPUs">
       
       
-        <link rel="canonical" href="http://pipeline.io/monitoring/">
+        <link rel="canonical" href="http://pipeline.io/model_monitor/">
       
       
         <meta name="author" content="PipelineIO">
@@ -243,6 +243,8 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
+      
+    
     
       <label class="md-nav__link md-nav__link--active" for="toc">
         Monitoring a Model
@@ -256,14 +258,57 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#documentation-coming-soon" title="Documentation Coming Soon!" class="md-nav__link">
-    Documentation Coming Soon!
+  <a href="#example-dashboards" title="Example Dashboards" class="md-nav__link">
+    Example Dashboards
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#latency" title="Latency" class="md-nav__link">
+    Latency
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#health" title="Health" class="md-nav__link">
+    Health
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memory-usage" title="Memory Usage" class="md-nav__link">
+    Memory Usage
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gpu-utilization" title="GPU Utilization" class="md-nav__link">
+    GPU Utilization
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#request-batch-size" title="Request Batch Size" class="md-nav__link">
+    Request Batch Size
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -285,8 +330,19 @@
       
   <li class="md-nav__item">
     
-      <a href="../open_source/" title="Open Source and Community" class="md-nav__link">
-        Open Source and Community
+      <a href="../open_source/" title="Open Source" class="md-nav__link">
+        Open Source
+      </a>
+    
+  </li>
+
+    
+      
+      
+  <li class="md-nav__item">
+    
+      <a href="../community/" title="Community Events" class="md-nav__link">
+        Community Events
       </a>
     
   </li>
@@ -307,30 +363,8 @@
       
   <li class="md-nav__item">
     
-      <a href="../data/" title="Datasets and Sources" class="md-nav__link">
-        Datasets and Sources
-      </a>
-    
-  </li>
-
-    
-      
-      
-  <li class="md-nav__item">
-    
-      <a href="../legal/privacy/" title="Privacy" class="md-nav__link">
-        Privacy
-      </a>
-    
-  </li>
-
-    
-      
-      
-  <li class="md-nav__item">
-    
-      <a href="../legal/terms/" title="Terms of Service" class="md-nav__link">
-        Terms of Service
+      <a href="../legal/" title="Privacy and Terms" class="md-nav__link">
+        Privacy and Terms
       </a>
     
   </li>
@@ -350,14 +384,57 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#documentation-coming-soon" title="Documentation Coming Soon!" class="md-nav__link">
-    Documentation Coming Soon!
+  <a href="#example-dashboards" title="Example Dashboards" class="md-nav__link">
+    Example Dashboards
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#latency" title="Latency" class="md-nav__link">
+    Latency
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#health" title="Health" class="md-nav__link">
+    Health
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memory-usage" title="Memory Usage" class="md-nav__link">
+    Memory Usage
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gpu-utilization" title="GPU Utilization" class="md-nav__link">
+    GPU Utilization
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#request-batch-size" title="Request Batch Size" class="md-nav__link">
+    Request Batch Size
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -379,20 +456,34 @@
           <div class="md-content">
             <article class="md-content__inner md-typeset">
                
-                 <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/monitoring/index.md" title="Edit this page" class="md-icon md-content__edit">edit</a>
+                 <a href="https://github.com/fluxcapacitor/pipeline/edit/master/docs/model_monitor/index.md" title="Edit this page" class="md-icon md-content__edit">edit</a>
                
               
                 
-                  <h1>Monitoring a Model</h1>
-                
-                <h2 id="documentation-coming-soon">Documentation Coming Soon!</h2>
+                <h1 id="monitoring-a-model">Monitoring a Model</h1>
+<p>Metrics, dashboards, and visualizations are native to PipelineIO.  </p>
+<p>We believe that you should have full insight into everything deployed to production.</p>
+<p>PipelineIO provides the usual dashboards for real-time system metrics including memory usage, disk I/O and network throughput, CPU and GPU utilization of your model training and deployment activities.</p>
+<p>In addition, PipelineIO provides dashboards for real-time model server metrics including latency, throughput, and health of your models in production.</p>
+<h2 id="example-dashboards">Example Dashboards</h2>
+<h3 id="latency">Latency</h3>
+<p>Higher latency may lead to an unhealthy model server if left unbounded.</p>
+<h3 id="health">Health</h3>
+<p>Unhealthy or latent services may open a <a href="https://www.infoq.com/interviews/Building-Resilient-Systems-Michael-Nygard">circuit</a>.  This causes the circuit to return a degraded, fallback response.
+<a href="./img/hystrix-example-600x306.png">Model Health</a></p>
+<h3 id="memory-usage">Memory Usage</h3>
+<p>Higher memory usage beyond physical container or node limits may degrade performance.</p>
+<h3 id="gpu-utilization">GPU Utilization</h3>
+<p>Higher, consistent utilization is preferred.  You want to saturate your cores, but not oversaturate them.</p>
+<h3 id="request-batch-size">Request Batch Size</h3>
+<p>Larger batch sizes usually provide higher throughput.</p>
 <hr />
 <h2 id="help-make-this-document-better">Help make this document better</h2>
 <p>This guide, as well as the rest of our docs, are open-source and available on 
 <a href="https://github.com/fluxcapacitor/pipeline/docs">GitHub</a>. We welcome your contributions.</p>
 <ul>
 <li>Suggest an edit to this page (by clicking the edit icon at the top next to the title).</li>
-<li><a href="https://github.com/fluxcapacitor/pipeline/issues/new?body=This%20issue%20is%20about%20%3C">Open an issue about this page</a> to report a problem.</li>
+<li><a href="https://github.com/fluxcapacitor/pipeline/issues/new?body=This%20documentation%20issue%20is%20about%20">Open an issue about this page</a> to report a problem.</li>
 </ul>
               
             </article>
@@ -421,13 +512,13 @@
           </a>
         
         
-          <a href="../open_source/" title="Open Source and Community" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../open_source/" title="Open Source" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Open Source and Community
+                Open Source
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
