@@ -72,7 +72,7 @@
         },
         {
             "location": "/install/",
-            "text": "Installing PipelineIO in Your Environment\n\u00b6\n\n\nPipelineIO uses Kubernetes for Docker Container Management and Orchestration.\n\n\n \n\n\nPipelineIO \nMini\n (Local Laptop)\n\u00b6\n\n\nSmall Kubernetes cluster for your laptop\n\n\nPipelineIO \nAWS\n\u00b6\n\n\n\n\nPipelineIO \nGoogle\n\u00b6\n\n\n\n\nPipelineIO \nAzure\n\u00b6\n\n\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "text": "Installing PipelineIO in Your Environment\n\u00b6\n\n\nPipelineIO uses Kubernetes for Docker Container Management and Orchestration.\n\n\n \n\n\n\n\nPipelineIO \nMini\n (Local Laptop)\n\u00b6\n\n\nSmall Kubernetes cluster for your laptop\n\n\nPipelineIO \nAWS\n\u00b6\n\n\n\n\nPipelineIO \nGoogle\n\u00b6\n\n\n\n\nPipelineIO \nAzure\n\u00b6\n\n\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Install PipelineIO"
         },
         {
