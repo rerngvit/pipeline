@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to PipelineIO!\n\u00b6\n\n\n\n\nWhat is PipelineIO?\n\u00b6\n\n\nPipelineIO\n is an end-to-end, highly-scalable, highly-available, GPU-based machine learning and artificial intelligence model training and deployment platform.\n\n\nPipelineIO, our employees, our advisors, our investors, and our media activity are listed on \nCrunchbase\n along with 1000's of our \nglobal enterprise users and customers\n.\n\n\nClick \nhere\n to get started with either our free \nCommunity Edition\n, our upgraded \nProfessional Edition\n, or our complete \nEnterprise Edition\n.\n\n\nWho is PipelineIO?\n\u00b6\n\n\nPipelineIO is built with Love and Scale by a core group of ex-Netflix, Databricks, TensorFlow, and Kubernetes Engineers.  However, the extended PipelineIO Community consists of awesome engineers from many companies thoughout the world. \n\n\n\n\n \n\n\n\n\n24x7 Global Support\n\u00b6\n\n\nCheck out the \nPipelineIO Support Forum\n for discussions, feature requests, and 24x7 support from San Francisco-based PipelineIO and 1000's of global PipelineIO users and customers.\n\n\nWhile all support requests are high priority, we offer dedicated \nenterprise-level support\n, as well.\n\n\nWant More Info?\n\u00b6\n\n\nEmail us at \nhelp@pipeline.io\n and we'll get right back to you!\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "text": "Welcome to PipelineIO!\n\u00b6\n\n\n\n\nWhat is PipelineIO?\n\u00b6\n\n\nPipelineIO\n is an end-to-end, highly-scalable, highly-available, GPU-based machine learning and artificial intelligence model training and deployment platform.\n\n\nPipelineIO, our employees, our advisors, our investors, and our media activity are listed on \nCrunchbase\n along with 1000's of our \nglobal enterprise users and customers\n.\n\n\n\n\nClick \nhere\n to get started with either our free \nCommunity Edition\n, our upgraded \nProfessional Edition\n, or our complete \nEnterprise Edition\n.\n\n\nWho is PipelineIO?\n\u00b6\n\n\nPipelineIO is built with Love and Scale by a core group of ex-Netflix, Databricks, TensorFlow, and Kubernetes Engineers.  However, the extended PipelineIO Community consists of awesome engineers from many companies thoughout the world. \n\n\n\n\n \n\n\n\n\n24x7 Global Support\n\u00b6\n\n\nCheck out the \nPipelineIO Support Forum\n for discussions, feature requests, and 24x7 support from San Francisco-based PipelineIO and 1000's of global PipelineIO users and customers.\n\n\nWhile all support requests are high priority, we offer dedicated \nenterprise-level support\n, as well.\n\n\nWant More Info?\n\u00b6\n\n\nEmail us at \nhelp@pipeline.io\n and we'll get right back to you!\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Home"
         },
         {
@@ -12,7 +12,7 @@
         },
         {
             "location": "/#what-is-pipelineio",
-            "text": "PipelineIO  is an end-to-end, highly-scalable, highly-available, GPU-based machine learning and artificial intelligence model training and deployment platform.  PipelineIO, our employees, our advisors, our investors, and our media activity are listed on  Crunchbase  along with 1000's of our  global enterprise users and customers .  Click  here  to get started with either our free  Community Edition , our upgraded  Professional Edition , or our complete  Enterprise Edition .",
+            "text": "PipelineIO  is an end-to-end, highly-scalable, highly-available, GPU-based machine learning and artificial intelligence model training and deployment platform.  PipelineIO, our employees, our advisors, our investors, and our media activity are listed on  Crunchbase  along with 1000's of our  global enterprise users and customers .   Click  here  to get started with either our free  Community Edition , our upgraded  Professional Edition , or our complete  Enterprise Edition .",
             "title": "What is PipelineIO?"
         },
         {
@@ -352,7 +352,7 @@
         },
         {
             "location": "/open_source/",
-            "text": "PipelineIO is Open Source\n\u00b6\n\n\nPipelineIO builds upon many great open source projects including Jupyter, Zeppelin, Spark, TensorFlow, ElasticSearch, Kafka, Docker, Kubernetes, Prometheus, etc.\n\n \n\n \n\n \n\n\n\n \n\n \n\n\n\nOpen Source Development using GitHub and DockerHub\n\u00b6\n\n\nPipelineIO\n and the extended PipelineIO global \ncommunity\n are 100% dedicated to open source development.  \n\n\nWe develop openly in \nGitHub\n and post many of our Docker images in \nDockerHub\n for everyone to embrace and extend.\n\n\n\n\n\nCommitters and Contributors to Many Open Source Projects\n\u00b6\n\n\nMany of our employees, contributors, and community members are active committers and contributors to such popular open source projects as...\n\n\n\n\nApache Spark\n\n\nKafka\n\n\nNiFi\n\n\nCassandra\n\n\nArrow\n\n\nAirflow\n\n\nPresto\n\n\nTensorFlow\n\n\nKubernetes\n\n\nElasticsearch\n\n\nScikit-Learn\n\n\nR\n\n\nXgboost\n\n\nPMML\n\n\nHadoop\n\n\nMahout\n\n\nStorm\n\n\nCascading\n\n\nHive\n\n\nScala\n\n\nSbt\n\n\nMaven\n\n\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
+            "text": "PipelineIO is Open Source\n\u00b6\n\n\nPipelineIO builds upon many great open source projects including Jupyter, Zeppelin, Spark, TensorFlow, ElasticSearch, Kafka, Docker, Kubernetes, Prometheus, etc.\n\n\n \n\n\n \n\n\n \n\n\n\n\n \n\n\n \n\n\n\n\nGitHub and DockerHub\n\u00b6\n\n\nPipelineIO\n and the extended PipelineIO global \ncommunity\n are 100% dedicated to open source development.  \n\n\nWe develop openly in \nGitHub\n and post many of our Docker images in \nDockerHub\n for everyone to embrace and extend.\n\n\n\n\n\n\nCommitters and Contributors\n\u00b6\n\n\nMany of our employees, contributors, and community members are active committers and contributors to such popular open source projects as...\n\n\n\n\nApache Spark\n\n\nKafka\n\n\nNiFi\n\n\nCassandra\n\n\nArrow\n\n\nAirflow\n\n\nPresto\n\n\nTensorFlow\n\n\nKubernetes\n\n\nElasticsearch\n\n\nScikit-Learn\n\n\nR\n\n\nXgboost\n\n\nPMML\n\n\nHadoop\n\n\nMahout\n\n\nStorm\n\n\nCascading\n\n\nHive\n\n\nScala\n\n\nSbt\n\n\nMaven\n\n\n\n\n\n\nHelp make this document better\n\u00b6\n\n\nThis guide, as well as the rest of our docs, are open-source and available on \n\nGitHub\n. We welcome your contributions.\n\n\n\n\nSuggest an edit to this page (by clicking the edit icon at the top next to the title).\n\n\nOpen an issue about this page\n to report a problem.",
             "title": "Open Source"
         },
         {
@@ -361,14 +361,14 @@
             "title": "PipelineIO is Open Source"
         },
         {
-            "location": "/open_source/#open-source-development-using-github-and-dockerhub",
+            "location": "/open_source/#github-and-dockerhub",
             "text": "PipelineIO  and the extended PipelineIO global  community  are 100% dedicated to open source development.    We develop openly in  GitHub  and post many of our Docker images in  DockerHub  for everyone to embrace and extend.",
-            "title": "Open Source Development using GitHub and DockerHub"
+            "title": "GitHub and DockerHub"
         },
         {
-            "location": "/open_source/#committers-and-contributors-to-many-open-source-projects",
+            "location": "/open_source/#committers-and-contributors",
             "text": "Many of our employees, contributors, and community members are active committers and contributors to such popular open source projects as...   Apache Spark  Kafka  NiFi  Cassandra  Arrow  Airflow  Presto  TensorFlow  Kubernetes  Elasticsearch  Scikit-Learn  R  Xgboost  PMML  Hadoop  Mahout  Storm  Cascading  Hive  Scala  Sbt  Maven",
-            "title": "Committers and Contributors to Many Open Source Projects"
+            "title": "Committers and Contributors"
         },
         {
             "location": "/open_source/#help-make-this-document-better",
