@@ -41,7 +41,7 @@ RUN \
 
 # Install non-secure dummyauthenticator for jupyterhub (dev purposes only)
 RUN \
-  pip install jupyterhub-dummyauthenticator==0.1
+  pip install jupyterhub-dummyauthenticator==0.3.1
 
 RUN \
   pip install oauthenticator==0.5.1
