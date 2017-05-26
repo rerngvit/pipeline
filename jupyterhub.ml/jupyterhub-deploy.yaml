@@ -53,7 +53,7 @@ spec:
 #          - name: hadoop-conf-dev-volume
 #            mountPath: /etc/hadoop/conf
            - name: ebs-volume
-             mountPath: /mnt/ebs-volume
+             mountPath: /root/volumes/source.ml/jupyterhub.ml/notebooks/ebs-volume
            - name: git-volume
              mountPath: /root/volumes
       volumes:
