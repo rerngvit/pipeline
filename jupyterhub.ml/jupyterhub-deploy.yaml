@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: jupyterhub
-        image: rerng007/pipeline:latest
+        image: rerng007/pipeline:jupyterhub_authen
         resources:
           limits:
             cpu: 1000m
@@ -52,15 +52,14 @@ spec:
 #            mountPath: /root/.kube
 #          - name: hadoop-conf-dev-volume
 #            mountPath: /etc/hadoop/conf
-          - name: git-volume
-            mountPath: /root/volumes
+           - name: ebs-volume
+             mountPath: /mnt/ebs-volume
+           - name: git-volume
+             mountPath: /root/volumes
       volumes:
-#        - name: kube-config-secret-volume
-#          secret:
-#            secretName: kube-config-secret
-#        - name: hadoop-conf-dev-volume
-#          secret:
-#            secretName: hadoop-conf-dev
+        - name: ebs-volume
+          persistentVolumeClaim: 
+            claimName: ebs-claim-1
         - name: git-volume
           gitRepo:
             repository: "https://github.com/fluxcapacitor/source.ml"
