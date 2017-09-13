@@ -1,4 +1,4 @@
-FROM rerng007/pipeline:spark_with_nltk
+FROM rerng007/pipeline:spark_base
 
 WORKDIR /root
 
