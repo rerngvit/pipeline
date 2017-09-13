@@ -71,6 +71,12 @@ ENV \
 RUN \
   conda install --yes openblas scikit-learn numpy scipy ipython jupyter matplotlib pandas
 
+
+RUN \
+  conda install --yes nltk
+
+RUN python -m nltk.downloader -d /usr/local/share/nltk_data all
+
 RUN \
   conda install --yes -c conda-forge py4j
 
