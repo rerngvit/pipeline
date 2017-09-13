@@ -5,7 +5,7 @@ metadata:
   labels:
     app: spark-worker-2-1-0
 spec:
-  replicas: 1
+  replicas: 5
   selector:
     matchLabels:
       app: spark-worker-2-1-0
@@ -29,7 +29,7 @@ spec:
         - name: GET_HOSTS_FROM
           value: env
         - name: SPARK_WORKER_CORES
-          value: "2"
+          value: "1"
         - name: SPARK_WORKER_MEMORY
           value: 2g
         - name: SPARK_MASTER

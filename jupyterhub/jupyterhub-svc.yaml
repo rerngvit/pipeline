@@ -19,5 +19,8 @@ spec:
   - name: tensorboard
     port: 6006
     targetPort: 6006
+  - name: sparkui-app1
+    port: 4040
+    targetPort: 4040
   selector:
     app: jupyterhub
