@@ -46,3 +46,10 @@ spec:
         - containerPort: 6006
         - containerPort: 8754
         - containerPort: 8755
+        volumeMounts:
+        - name: ebs-volume
+          mountPath: /root/notebooks/ebs-volume
+      volumes:
+        - name: ebs-volume
+          persistentVolumeClaim:
+            claimName: ebs-claim-1
