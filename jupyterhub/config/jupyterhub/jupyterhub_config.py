@@ -75,6 +75,7 @@ c.JupyterHub.answer_yes = True
 #   and `data` is the POST form data from the login page.
 #c.JupyterHub.authenticator_class = 'jupyterhub.auth.PAMAuthenticator'
 c.JupyterHub.authenticator_class = os.environ['JUPYTERHUB_AUTHENTICATOR'] 
+c.DummyAuthenticator.password = os.environ['JUPYTERHUB_SHARED_PASSWORD']
 c.Auth0OAuthenticator.oauth_callback_url = os.environ['OAUTH_CALLBACK_URL']
 c.Auth0OAuthenticator.client_id = os.environ['OAUTH_CLIENT_ID']
 c.Auth0OAuthenticator.client_secret = os.environ['OAUTH_CLIENT_SECRET']
