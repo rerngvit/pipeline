@@ -72,6 +72,11 @@ RUN \
   && conda clean -tipsy
 
 RUN \
+  conda install --yes nltk
+
+RUN python -m nltk.downloader -d /usr/local/share/nltk_data all
+
+RUN \
   conda install --yes jupyterlab==0.27.0 \
   && jupyter serverextension enable --py jupyterlab --sys-prefix
 
