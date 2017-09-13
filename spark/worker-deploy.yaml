@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spark-worker-2-1-0
-        image: docker.io/fluxcapacitor/spark-worker-2.1.0:master
+        image: docker.io/rerng007/pipeline:spark_worker
         resources:
           limits:
             cpu: 2000m

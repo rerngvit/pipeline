@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spark-master-2-1-0
-        image: docker.io/fluxcapacitor/spark-master-2.1.0:master
+        image: docker.io/rerng007/pipeline:spark_master
         resources:
           limits:
             cpu: 1000m
