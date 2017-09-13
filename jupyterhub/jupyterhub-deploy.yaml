@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: jupyterhub
-        image: rerng007/pipeline:jupyterhub_authen
+        image: rerng007/pipeline:jupyterhub_authen_new
         resources:
           limits:
             cpu: 4000m
