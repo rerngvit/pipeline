@@ -78,6 +78,9 @@ RUN \
 RUN python -m nltk.downloader -d /usr/local/share/nltk_data all
 
 RUN \
+  conda install --yes gensim 
+
+RUN \
   conda install --yes -c conda-forge py4j
 
 # Overcomes current limitation with conda matplotlib (1.5.1)
