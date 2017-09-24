@@ -109,8 +109,6 @@ ENV \
 ENV \
   HADOOP_CONF_DIR=${HADOOP_CONF}
 
-COPY config/spark/ config/spark/
-
 RUN \
   cd ${SPARK_HOME}/conf \
   && ln -s /root/config/spark/core-site.xml \
