@@ -71,8 +71,6 @@ RUN \
   pip install sklearn_pandas==1.4.0 \
   && pip install git+https://github.com/jpmml/sklearn2pmml.git@0.22.0
 
-COPY sysutils/ sysutils/
-
 ENV \
   SPARK_VERSION=2.1.0 \
   PYSPARK_VERSION=0.10.4
