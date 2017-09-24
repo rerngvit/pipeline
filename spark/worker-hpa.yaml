@@ -8,6 +8,6 @@ spec:
     apiVersion: extensions/v1beta1
     kind: Deployment
     name: spark-worker-2-1-0
-  minReplicas: 6
-  maxReplicas: 12
+  minReplicas: 24
+  maxReplicas: 24
   targetCPUUtilizationPercentage: 75 
