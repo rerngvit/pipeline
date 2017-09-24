@@ -67,12 +67,6 @@ RUN \
 RUN \
   mv /etc/apache2/apache2.conf /etc/apache2/apache2.conf.orig
 
-COPY config/apache2/ config/apache2/
-
-COPY config/jupyterhub/ config/jupyterhub/
-COPY profiles/ /root/.ipython/
-COPY img/ img/
-
 RUN \
   pip install sklearn_pandas==1.4.0 \
   && pip install git+https://github.com/jpmml/sklearn2pmml.git@0.22.0
