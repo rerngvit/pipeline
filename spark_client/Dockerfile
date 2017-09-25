@@ -109,25 +109,6 @@ ENV \
 ENV \
   HADOOP_CONF_DIR=${HADOOP_CONF}
 
-RUN \
-  cd ${SPARK_HOME}/conf \
-  && ln -s /root/config/spark/core-site.xml \
-  && ln -s /root/config/spark/fairscheduler.xml \
-  && ln -s /root/config/spark/hdfs-site.xml \
-  && ln -s /root/config/spark/hive-site.xml \
-  && ln -s /root/config/spark/spark-defaults.conf
-
-COPY config/hadoop/ config/hadoop/
-RUN \
-  mv ${HADOOP_CONF}/core-site.xml ${HADOOP_CONF}/core-site.xml.orig \
-  && cd ${HADOOP_CONF} \
-  && ln -s /root/config/hadoop/core-site.xml
-
-RUN \
-  mv ${HADOOP_CONF}/hdfs-site.xml ${HADOOP_CONF}/hdfs-site.xml.orig \
-  && cd ${HADOOP_CONF} \
-  && ln -s /root/config/hadoop/hdfs-site.xml
-
 # Required by Tensorflow
 ENV \
   HADOOP_HDFS_HOME=${HADOOP_HOME}
