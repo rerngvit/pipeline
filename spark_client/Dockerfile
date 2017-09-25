@@ -144,14 +144,6 @@ RUN \
 RUN \
   mkdir /var/run/sshd
 
-COPY apache-jmeter-3.1/ apache-jmeter-3.1/
-COPY notebooks/ notebooks/
-COPY lib/ lib/
-COPY scripts/ scripts/
-COPY src/ src/
-COPY tests/ tests/
-COPY html/ html/
-
 RUN \
   pip install pio-cli==0.87
 
