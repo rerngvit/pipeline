@@ -57,11 +57,11 @@ RUN \
 
 WORKDIR /root
 
-# Install Python with conda
+# Install Python with conda => downgrade to 3.5, since Python 3.6 does not work with Spark 2.1.0
 RUN wget -q https://repo.continuum.io/miniconda/Miniconda3-4.3.21-Linux-x86_64.sh -O /tmp/miniconda.sh  && \
     echo 'c1c15d3baba15bf50293ae963abef853 */tmp/miniconda.sh' | md5sum -c - && \
     bash /tmp/miniconda.sh -f -b -p /opt/conda && \
-    /opt/conda/bin/conda install --yes python=3.6 sqlalchemy tornado jinja2 traitlets requests pip && \
+    /opt/conda/bin/conda install --yes python=3.5 sqlalchemy tornado jinja2 traitlets requests pip && \
     /opt/conda/bin/pip install --upgrade pip && \
     rm /tmp/miniconda.sh
 
