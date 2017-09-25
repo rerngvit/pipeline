@@ -1,0 +1,58 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: spark-client
+  labels:
+    app: spark-client
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: spark-client
+  template:
+    metadata:
+      labels:
+        app: spark-client
+    spec:
+      containers:
+      - name: spark-client
+        image: docker.io/rerng007/pipeline:spark_client
+        resources:
+          limits:
+            cpu: 4000m
+            memory: 4000Mi
+          requests:
+            cpu: 100m
+            memory: 100Mi
+        imagePullPolicy: "Always"
+        env:
+        - name: GET_HOSTS_FROM
+          value: env
+        - name: FS_S3A_ACCESS_KEY
+          valueFrom:
+            secretKeyRef:
+              name: fs-s3a
+              key: FS_S3A_ACCESS_KEY.txt
+        - name: AWS_ACCESS_KEY_ID
+          valueFrom:
+            secretKeyRef:
+              name: fs-s3a
+              key: FS_S3A_ACCESS_KEY.txt
+        - name: FS_S3A_SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: fs-s3a
+              key: FS_S3A_SECRET_KEY.txt
+        - name: AWS_SECRET_ACCESS_KEY
+          valueFrom:
+            secretKeyRef:
+              name: fs-s3a
+              key: FS_S3A_SECRET_KEY.txt
+        - name: SPARK_MASTER
+          value: spark://spark-master-2-1-0:7077
+        - name: SPARK_SUBMIT_ARGS
+          value: ""
+        ports:
+        - containerPort: 6006
+        - containerPort: 8754
+        - containerPort: 8755
