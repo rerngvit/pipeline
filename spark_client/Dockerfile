@@ -51,6 +51,10 @@ RUN \
 RUN \
   mkdir -p /root/logs
 
+# Screen
+RUN \
+  apt-get update && apt-get install -y screen
+
 # Apache2
 RUN \
   apt-get update \
